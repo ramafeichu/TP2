@@ -47,10 +47,38 @@ set_global_assignment -name MIN_CORE_JUNCTION_TEMP 0
 set_global_assignment -name MAX_CORE_JUNCTION_TEMP 85
 set_global_assignment -name ERROR_CHECK_FREQUENCY_DIVISOR 1
 set_global_assignment -name NOMINAL_CORE_SUPPLY_VOLTAGE 1.2V
-set_global_assignment -name BDF_FILE main.bdf
-set_global_assignment -name BDF_FILE shifter16Bits.bdf
 set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
 set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
 set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
 set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top
+set_global_assignment -name POWER_PRESET_COOLING_SOLUTION "23 MM HEAT SINK WITH 200 LFPM AIRFLOW"
+set_global_assignment -name POWER_BOARD_THERMAL_MODEL "NONE (CONSERVATIVE)"
+set_global_assignment -name BDF_FILE REGISTER_BANK/regbank_mainBlock.bdf
+set_global_assignment -name BDF_FILE REGISTER_BANK/regbank_16bRegister.bdf
+set_global_assignment -name BDF_FILE REGISTER_BANK/regbank_16bMUX.bdf
+set_global_assignment -name BDF_FILE REGISTER_BANK/regbank_16bFF.bdf
+set_global_assignment -name VHDL_FILE REGISTER_BANK/lpm_decode0.vhd
+set_global_assignment -name QIP_FILE REGISTER_BANK/lpm_decode0.qip
+set_global_assignment -name SOURCE_FILE REGISTER_BANK/lpm_decode0.cmp
+set_global_assignment -name VERILOG_FILE REGISTER_BANK/BUSA_MUX_bb.v
+set_global_assignment -name VERILOG_FILE REGISTER_BANK/BUSA_MUX.v
+set_global_assignment -name QIP_FILE REGISTER_BANK/BUSA_MUX.qip
+set_global_assignment -name SOURCE_FILE lpm_mux1.cmp
+set_global_assignment -name QIP_FILE lpm_mux1.qip
+set_global_assignment -name BDF_FILE RegisterBank.bdf
+set_global_assignment -name VHDL_FILE lpm_mux1.vhd
+set_global_assignment -name BDF_FILE ALU/z_ffff.bdf
+set_global_assignment -name BDF_FILE ALU/z_1.bdf
+set_global_assignment -name BDF_FILE ALU/z_0.bdf
+set_global_assignment -name BDF_FILE ALU/maintest.bdf
+set_global_assignment -name BDF_FILE ALU/atonota.bdf
+set_global_assignment -name BDF_FILE ALU/atoa.bdf
+set_global_assignment -name BDF_FILE ALU/aorb.bdf
+set_global_assignment -name BDF_FILE ALU/amasb.bdf
+set_global_assignment -name BDF_FILE ALU/ALU.bdf
+set_global_assignment -name BDF_FILE ALU/aandb.bdf
+set_global_assignment -name BDF_FILE main.bdf
+set_global_assignment -name BDF_FILE shifter16Bits.bdf
 set_global_assignment -name VECTOR_WAVEFORM_FILE Waveform.vwf
+set_global_assignment -name BDF_FILE latch_16bFF.bdf
+set_global_assignment -name QIP_FILE mux_2in_16b.qip
