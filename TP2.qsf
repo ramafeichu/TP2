@@ -82,3 +82,9 @@ set_global_assignment -name BDF_FILE shifter16Bits.bdf
 set_global_assignment -name VECTOR_WAVEFORM_FILE Waveform.vwf
 set_global_assignment -name BDF_FILE latch_16bFF.bdf
 set_global_assignment -name QIP_FILE mux_2in_16b.qip
+set_global_assignment -name QIP_FILE PC_counter.qip
+set_global_assignment -name MIF_FILE "Program MIF/Empty program.mif"
+set_global_assignment -name QIP_FILE ROM_program.qip
+set_global_assignment -name BDF_FILE IFU/IFU_block.bdf
+set_global_assignment -name BDF_FILE IFU/BLOQUE_1.bdf
+set_global_assignment -name BDF_FILE ROM.bdf
