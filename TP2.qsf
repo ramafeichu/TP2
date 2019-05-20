@@ -88,3 +88,7 @@ set_global_assignment -name QIP_FILE ROM_program.qip
 set_global_assignment -name BDF_FILE IFU/IFU_block.bdf
 set_global_assignment -name BDF_FILE IFU/BLOQUE_1.bdf
 set_global_assignment -name BDF_FILE ROM.bdf
+set_global_assignment -name QIP_FILE X_mux_Y.qip
+set_global_assignment -name QIP_FILE INSTRUCTION_decoder.qip
+set_global_assignment -name BDF_FILE XY_mux.bdf
+set_global_assignment -name QIP_FILE XY_inMUX.qip
