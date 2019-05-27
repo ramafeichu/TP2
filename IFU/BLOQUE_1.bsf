@@ -54,8 +54,8 @@ refer to the applicable agreement for further details.
 	(port
 		(pt 160 32)
 		(output)
-		(text "Bloque 1" (rect 0 0 53 19)(font "Intel Clear" (font_size 8)))
-		(text "Bloque 1" (rect 86 27 139 46)(font "Intel Clear" (font_size 8)))
+		(text "Bloque_1" (rect 0 0 56 19)(font "Intel Clear" (font_size 8)))
+		(text "Bloque_1" (rect 83 27 139 46)(font "Intel Clear" (font_size 8)))
 		(line (pt 160 32)(pt 144 32))
 	)
 	(drawing

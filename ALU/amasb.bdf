@@ -101,8 +101,8 @@ refer to the applicable agreement for further details.
 )
 (symbol
 	(rect 608 256 768 384)
-	(text "lpm_add_sub0" (rect 39 0 138 16)(font "Arial" (font_size 10)))
-	(text "AplusBplusCY" (rect 8 112 78 124)(font "Arial" ))
+	(text "adderCarry" (rect 50 0 124 16)(font "Arial" (font_size 10)))
+	(text "inst" (rect 8 112 25 124)(font "Arial" ))
 	(port
 		(pt 0 32)
 		(input)
