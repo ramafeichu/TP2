@@ -1,34 +1,34 @@
 # do TP2.do
 # ** Warning: (vlib-34) Library already exists at "work".
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 16:38:03 on Jun 01,2019
+# Start time: 19:04:10 on Jun 01,2019
 # vlog -work work TP2.vo 
 # -- Compiling module Pipeline
 # 
 # Top level modules:
 # 	Pipeline
-# End time: 16:38:03 on Jun 01,2019, Elapsed time: 0:00:00
+# End time: 19:04:10 on Jun 01,2019, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 16:38:03 on Jun 01,2019
+# Start time: 19:04:11 on Jun 01,2019
 # vlog -work work Waveform1.vwf.vt 
 # -- Compiling module Pipeline_vlg_vec_tst
 # 
 # Top level modules:
 # 	Pipeline_vlg_vec_tst
-# End time: 16:38:03 on Jun 01,2019, Elapsed time: 0:00:00
+# End time: 19:04:11 on Jun 01,2019, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vsim -novopt -c -t 1ps -L cycloneive_ver -L altera_ver -L altera_mf_ver -L 220model_ver -L sgate_ver -L altera_lnsim_ver work.Pipeline_vlg_vec_tst 
-# Start time: 16:38:03 on Jun 01,2019
+# Start time: 19:04:11 on Jun 01,2019
 # Loading work.Pipeline_vlg_vec_tst
 # Loading work.Pipeline
 # Loading cycloneive_ver.cycloneive_io_obuf
 # Loading cycloneive_ver.cycloneive_io_ibuf
-# Loading altera_ver.dffeas
 # Loading cycloneive_ver.cycloneive_lcell_comb
+# Loading altera_ver.dffeas
 # Loading altera_ver.PRIM_GDFF_LOW
 # after#25
-# ** Note: $finish    : Waveform1.vwf.vt(94)
+# ** Note: $finish    : Waveform1.vwf.vt(96)
 #    Time: 1 us  Iteration: 0  Instance: /Pipeline_vlg_vec_tst
-# End time: 16:38:03 on Jun 01,2019, Elapsed time: 0:00:00
+# End time: 19:04:11 on Jun 01,2019, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0

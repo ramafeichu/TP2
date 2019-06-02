@@ -18,7 +18,7 @@
 // the top level entity of the current Quartus project .The user can use this   
 // testbench to simulate his design using a third-party simulation tool .       
 // *****************************************************************************
-// Generated on "06/01/2019 16:37:59"
+// Generated on "06/01/2019 19:04:07"
                                                                                 
 // Verilog Test Bench (with test vectors) for design :                          Pipeline
 // 
@@ -33,6 +33,7 @@ reg [3:0] ALU;
 reg CLK2;
 reg CLK3;
 reg CLK4;
+reg [34:0] CTEST_STAGE3;
 reg [9:0] Dadd;
 reg hold_sim;
 reg [34:0] IE_C;
@@ -66,6 +67,7 @@ Pipeline i1 (
 	.CLK2(CLK2),
 	.CLK3(CLK3),
 	.CLK4(CLK4),
+	.CTEST_STAGE3(CTEST_STAGE3),
 	.Dadd(Dadd),
 	.Dadd_MIR(Dadd_MIR),
 	.HOLD(HOLD),
@@ -338,6 +340,8 @@ end
 initial
 begin
 	IE_C[7] = 1'b0;
+	IE_C[7] = #30000 1'b1;
+	IE_C[7] = #40000 1'b0;
 end 
 // IE_C[ 6 ]
 initial
@@ -379,6 +383,8 @@ end
 initial
 begin
 	KMx = 1'b0;
+	KMx = #30000 1'b1;
+	KMx = #50000 1'b0;
 end 
 
 // MR
@@ -441,16 +447,22 @@ end
 initial
 begin
 	OEB[2] = 1'b0;
+	OEB[2] = #90000 1'b1;
+	OEB[2] = #160000 1'b0;
 end 
 // OEB[ 1 ]
 initial
 begin
 	OEB[1] = 1'b0;
+	OEB[1] = #90000 1'b1;
+	OEB[1] = #160000 1'b0;
 end 
 // OEB[ 0 ]
 initial
 begin
 	OEB[0] = 1'b0;
+	OEB[0] = #90000 1'b1;
+	OEB[0] = #160000 1'b0;
 end 
 // SH[ 1 ]
 initial
@@ -502,6 +514,183 @@ end
 initial
 begin
 	hold_sim = 1'b1;
+end 
+// CTEST_STAGE3[ 34 ]
+initial
+begin
+	CTEST_STAGE3[34] = 1'b0;
+end 
+// CTEST_STAGE3[ 33 ]
+initial
+begin
+	CTEST_STAGE3[33] = 1'b0;
+end 
+// CTEST_STAGE3[ 32 ]
+initial
+begin
+	CTEST_STAGE3[32] = 1'b0;
+end 
+// CTEST_STAGE3[ 31 ]
+initial
+begin
+	CTEST_STAGE3[31] = 1'b0;
+end 
+// CTEST_STAGE3[ 30 ]
+initial
+begin
+	CTEST_STAGE3[30] = 1'b0;
+end 
+// CTEST_STAGE3[ 29 ]
+initial
+begin
+	CTEST_STAGE3[29] = 1'b0;
+end 
+// CTEST_STAGE3[ 28 ]
+initial
+begin
+	CTEST_STAGE3[28] = 1'b0;
+end 
+// CTEST_STAGE3[ 27 ]
+initial
+begin
+	CTEST_STAGE3[27] = 1'b0;
+end 
+// CTEST_STAGE3[ 26 ]
+initial
+begin
+	CTEST_STAGE3[26] = 1'b0;
+end 
+// CTEST_STAGE3[ 25 ]
+initial
+begin
+	CTEST_STAGE3[25] = 1'b0;
+end 
+// CTEST_STAGE3[ 24 ]
+initial
+begin
+	CTEST_STAGE3[24] = 1'b0;
+end 
+// CTEST_STAGE3[ 23 ]
+initial
+begin
+	CTEST_STAGE3[23] = 1'b0;
+end 
+// CTEST_STAGE3[ 22 ]
+initial
+begin
+	CTEST_STAGE3[22] = 1'b0;
+end 
+// CTEST_STAGE3[ 21 ]
+initial
+begin
+	CTEST_STAGE3[21] = 1'b0;
+end 
+// CTEST_STAGE3[ 20 ]
+initial
+begin
+	CTEST_STAGE3[20] = 1'b0;
+end 
+// CTEST_STAGE3[ 19 ]
+initial
+begin
+	CTEST_STAGE3[19] = 1'b0;
+end 
+// CTEST_STAGE3[ 18 ]
+initial
+begin
+	CTEST_STAGE3[18] = 1'b0;
+end 
+// CTEST_STAGE3[ 17 ]
+initial
+begin
+	CTEST_STAGE3[17] = 1'b0;
+end 
+// CTEST_STAGE3[ 16 ]
+initial
+begin
+	CTEST_STAGE3[16] = 1'b0;
+end 
+// CTEST_STAGE3[ 15 ]
+initial
+begin
+	CTEST_STAGE3[15] = 1'b0;
+end 
+// CTEST_STAGE3[ 14 ]
+initial
+begin
+	CTEST_STAGE3[14] = 1'b0;
+end 
+// CTEST_STAGE3[ 13 ]
+initial
+begin
+	CTEST_STAGE3[13] = 1'b0;
+end 
+// CTEST_STAGE3[ 12 ]
+initial
+begin
+	CTEST_STAGE3[12] = 1'b0;
+end 
+// CTEST_STAGE3[ 11 ]
+initial
+begin
+	CTEST_STAGE3[11] = 1'b0;
+end 
+// CTEST_STAGE3[ 10 ]
+initial
+begin
+	CTEST_STAGE3[10] = 1'b0;
+end 
+// CTEST_STAGE3[ 9 ]
+initial
+begin
+	CTEST_STAGE3[9] = 1'b0;
+end 
+// CTEST_STAGE3[ 8 ]
+initial
+begin
+	CTEST_STAGE3[8] = 1'b0;
+end 
+// CTEST_STAGE3[ 7 ]
+initial
+begin
+	CTEST_STAGE3[7] = 1'b0;
+	CTEST_STAGE3[7] = #30000 1'b1;
+	CTEST_STAGE3[7] = #140000 1'b0;
+end 
+// CTEST_STAGE3[ 6 ]
+initial
+begin
+	CTEST_STAGE3[6] = 1'b0;
+end 
+// CTEST_STAGE3[ 5 ]
+initial
+begin
+	CTEST_STAGE3[5] = 1'b0;
+end 
+// CTEST_STAGE3[ 4 ]
+initial
+begin
+	CTEST_STAGE3[4] = 1'b0;
+end 
+// CTEST_STAGE3[ 3 ]
+initial
+begin
+	CTEST_STAGE3[3] = 1'b0;
+end 
+// CTEST_STAGE3[ 2 ]
+initial
+begin
+	CTEST_STAGE3[2] = 1'b0;
+end 
+// CTEST_STAGE3[ 1 ]
+initial
+begin
+	CTEST_STAGE3[1] = 1'b0;
+end 
+// CTEST_STAGE3[ 0 ]
+initial
+begin
+	CTEST_STAGE3[0] = 1'b0;
 end 
 endmodule
 

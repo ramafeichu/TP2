@@ -9,46 +9,46 @@ z2
 cModel Technology
 dC:/Users/Rama/Google Drive/Electrónica 5/TP2/simulation/qsim
 vPipeline
-Z0 !s110 1559417883
+!s110 1559426650
 !i10b 1
-!s100 4ZC4iPHlPVj;T7VQh]YZP0
-ImPK26n=fl=[dOHf2:`Zhh1
-Z1 VDg1SIo80bB@j0V0VzS_@n1
-Z2 dC:/Users/Rodrigo/Documents/GitHub/TP2/simulation/qsim
-w1559417882
+!s100 RQaY4OWiMED=GC6HWV`TT0
+I>QI1Y_6]<SCZUYLNGF>ae1
+Z0 VDg1SIo80bB@j0V0VzS_@n1
+Z1 dC:/Users/Rodrigo/Documents/GitHub/TP2/simulation/qsim
+w1559426649
 8TP2.vo
 FTP2.vo
 L0 31
-Z3 OV;L;10.5b;63
+Z2 OV;L;10.5b;63
 r1
 !s85 0
 31
-Z4 !s108 1559417883.000000
+!s108 1559426650.000000
 !s107 TP2.vo|
 !s90 -work|work|TP2.vo|
 !i113 1
-Z5 o-work work
-Z6 tCvgOpt 0
+Z3 o-work work
+Z4 tCvgOpt 0
 n@pipeline
 vPipeline_vlg_vec_tst
-R0
+!s110 1559426651
 !i10b 1
-!s100 f__ljdPWki^X]OPIM=b0C2
-IRe=fbe?W^8`^>;YkTX7_<2
+!s100 DbecYkY7W]KZaNGo?45Dh0
+I:dO?LJecal?<TTVdd[]iL3
+R0
 R1
-R2
-w1559417880
+w1559426647
 8Waveform1.vwf.vt
 FWaveform1.vwf.vt
 L0 29
-R3
+R2
 r1
 !s85 0
 31
-R4
+!s108 1559426651.000000
 !s107 Waveform1.vwf.vt|
 !s90 -work|work|Waveform1.vwf.vt|
 !i113 1
-R5
-R6
+R3
+R4
 n@pipeline_vlg_vec_tst
