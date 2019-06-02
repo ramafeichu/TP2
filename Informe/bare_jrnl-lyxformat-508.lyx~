@@ -1,5 +1,5 @@
-#LyX 2.3 created this file. For more info see http://www.lyx.org/
-\lyxformat 544
+#LyX 2.2 created this file. For more info see http://www.lyx.org/
+\lyxformat 508
 \begin_document
 \begin_header
 \save_transient_properties true
@@ -372,8 +372,6 @@
 \font_osf false
 \font_sf_scale 100 100
 \font_tt_scale 100 100
-\use_microtype false
-\use_dash_ligatures true
 \graphics default
 \default_output_format default
 \output_sync 0
@@ -403,7 +401,6 @@
 \suppress_date false
 \justification true
 \use_refstyle 0
-\use_minted 0
 \index Index
 \shortcut idx
 \color #008000
@@ -412,10 +409,7 @@
 \tocdepth 3
 \paragraph_separation indent
 \paragraph_indentation default
-\is_math_indent 0
-\math_numbering_side default
-\quotes_style english
-\dynamic_quotes 0
+\quotes_language english
 \papercolumns 1
 \papersides 1
 \paperpagestyle default
@@ -688,7 +682,7 @@ Legajo
 \begin_inset space ~
 \end_inset
 
-55xxx,
+xxxxx,
 \end_layout
 
 \end_inset
@@ -710,7 +704,7 @@ Legajo
 \begin_inset space ~
 \end_inset
 
-53374
+xxxxx
 \end_layout
 
 \end_inset
@@ -818,20 +812,6 @@ Manuscript received April 19, 2005; revised August 26, 2015.
 \end_inset
 
 
-\end_layout
-
-\begin_layout Standard
-\begin_inset space \hfill{}
-\end_inset
-
-Instituto Tecnológico de Buenos Aires
-\end_layout
-
-\begin_layout Standard
-\begin_inset space \hfill{}
-\end_inset
-
-4 de Junio, 2019
 \end_layout
 
 \begin_layout Standard
@@ -1396,13 +1376,6 @@ status collapsed
 
 \end_layout
 
-\begin_layout Standard
-\begin_inset VSpace medskip
-\end_inset
-
-
-\end_layout
-
 \begin_layout Abstract
 Desarrollo de un microprocesador RISC para la puesta en práctica de los
  conceptos básicos aprendidos en la materia.
@@ -1423,6 +1396,10 @@ status collapsed
 
 \end_inset
 
+
+\end_layout
+
+\begin_layout Keywords
 
 \end_layout
 
@@ -1554,7 +1531,314 @@ Introducción
 \end_layout
 
 \begin_layout Standard
+\begin_inset ERT
+status collapsed
 
+\begin_layout Plain Layout
+
+% The very first letter is a 2 line initial drop letter followed
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+% by the rest of the first word in caps.
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+% 
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+% form to use if the first word consists of a single letter:
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+% 
+\backslash
+IEEEPARstart{A}{demo} file is ....
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+% 
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+% form to use if you need the single drop letter followed by
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+% normal text (unknown if ever used by the IEEE):
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+% 
+\backslash
+IEEEPARstart{A}{}demo file is ....
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+% 
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+% Some journals put the first two words in caps:
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+% 
+\backslash
+IEEEPARstart{T}{his demo} file is ....
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+% 
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+% Here we have the typical use of a "T" for an initial drop letter
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+% and "HIS" in caps to complete the first word.
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Flex Paragraph Start
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Argument 1
+status collapsed
+
+\begin_layout Plain Layout
+T
+\end_layout
+
+\end_inset
+
+his
+\end_layout
+
+\end_inset
+
+ demo file is intended to serve as a 
+\begin_inset Quotes eld
+\end_inset
+
+starter file
+\begin_inset Quotes erd
+\end_inset
+
+ for IEEE journal papers produced under \SpecialChar LaTeX
+
+\begin_inset space \space{}
+\end_inset
+
+using IEEEtran.cls version 1.8b and later.
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+% You must have at least 2 lines in the paragraph with the drop letter
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+% (should never be an issue)
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+I wish you the best of success.
+\end_layout
+
+\begin_layout Standard
+\begin_inset space \hfill{}
+\end_inset
+
+mds
+\end_layout
+
+\begin_layout Standard
+\begin_inset space \hfill{}
+\end_inset
+
+August 26, 2015
 \end_layout
 
 \begin_layout Subsection
@@ -1613,7 +1897,7 @@ IEEEpubidadjcol
 \end_layout
 
 \begin_layout Section
-Descripción
+Desarrollo
 \end_layout
 
 \begin_layout Standard
@@ -1715,30 +1999,12 @@ El pipeline está compuesto por 5 etapas: Fetch, Decode, Operand, Execute
  y Retire.
  En la etapa Fetch, se obtiene la instrucción del programa en el Instruction
  Register.
- Durante la etapa Decode, se definen todos los campos de la microinstrucción,
- por este motivo, es a partir de este punto que las unidades de control,
- internas al pipeline, comienzan a ser funcionales.
- En las etapas posteriores se verifica si existen dependencias entre instruccion
-es sucesivas o en la cercanía, y se ejecutan las operaciones correspondientes
- a la ALU, el shifter, read/write y los registros utilizados por los buses.
+ Durante la etapa Decode, se definen todos los campos de la microinstrucción.
+ En la tercera etapa, 
 \end_layout
 
-\begin_layout Standard
-Cada etapa está formada por flip-flops D que retienen los datos de la microinstr
-ucción hasta pasarlos a la siguiente etapa en el siguiente pulso de clock.
-\end_layout
-
-\begin_layout Standard
-Para controlar el pipeline, existen dos unidades de control.
- Uno de ellos, denominado UC2, se encarga de decidir si hay dependencia
- o no entre instrucciones sucesivas, y activa una señal HOLD, si es necesario,
- indicando al resto del pipeline que debe esperar a que terminen de ejecutarse
- las instrucciones que están siendo procesadas antes de seguir con las siguiente
-s.
- El bloque UC1 consiste en un MUX que deja pasar los datos de la microinstrucció
-n o fuerza en la salida ceros, con el único objetivo de generar 'distancia'
- entre instrucciones con posible conflicto, según lo indique la señal de
- HOLD.
+\begin_layout Subsection
+Program Counter
 \end_layout
 
 \begin_layout Standard
@@ -3268,7 +3534,88 @@ status collapsed
 
 \end_layout
 
+\begin_layout Appendices
+ 
+\end_layout
+
+\begin_layout Section
+
+\end_layout
+
 \begin_layout Standard
+Appendix two text goes here.
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+% use section* for acknowledgment
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section*
+Acknowledgment
+\end_layout
+
+\begin_layout Standard
+The authors would like to thank...
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+% Can use something like this to put references on a page
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+% by themselves when using endfloat and the captionsoff option.
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+ifCLASSOPTIONcaptionsoff
+\end_layout
+
+\end_inset
+
+ 
 \begin_inset Newpage newpage
 \end_inset
 
@@ -3577,6 +3924,491 @@ status collapsed
 \begin_layout Plain Layout
 
 % (used to reserve space for the reference number labels box)
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Bibliography
+\begin_inset CommandInset bibitem
+LatexCommand bibitem
+key "IEEEhowto:kopka"
+
+\end_inset
+
+ H.
+\begin_inset space ~
+\end_inset
+
+Kopka and P.
+\begin_inset space ~
+\end_inset
+
+W.
+ Daly, 
+\emph on
+A Guide to \SpecialChar LaTeX
+
+\emph default
+, 3rd
+\begin_inset space ~
+\end_inset
+
+ed.
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+hskip
+\end_layout
+
+\end_inset
+
+ 1em plus 0.5em minus 0.4em
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+relax
+\end_layout
+
+\end_inset
+
+ Harlow, England: Addison-Wesley, 1999.
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+% biography section
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+% 
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+% If you have an EPS/PDF photo (graphicx package needed) extra braces are
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+% needed around the contents of the optional argument to biography to prevent
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+% the LaTeX parser from getting confused when it sees the complicated
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+% 
+\backslash
+includegraphics command within an optional argument.
+ (You could create
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+% your own custom macro containing the 
+\backslash
+includegraphics command to make things
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+% simpler here.)
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+%
+\backslash
+begin{IEEEbiography}[{
+\backslash
+includegraphics[width=1in,height=1.25in,clip,keepaspectratio]{mshell}}]{Michael
+ Shell}
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+% or if you just want to reserve a space for a photo:
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Biography
+\begin_inset Argument 2
+status collapsed
+
+\begin_layout Plain Layout
+Michael Shell
+\end_layout
+
+\end_inset
+
+Biography text here.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+% if you will not have a photo at all:
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Biography without photo
+\begin_inset Argument 1
+status collapsed
+
+\begin_layout Plain Layout
+John Doe
+\end_layout
+
+\end_inset
+
+Biography text here.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+% insert where needed to balance the two columns on the last page with
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+% biographies
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+%
+\backslash
+newpage
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Separator plain
+\end_inset
+
+
+\end_layout
+
+\begin_layout Biography without photo
+\begin_inset Argument 1
+status collapsed
+
+\begin_layout Plain Layout
+Jane Doe
+\end_layout
+
+\end_inset
+
+Biography text here.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+% You can push biographies down or up by placing
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+% a 
+\backslash
+vfill before or after them.
+ The appropriate
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+% use of 
+\backslash
+vfill depends on what kind of text is
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+% on the last page and whether or not the columns
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+% are being equalized.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+%
+\backslash
+vfill
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+% Can be used to pull up biographies so that the bottom of the last one
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+% is flush with the other column.
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+%
+\backslash
+enlargethispage{-5in}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+% that's all folks
 \end_layout
 
 \begin_layout Plain Layout
