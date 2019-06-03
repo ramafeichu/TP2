@@ -20,7 +20,7 @@ refer to the applicable agreement for further details.
 */
 (header "symbol" (version "1.2"))
 (symbol
-	(rect 16 16 176 144)
+	(rect 64 64 224 192)
 	(text "IFU_block" (rect 5 0 64 19)(font "Intel Clear" (font_size 8)))
 	(text "inst" (rect 8 107 24 124)(font "Intel Clear" ))
 	(port
@@ -29,13 +29,6 @@ refer to the applicable agreement for further details.
 		(text "CLOCK_1" (rect 0 0 56 19)(font "Intel Clear" (font_size 8)))
 		(text "CLOCK_1" (rect 21 27 77 46)(font "Intel Clear" (font_size 8)))
 		(line (pt 0 32)(pt 16 32))
-	)
-	(port
-		(pt 0 48)
-		(input)
-		(text "HOLD_1" (rect 0 0 50 19)(font "Intel Clear" (font_size 8)))
-		(text "HOLD_1" (rect 21 43 71 62)(font "Intel Clear" (font_size 8)))
-		(line (pt 0 48)(pt 16 48))
 	)
 	(port
 		(pt 0 64)
@@ -50,6 +43,13 @@ refer to the applicable agreement for further details.
 		(text "W[15..0]" (rect 0 0 50 19)(font "Intel Clear" (font_size 8)))
 		(text "W[15..0]" (rect 21 75 71 94)(font "Intel Clear" (font_size 8)))
 		(line (pt 0 80)(pt 16 80)(line_width 3))
+	)
+	(port
+		(pt 0 48)
+		(input)
+		(text "N_HOLD" (rect 0 0 51 19)(font "Intel Clear" (font_size 8)))
+		(text "N_HOLD" (rect 21 43 72 62)(font "Intel Clear" (font_size 8)))
+		(line (pt 0 48)(pt 16 48))
 	)
 	(port
 		(pt 160 32)
