@@ -55,7 +55,7 @@ refer to the applicable agreement for further details.
 	(input)
 	(rect 24 -88 192 -72)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "INPUT[15..0]" (rect 5 0 70 12)(font "Arial" ))
+	(text "INPUT[15..0]" (rect 5 0 69 12)(font "Arial" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -71,7 +71,7 @@ refer to the applicable agreement for further details.
 	(input)
 	(rect 56 128 224 144)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "CLK" (rect 5 0 27 12)(font "Arial" ))
+	(text "CLK" (rect 5 0 26 12)(font "Arial" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -87,7 +87,7 @@ refer to the applicable agreement for further details.
 	(input)
 	(rect -280 184 -112 200)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "IEN" (rect 5 0 24 12)(font "Arial" ))
+	(text "IEN" (rect 5 0 23 12)(font "Arial" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -117,7 +117,7 @@ refer to the applicable agreement for further details.
 )
 (pin
 	(bidir)
-	(rect 1264 336 1440 352)
+	(rect 1272 344 1448 360)
 	(text "BIDIR" (rect 1 0 25 10)(font "Arial" (font_size 6)))
 	(text "MEMORY[15..0]" (rect 90 0 170 12)(font "Arial" ))
 	(pt 0 8)
@@ -1466,11 +1466,6 @@ refer to the applicable agreement for further details.
 	(bus)
 )
 (connector
-	(pt 1096 344)
-	(pt 1264 344)
-	(bus)
-)
-(connector
 	(pt 816 104)
 	(pt 816 120)
 	(bus)
@@ -1496,28 +1491,28 @@ refer to the applicable agreement for further details.
 	(pt 1024 256)
 )
 (connector
-	(pt 1096 352)
-	(pt 1048 352)
-	(bus)
-)
-(connector
 	(pt 816 336)
 	(pt 816 352)
 	(bus)
 )
 (connector
-	(pt 1096 -32)
-	(pt 1096 344)
-	(bus)
+	(pt 1024 256)
+	(pt 1024 336)
 )
 (connector
-	(pt 1096 344)
+	(pt 1096 -32)
 	(pt 1096 352)
 	(bus)
 )
 (connector
-	(pt 1024 256)
-	(pt 1024 336)
+	(pt 1048 352)
+	(pt 1096 352)
+	(bus)
+)
+(connector
+	(pt 1096 352)
+	(pt 1272 352)
+	(bus)
 )
 (junction (pt 424 120))
 (junction (pt 424 136))
@@ -1561,4 +1556,4 @@ refer to the applicable agreement for further details.
 (junction (pt -80 192))
 (junction (pt -240 0))
 (junction (pt -128 64))
-(junction (pt 1096 344))
+(junction (pt 1096 352))

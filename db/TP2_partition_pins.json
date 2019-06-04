@@ -4,7 +4,11 @@
 			"name" : "Top",
 			"pins" : [
 				{
-					"name" : "TEST_HOLD",
+					"name" : "CARRY",
+					"strict" : false
+				},
+				{
+					"name" : "C_IEN",
 					"strict" : false
 				},
 				{
@@ -288,6 +292,38 @@
 					"strict" : false
 				},
 				{
+					"name" : "KMUX[7]",
+					"strict" : false
+				},
+				{
+					"name" : "KMUX[6]",
+					"strict" : false
+				},
+				{
+					"name" : "KMUX[5]",
+					"strict" : false
+				},
+				{
+					"name" : "KMUX[4]",
+					"strict" : false
+				},
+				{
+					"name" : "KMUX[3]",
+					"strict" : false
+				},
+				{
+					"name" : "KMUX[2]",
+					"strict" : false
+				},
+				{
+					"name" : "KMUX[1]",
+					"strict" : false
+				},
+				{
+					"name" : "KMUX[0]",
+					"strict" : false
+				},
+				{
 					"name" : "KMx_ROM[1]",
 					"strict" : false
 				},
@@ -372,7 +408,11 @@
 					"strict" : false
 				},
 				{
-					"name" : "LATCH_MUXB_EN",
+					"name" : "CLKx2",
+					"strict" : false
+				},
+				{
+					"name" : "LATCH_A_EN",
 					"strict" : false
 				},
 				{
@@ -380,7 +420,7 @@
 					"strict" : false
 				},
 				{
-					"name" : "LATCH_A_EN",
+					"name" : "LATCH_MUXB_EN",
 					"strict" : false
 				},
 				{
