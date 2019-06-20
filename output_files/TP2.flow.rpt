@@ -1,5 +1,5 @@
 Flow report for TP2
-Mon Jun 03 21:50:09 2019
+Tue Jun 04 14:51:49 2019
 Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 
 
@@ -40,7 +40,7 @@ refer to the applicable agreement for further details.
 +----------------------------------------------------------------------------------+
 ; Flow Summary                                                                     ;
 +------------------------------------+---------------------------------------------+
-; Flow Status                        ; Successful - Mon Jun 03 21:50:09 2019       ;
+; Flow Status                        ; Successful - Tue Jun 04 14:51:49 2019       ;
 ; Quartus Prime Version              ; 18.1.0 Build 625 09/12/2018 SJ Lite Edition ;
 ; Revision Name                      ; TP2                                         ;
 ; Top-level Entity Name              ; main                                        ;
@@ -131,7 +131,9 @@ refer to the applicable agreement for further details.
 ; Analysis & Synthesis ; 00:00:37     ; 1.0                     ; 4884 MB             ; 00:00:59                           ;
 ; EDA Netlist Writer   ; 00:00:02     ; 1.0                     ; 4643 MB             ; 00:00:02                           ;
 ; EDA Netlist Writer   ; 00:00:02     ; 1.0                     ; 4649 MB             ; 00:00:02                           ;
-; Total                ; 00:00:41     ; --                      ; --                  ; 00:01:03                           ;
+; EDA Netlist Writer   ; 00:00:02     ; 1.0                     ; 4645 MB             ; 00:00:02                           ;
+; EDA Netlist Writer   ; 00:00:02     ; 1.0                     ; 4649 MB             ; 00:00:02                           ;
+; Total                ; 00:00:45     ; --                      ; --                  ; 00:01:07                           ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 
@@ -143,6 +145,8 @@ refer to the applicable agreement for further details.
 ; Analysis & Synthesis ; DESKTOP-D3A0RIL  ; Windows 10 ; 10.0       ; x86_64         ;
 ; EDA Netlist Writer   ; DESKTOP-D3A0RIL  ; Windows 10 ; 10.0       ; x86_64         ;
 ; EDA Netlist Writer   ; DESKTOP-D3A0RIL  ; Windows 10 ; 10.0       ; x86_64         ;
+; EDA Netlist Writer   ; DESKTOP-D3A0RIL  ; Windows 10 ; 10.0       ; x86_64         ;
+; EDA Netlist Writer   ; DESKTOP-D3A0RIL  ; Windows 10 ; 10.0       ; x86_64         ;
 +----------------------+------------------+------------+------------+----------------+
 
 
@@ -150,6 +154,8 @@ refer to the applicable agreement for further details.
 ; Flow Log ;
 ------------
 quartus_map --read_settings_files=on --write_settings_files=off TP2 -c TP2
+quartus_eda --gen_testbench --tool=modelsim_oem --format=verilog --write_settings_files=off TP2 -c TP2 --vector_source=C:/Users/Rodrigo/Documents/GitHub/TP2/Waveform2.vwf --testbench_file=C:/Users/Rodrigo/Documents/GitHub/TP2/simulation/qsim/Waveform2.vwf.vt
+quartus_eda --write_settings_files=off --simulation=on --functional=on --flatten_buses=off --tool=modelsim_oem --format=verilog --output_directory=C:/Users/Rodrigo/Documents/GitHub/TP2/simulation/qsim/ TP2 -c TP2
 quartus_eda --gen_testbench --tool=modelsim_oem --format=verilog --write_settings_files=off TP2 -c TP2 --vector_source=C:/Users/Rodrigo/Documents/GitHub/TP2/Waveform2.vwf --testbench_file=C:/Users/Rodrigo/Documents/GitHub/TP2/simulation/qsim/Waveform2.vwf.vt
 quartus_eda --write_settings_files=off --simulation=on --functional=on --flatten_buses=off --tool=modelsim_oem --format=verilog --output_directory=C:/Users/Rodrigo/Documents/GitHub/TP2/simulation/qsim/ TP2 -c TP2
 

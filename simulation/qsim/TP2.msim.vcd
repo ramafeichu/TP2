@@ -3,7 +3,7 @@ $comment
 		vcd file TP2.msim.vcd -direction
 $end
 $date
-	Mon Jun 03 21:50:12 2019
+	Tue Jun 04 14:51:52 2019
 $end
 $version
 	ModelSim Version 10.5b
