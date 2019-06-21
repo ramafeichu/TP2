@@ -229,23 +229,6 @@ refer to the applicable agreement for further details.
 	(text "VCC" (rect 7 20 17 40)(font "Arial" (font_size 6))(vertical))
 )
 (pin
-	(input)
-	(rect 504 408 737 424)
-	(text "INPUT" (rect 15 0 43 10)(font "Arial" (font_size 6)))
-	(text "CTEST_STAGE3[34..0]" (rect 114 0 227 12)(font "Arial" ))
-	(pt 0 8)
-	(drawing
-		(line (pt 84 12)(pt 59 12))
-		(line (pt 84 4)(pt 59 4))
-		(line (pt 55 8)(pt 0 8))
-		(line (pt 84 12)(pt 84 4))
-		(line (pt 59 4)(pt 55 8))
-		(line (pt 59 12)(pt 55 8))
-	)
-	(flipy)
-	(text "VCC" (rect 20 7 40 17)(font "Arial" (font_size 6)))
-)
-(pin
 	(output)
 	(rect 1784 616 1960 632)
 	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
@@ -1421,11 +1404,6 @@ refer to the applicable agreement for further details.
 	(pt 2184 168)
 )
 (connector
-	(pt 464 416)
-	(pt 504 416)
-	(bus)
-)
-(connector
 	(pt 216 240)
 	(pt 176 240)
 )
@@ -1515,22 +1493,12 @@ refer to the applicable agreement for further details.
 	(bus)
 )
 (connector
-	(pt 464 416)
-	(pt 464 696)
-	(bus)
-)
-(connector
 	(pt 1704 664)
 	(pt 1648 664)
 )
 (connector
 	(pt 408 240)
 	(pt 448 240)
-	(bus)
-)
-(connector
-	(pt 448 240)
-	(pt 504 240)
 	(bus)
 )
 (connector
@@ -1598,8 +1566,24 @@ refer to the applicable agreement for further details.
 	(bus)
 )
 (connector
-	(pt 464 696)
 	(pt 1424 696)
+	(pt 472 696)
+	(bus)
+)
+(connector
+	(pt 448 240)
+	(pt 472 240)
+	(bus)
+)
+(connector
+	(pt 472 240)
+	(pt 504 240)
+	(bus)
+)
+(connector
+	(text "STAGE3[44..10]" (rect 456 538 473 611)(font "Intel Clear" )(vertical))
+	(pt 472 696)
+	(pt 472 240)
 	(bus)
 )
 (junction (pt 112 96))
@@ -1631,3 +1615,4 @@ refer to the applicable agreement for further details.
 (junction (pt 1288 192))
 (junction (pt 1376 192))
 (junction (pt 1704 624))
+(junction (pt 472 240))

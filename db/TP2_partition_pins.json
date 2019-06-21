@@ -4,15 +4,11 @@
 			"name" : "Top",
 			"pins" : [
 				{
-					"name" : "TEST_HOLD",
-					"strict" : false
-				},
-				{
 					"name" : "CARRY",
 					"strict" : false
 				},
 				{
-					"name" : "C_IEN",
+					"name" : "HOLD",
 					"strict" : false
 				},
 				{
@@ -21,6 +17,10 @@
 				},
 				{
 					"name" : "MW",
+					"strict" : false
+				},
+				{
+					"name" : "KMx_SEL",
 					"strict" : false
 				},
 				{
@@ -37,22 +37,6 @@
 				},
 				{
 					"name" : "ALUC[0]",
-					"strict" : false
-				},
-				{
-					"name" : "ALUC_ROM[3]",
-					"strict" : false
-				},
-				{
-					"name" : "ALUC_ROM[2]",
-					"strict" : false
-				},
-				{
-					"name" : "ALUC_ROM[1]",
-					"strict" : false
-				},
-				{
-					"name" : "ALUC_ROM[0]",
 					"strict" : false
 				},
 				{
@@ -400,14 +384,6 @@
 					"strict" : false
 				},
 				{
-					"name" : "KMx_ROM[1]",
-					"strict" : false
-				},
-				{
-					"name" : "KMxTEST[1]",
-					"strict" : false
-				},
-				{
 					"name" : "OUT_RAM[15]",
 					"strict" : false
 				},
@@ -472,7 +448,31 @@
 					"strict" : false
 				},
 				{
-					"name" : "CLKx2",
+					"name" : "Type_ROM[6]",
+					"strict" : false
+				},
+				{
+					"name" : "Type_ROM[5]",
+					"strict" : false
+				},
+				{
+					"name" : "Type_ROM[4]",
+					"strict" : false
+				},
+				{
+					"name" : "Type_ROM[3]",
+					"strict" : false
+				},
+				{
+					"name" : "Type_ROM[2]",
+					"strict" : false
+				},
+				{
+					"name" : "Type_ROM[1]",
+					"strict" : false
+				},
+				{
+					"name" : "Type_ROM[0]",
 					"strict" : false
 				},
 				{
