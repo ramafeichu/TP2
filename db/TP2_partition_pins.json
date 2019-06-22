@@ -4,15 +4,11 @@
 			"name" : "Top",
 			"pins" : [
 				{
-					"name" : "CARRY",
+					"name" : "MR",
 					"strict" : false
 				},
 				{
 					"name" : "HOLD",
-					"strict" : false
-				},
-				{
-					"name" : "MR",
 					"strict" : false
 				},
 				{
@@ -21,22 +17,6 @@
 				},
 				{
 					"name" : "KMx_SEL",
-					"strict" : false
-				},
-				{
-					"name" : "ALUC[3]",
-					"strict" : false
-				},
-				{
-					"name" : "ALUC[2]",
-					"strict" : false
-				},
-				{
-					"name" : "ALUC[1]",
-					"strict" : false
-				},
-				{
-					"name" : "ALUC[0]",
 					"strict" : false
 				},
 				{
@@ -104,67 +84,67 @@
 					"strict" : false
 				},
 				{
-					"name" : "BUS_b[15]",
+					"name" : "BUS_B[15]",
 					"strict" : false
 				},
 				{
-					"name" : "BUS_b[14]",
+					"name" : "BUS_B[14]",
 					"strict" : false
 				},
 				{
-					"name" : "BUS_b[13]",
+					"name" : "BUS_B[13]",
 					"strict" : false
 				},
 				{
-					"name" : "BUS_b[12]",
+					"name" : "BUS_B[12]",
 					"strict" : false
 				},
 				{
-					"name" : "BUS_b[11]",
+					"name" : "BUS_B[11]",
 					"strict" : false
 				},
 				{
-					"name" : "BUS_b[10]",
+					"name" : "BUS_B[10]",
 					"strict" : false
 				},
 				{
-					"name" : "BUS_b[9]",
+					"name" : "BUS_B[9]",
 					"strict" : false
 				},
 				{
-					"name" : "BUS_b[8]",
+					"name" : "BUS_B[8]",
 					"strict" : false
 				},
 				{
-					"name" : "BUS_b[7]",
+					"name" : "BUS_B[7]",
 					"strict" : false
 				},
 				{
-					"name" : "BUS_b[6]",
+					"name" : "BUS_B[6]",
 					"strict" : false
 				},
 				{
-					"name" : "BUS_b[5]",
+					"name" : "BUS_B[5]",
 					"strict" : false
 				},
 				{
-					"name" : "BUS_b[4]",
+					"name" : "BUS_B[4]",
 					"strict" : false
 				},
 				{
-					"name" : "BUS_b[3]",
+					"name" : "BUS_B[3]",
 					"strict" : false
 				},
 				{
-					"name" : "BUS_b[2]",
+					"name" : "BUS_B[2]",
 					"strict" : false
 				},
 				{
-					"name" : "BUS_b[1]",
+					"name" : "BUS_B[1]",
 					"strict" : false
 				},
 				{
-					"name" : "BUS_b[0]",
+					"name" : "BUS_B[0]",
 					"strict" : false
 				},
 				{
@@ -369,6 +349,46 @@
 				},
 				{
 					"name" : "C_ENABLE[0]",
+					"strict" : false
+				},
+				{
+					"name" : "Dadd[9]",
+					"strict" : false
+				},
+				{
+					"name" : "Dadd[8]",
+					"strict" : false
+				},
+				{
+					"name" : "Dadd[7]",
+					"strict" : false
+				},
+				{
+					"name" : "Dadd[6]",
+					"strict" : false
+				},
+				{
+					"name" : "Dadd[5]",
+					"strict" : false
+				},
+				{
+					"name" : "Dadd[4]",
+					"strict" : false
+				},
+				{
+					"name" : "Dadd[3]",
+					"strict" : false
+				},
+				{
+					"name" : "Dadd[2]",
+					"strict" : false
+				},
+				{
+					"name" : "Dadd[1]",
+					"strict" : false
+				},
+				{
+					"name" : "Dadd[0]",
 					"strict" : false
 				},
 				{

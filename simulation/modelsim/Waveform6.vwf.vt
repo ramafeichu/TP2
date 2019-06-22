@@ -18,7 +18,7 @@
 // the top level entity of the current Quartus project .The user can use this   
 // testbench to simulate his design using a third-party simulation tool .       
 // *****************************************************************************
-// Generated on "06/22/2019 07:51:11"
+// Generated on "06/22/2019 17:12:44"
                                                                                 
 // Verilog Test Bench (with test vectors) for design :                          main
 // 
@@ -30,6 +30,7 @@ module main_vlg_vec_tst();
 // constants                                           
 // general purpose registers
 reg CLK;
+reg CLOCKx2;
 // wires                                               
 wire [3:0] ALUC;
 wire [15:0] BUS_A;
@@ -57,6 +58,7 @@ main i1 (
 	.C_ENABLE(C_ENABLE),
 	.CARRY(CARRY),
 	.CLK(CLK),
+	.CLOCKx2(CLOCKx2),
 	.HOLD(HOLD),
 	.IN_RAM(IN_RAM),
 	.INSTRUCTION(INSTRUCTION),
@@ -78,6 +80,22 @@ begin
 	CLK = 1'b0;
 	CLK = #20000 1'b1;
 	#20000;
+end 
+
+// CLOCKx2
+initial
+begin
+	CLOCKx2 = 1'b1;
+	CLOCKx2 = #10000 1'b0;
+	# 10000;
+	repeat(48)
+	begin
+		CLOCKx2 = 1'b1;
+		CLOCKx2 = #10000 1'b0;
+		# 10000;
+	end
+	CLOCKx2 = 1'b1;
+	CLOCKx2 = #10000 1'b0;
 end 
 endmodule
 
