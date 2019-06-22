@@ -232,6 +232,146 @@
 					"strict" : false
 				},
 				{
+					"name" : "C_ENABLE[34]",
+					"strict" : false
+				},
+				{
+					"name" : "C_ENABLE[33]",
+					"strict" : false
+				},
+				{
+					"name" : "C_ENABLE[32]",
+					"strict" : false
+				},
+				{
+					"name" : "C_ENABLE[31]",
+					"strict" : false
+				},
+				{
+					"name" : "C_ENABLE[30]",
+					"strict" : false
+				},
+				{
+					"name" : "C_ENABLE[29]",
+					"strict" : false
+				},
+				{
+					"name" : "C_ENABLE[28]",
+					"strict" : false
+				},
+				{
+					"name" : "C_ENABLE[27]",
+					"strict" : false
+				},
+				{
+					"name" : "C_ENABLE[26]",
+					"strict" : false
+				},
+				{
+					"name" : "C_ENABLE[25]",
+					"strict" : false
+				},
+				{
+					"name" : "C_ENABLE[24]",
+					"strict" : false
+				},
+				{
+					"name" : "C_ENABLE[23]",
+					"strict" : false
+				},
+				{
+					"name" : "C_ENABLE[22]",
+					"strict" : false
+				},
+				{
+					"name" : "C_ENABLE[21]",
+					"strict" : false
+				},
+				{
+					"name" : "C_ENABLE[20]",
+					"strict" : false
+				},
+				{
+					"name" : "C_ENABLE[19]",
+					"strict" : false
+				},
+				{
+					"name" : "C_ENABLE[18]",
+					"strict" : false
+				},
+				{
+					"name" : "C_ENABLE[17]",
+					"strict" : false
+				},
+				{
+					"name" : "C_ENABLE[16]",
+					"strict" : false
+				},
+				{
+					"name" : "C_ENABLE[15]",
+					"strict" : false
+				},
+				{
+					"name" : "C_ENABLE[14]",
+					"strict" : false
+				},
+				{
+					"name" : "C_ENABLE[13]",
+					"strict" : false
+				},
+				{
+					"name" : "C_ENABLE[12]",
+					"strict" : false
+				},
+				{
+					"name" : "C_ENABLE[11]",
+					"strict" : false
+				},
+				{
+					"name" : "C_ENABLE[10]",
+					"strict" : false
+				},
+				{
+					"name" : "C_ENABLE[9]",
+					"strict" : false
+				},
+				{
+					"name" : "C_ENABLE[8]",
+					"strict" : false
+				},
+				{
+					"name" : "C_ENABLE[7]",
+					"strict" : false
+				},
+				{
+					"name" : "C_ENABLE[6]",
+					"strict" : false
+				},
+				{
+					"name" : "C_ENABLE[5]",
+					"strict" : false
+				},
+				{
+					"name" : "C_ENABLE[4]",
+					"strict" : false
+				},
+				{
+					"name" : "C_ENABLE[3]",
+					"strict" : false
+				},
+				{
+					"name" : "C_ENABLE[2]",
+					"strict" : false
+				},
+				{
+					"name" : "C_ENABLE[1]",
+					"strict" : false
+				},
+				{
+					"name" : "C_ENABLE[0]",
+					"strict" : false
+				},
+				{
 					"name" : "IN_RAM[15]",
 					"strict" : false
 				},
@@ -477,6 +617,10 @@
 				},
 				{
 					"name" : "CLK",
+					"strict" : false
+				},
+				{
+					"name" : "CLOCKx2",
 					"strict" : false
 				}
 			]

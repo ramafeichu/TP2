@@ -2800,10 +2800,6 @@ refer to the applicable agreement for further details.
 	(pt 1432 32)
 )
 (connector
-	(pt 1400 32)
-	(pt 1400 336)
-)
-(connector
 	(pt 1400 336)
 	(pt 1376 336)
 )
@@ -2948,6 +2944,10 @@ refer to the applicable agreement for further details.
 	(pt 280 424)
 	(pt 312 424)
 	(bus)
+)
+(connector
+	(pt 1400 32)
+	(pt 1400 336)
 )
 (junction (pt -336 176))
 (junction (pt -336 192))
