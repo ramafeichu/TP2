@@ -1,5 +1,5 @@
 Analysis & Synthesis report for TP2
-Sat Jun 22 18:27:09 2019
+Sat Jun 22 15:29:00 2019
 Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 
 
@@ -116,13 +116,13 @@ refer to the applicable agreement for further details.
 +----------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                     ;
 +------------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Sat Jun 22 18:27:09 2019       ;
+; Analysis & Synthesis Status        ; Successful - Sat Jun 22 15:29:00 2019       ;
 ; Quartus Prime Version              ; 18.1.0 Build 625 09/12/2018 SJ Lite Edition ;
 ; Revision Name                      ; TP2                                         ;
 ; Top-level Entity Name              ; main                                        ;
 ; Family                             ; Cyclone IV E                                ;
-; Total logic elements               ; 1,933                                       ;
-;     Total combinational functions  ; 1,297                                       ;
+; Total logic elements               ; 1,950                                       ;
+;     Total combinational functions  ; 1,314                                       ;
 ;     Dedicated logic registers      ; 751                                         ;
 ; Total registers                    ; 751                                         ;
 ; Total pins                         ; 168                                         ;
@@ -241,43 +241,43 @@ refer to the applicable agreement for further details.
 +---------------------------------------+-----------------+------------------------------------------+--------------------------------------------------------------------------------+---------+
 ; File Name with User-Entered Path      ; Used in Netlist ; File Type                                ; File Name with Absolute Path                                                   ; Library ;
 +---------------------------------------+-----------------+------------------------------------------+--------------------------------------------------------------------------------+---------+
-; REGISTER_BANK/regbank_mainBlock.bdf   ; yes             ; User Block Diagram/Schematic File        ; C:/Users/Rama/Desktop/TP2/REGISTER_BANK/regbank_mainBlock.bdf                  ;         ;
-; REGISTER_BANK/regbank_16bRegister.bdf ; yes             ; User Block Diagram/Schematic File        ; C:/Users/Rama/Desktop/TP2/REGISTER_BANK/regbank_16bRegister.bdf                ;         ;
-; REGISTER_BANK/regbank_16bFF.bdf       ; yes             ; User Block Diagram/Schematic File        ; C:/Users/Rama/Desktop/TP2/REGISTER_BANK/regbank_16bFF.bdf                      ;         ;
-; lpm_mux1.vhd                          ; yes             ; User Wizard-Generated File               ; C:/Users/Rama/Desktop/TP2/lpm_mux1.vhd                                         ;         ;
-; ALU/z_ffff.bdf                        ; yes             ; User Block Diagram/Schematic File        ; C:/Users/Rama/Desktop/TP2/ALU/z_ffff.bdf                                       ;         ;
-; ALU/z_1.bdf                           ; yes             ; User Block Diagram/Schematic File        ; C:/Users/Rama/Desktop/TP2/ALU/z_1.bdf                                          ;         ;
-; ALU/z_0.bdf                           ; yes             ; User Block Diagram/Schematic File        ; C:/Users/Rama/Desktop/TP2/ALU/z_0.bdf                                          ;         ;
-; ALU/atonota.bdf                       ; yes             ; User Block Diagram/Schematic File        ; C:/Users/Rama/Desktop/TP2/ALU/atonota.bdf                                      ;         ;
-; ALU/atoa.bdf                          ; yes             ; User Block Diagram/Schematic File        ; C:/Users/Rama/Desktop/TP2/ALU/atoa.bdf                                         ;         ;
-; ALU/aorb.bdf                          ; yes             ; User Block Diagram/Schematic File        ; C:/Users/Rama/Desktop/TP2/ALU/aorb.bdf                                         ;         ;
-; ALU/amasb.bdf                         ; yes             ; User Block Diagram/Schematic File        ; C:/Users/Rama/Desktop/TP2/ALU/amasb.bdf                                        ;         ;
-; ALU/ALU.bdf                           ; yes             ; User Block Diagram/Schematic File        ; C:/Users/Rama/Desktop/TP2/ALU/ALU.bdf                                          ;         ;
-; ALU/aandb.bdf                         ; yes             ; User Block Diagram/Schematic File        ; C:/Users/Rama/Desktop/TP2/ALU/aandb.bdf                                        ;         ;
-; main.bdf                              ; yes             ; User Block Diagram/Schematic File        ; C:/Users/Rama/Desktop/TP2/main.bdf                                             ;         ;
-; shifter16Bits.bdf                     ; yes             ; User Block Diagram/Schematic File        ; C:/Users/Rama/Desktop/TP2/shifter16Bits.bdf                                    ;         ;
-; latch_16bFF.bdf                       ; yes             ; User Block Diagram/Schematic File        ; C:/Users/Rama/Desktop/TP2/latch_16bFF.bdf                                      ;         ;
-; mux_2in_16b.v                         ; yes             ; User Wizard-Generated File               ; C:/Users/Rama/Desktop/TP2/mux_2in_16b.v                                        ;         ;
-; PC_counter.v                          ; yes             ; User Wizard-Generated File               ; C:/Users/Rama/Desktop/TP2/PC_counter.v                                         ;         ;
-; IFU/IFU_block.bdf                     ; yes             ; User Block Diagram/Schematic File        ; C:/Users/Rama/Desktop/TP2/IFU/IFU_block.bdf                                    ;         ;
-; IFU/BLOQUE_1.bdf                      ; yes             ; User Block Diagram/Schematic File        ; C:/Users/Rama/Desktop/TP2/IFU/BLOQUE_1.bdf                                     ;         ;
-; X_mux_Y.v                             ; yes             ; User Wizard-Generated File               ; C:/Users/Rama/Desktop/TP2/X_mux_Y.v                                            ;         ;
-; INSTRUCTION_decoder.v                 ; yes             ; User Wizard-Generated File               ; C:/Users/Rama/Desktop/TP2/INSTRUCTION_decoder.v                                ;         ;
-; XY_mux.bdf                            ; yes             ; User Block Diagram/Schematic File        ; C:/Users/Rama/Desktop/TP2/XY_mux.bdf                                           ;         ;
-; PIPELINE/BLOQUE1_MUX.v                ; yes             ; User Wizard-Generated File               ; C:/Users/Rama/Desktop/TP2/PIPELINE/BLOQUE1_MUX.v                               ;         ;
-; PIPELINE/Pipeline.bdf                 ; yes             ; User Block Diagram/Schematic File        ; C:/Users/Rama/Desktop/TP2/PIPELINE/Pipeline.bdf                                ;         ;
-; PIPELINE/UC2.bdf                      ; yes             ; User Block Diagram/Schematic File        ; C:/Users/Rama/Desktop/TP2/PIPELINE/UC2.bdf                                     ;         ;
-; PIPELINE/UC2_decoder.v                ; yes             ; User Wizard-Generated File               ; C:/Users/Rama/Desktop/TP2/PIPELINE/UC2_decoder.v                               ;         ;
-; REGISTER_BANK/BUS_MUX.v               ; yes             ; User Wizard-Generated File               ; C:/Users/Rama/Desktop/TP2/REGISTER_BANK/BUS_MUX.v                              ;         ;
-; ALU/mux_carry.v                       ; yes             ; User Wizard-Generated File               ; C:/Users/Rama/Desktop/TP2/ALU/mux_carry.v                                      ;         ;
-; ALU/adderCarry.v                      ; yes             ; User Wizard-Generated File               ; C:/Users/Rama/Desktop/TP2/ALU/adderCarry.v                                     ;         ;
-; ALU/mux_1.v                           ; yes             ; User Wizard-Generated File               ; C:/Users/Rama/Desktop/TP2/ALU/mux_1.v                                          ;         ;
-; PIPELINE/COMPARE_UC2.v                ; yes             ; User Wizard-Generated File               ; C:/Users/Rama/Desktop/TP2/PIPELINE/COMPARE_UC2.v                               ;         ;
-; IFU/programTest.mif                   ; yes             ; User Memory Initialization File          ; C:/Users/Rama/Desktop/TP2/IFU/programTest.mif                                  ;         ;
-; IFU/ROM_programa.v                    ; yes             ; User Wizard-Generated File               ; C:/Users/Rama/Desktop/TP2/IFU/ROM_programa.v                                   ;         ;
-; latch_8bFF.bdf                        ; yes             ; User Block Diagram/Schematic File        ; C:/Users/Rama/Desktop/TP2/latch_8bFF.bdf                                       ;         ;
-; RAM.v                                 ; yes             ; User Wizard-Generated File               ; C:/Users/Rama/Desktop/TP2/RAM.v                                                ;         ;
-; rom_cs.v                              ; yes             ; Auto-Found Wizard-Generated File         ; C:/Users/Rama/Desktop/TP2/rom_cs.v                                             ;         ;
+; REGISTER_BANK/regbank_mainBlock.bdf   ; yes             ; User Block Diagram/Schematic File        ; C:/Users/Rodrigo/Documents/GitHub/TP2/REGISTER_BANK/regbank_mainBlock.bdf      ;         ;
+; REGISTER_BANK/regbank_16bRegister.bdf ; yes             ; User Block Diagram/Schematic File        ; C:/Users/Rodrigo/Documents/GitHub/TP2/REGISTER_BANK/regbank_16bRegister.bdf    ;         ;
+; REGISTER_BANK/regbank_16bFF.bdf       ; yes             ; User Block Diagram/Schematic File        ; C:/Users/Rodrigo/Documents/GitHub/TP2/REGISTER_BANK/regbank_16bFF.bdf          ;         ;
+; lpm_mux1.vhd                          ; yes             ; User Wizard-Generated File               ; C:/Users/Rodrigo/Documents/GitHub/TP2/lpm_mux1.vhd                             ;         ;
+; ALU/z_ffff.bdf                        ; yes             ; User Block Diagram/Schematic File        ; C:/Users/Rodrigo/Documents/GitHub/TP2/ALU/z_ffff.bdf                           ;         ;
+; ALU/z_1.bdf                           ; yes             ; User Block Diagram/Schematic File        ; C:/Users/Rodrigo/Documents/GitHub/TP2/ALU/z_1.bdf                              ;         ;
+; ALU/z_0.bdf                           ; yes             ; User Block Diagram/Schematic File        ; C:/Users/Rodrigo/Documents/GitHub/TP2/ALU/z_0.bdf                              ;         ;
+; ALU/atonota.bdf                       ; yes             ; User Block Diagram/Schematic File        ; C:/Users/Rodrigo/Documents/GitHub/TP2/ALU/atonota.bdf                          ;         ;
+; ALU/atoa.bdf                          ; yes             ; User Block Diagram/Schematic File        ; C:/Users/Rodrigo/Documents/GitHub/TP2/ALU/atoa.bdf                             ;         ;
+; ALU/aorb.bdf                          ; yes             ; User Block Diagram/Schematic File        ; C:/Users/Rodrigo/Documents/GitHub/TP2/ALU/aorb.bdf                             ;         ;
+; ALU/amasb.bdf                         ; yes             ; User Block Diagram/Schematic File        ; C:/Users/Rodrigo/Documents/GitHub/TP2/ALU/amasb.bdf                            ;         ;
+; ALU/ALU.bdf                           ; yes             ; User Block Diagram/Schematic File        ; C:/Users/Rodrigo/Documents/GitHub/TP2/ALU/ALU.bdf                              ;         ;
+; ALU/aandb.bdf                         ; yes             ; User Block Diagram/Schematic File        ; C:/Users/Rodrigo/Documents/GitHub/TP2/ALU/aandb.bdf                            ;         ;
+; main.bdf                              ; yes             ; User Block Diagram/Schematic File        ; C:/Users/Rodrigo/Documents/GitHub/TP2/main.bdf                                 ;         ;
+; shifter16Bits.bdf                     ; yes             ; User Block Diagram/Schematic File        ; C:/Users/Rodrigo/Documents/GitHub/TP2/shifter16Bits.bdf                        ;         ;
+; latch_16bFF.bdf                       ; yes             ; User Block Diagram/Schematic File        ; C:/Users/Rodrigo/Documents/GitHub/TP2/latch_16bFF.bdf                          ;         ;
+; mux_2in_16b.v                         ; yes             ; User Wizard-Generated File               ; C:/Users/Rodrigo/Documents/GitHub/TP2/mux_2in_16b.v                            ;         ;
+; PC_counter.v                          ; yes             ; User Wizard-Generated File               ; C:/Users/Rodrigo/Documents/GitHub/TP2/PC_counter.v                             ;         ;
+; IFU/IFU_block.bdf                     ; yes             ; User Block Diagram/Schematic File        ; C:/Users/Rodrigo/Documents/GitHub/TP2/IFU/IFU_block.bdf                        ;         ;
+; IFU/BLOQUE_1.bdf                      ; yes             ; User Block Diagram/Schematic File        ; C:/Users/Rodrigo/Documents/GitHub/TP2/IFU/BLOQUE_1.bdf                         ;         ;
+; X_mux_Y.v                             ; yes             ; User Wizard-Generated File               ; C:/Users/Rodrigo/Documents/GitHub/TP2/X_mux_Y.v                                ;         ;
+; INSTRUCTION_decoder.v                 ; yes             ; User Wizard-Generated File               ; C:/Users/Rodrigo/Documents/GitHub/TP2/INSTRUCTION_decoder.v                    ;         ;
+; XY_mux.bdf                            ; yes             ; User Block Diagram/Schematic File        ; C:/Users/Rodrigo/Documents/GitHub/TP2/XY_mux.bdf                               ;         ;
+; PIPELINE/BLOQUE1_MUX.v                ; yes             ; User Wizard-Generated File               ; C:/Users/Rodrigo/Documents/GitHub/TP2/PIPELINE/BLOQUE1_MUX.v                   ;         ;
+; PIPELINE/Pipeline.bdf                 ; yes             ; User Block Diagram/Schematic File        ; C:/Users/Rodrigo/Documents/GitHub/TP2/PIPELINE/Pipeline.bdf                    ;         ;
+; PIPELINE/UC2.bdf                      ; yes             ; User Block Diagram/Schematic File        ; C:/Users/Rodrigo/Documents/GitHub/TP2/PIPELINE/UC2.bdf                         ;         ;
+; PIPELINE/UC2_decoder.v                ; yes             ; User Wizard-Generated File               ; C:/Users/Rodrigo/Documents/GitHub/TP2/PIPELINE/UC2_decoder.v                   ;         ;
+; REGISTER_BANK/BUS_MUX.v               ; yes             ; User Wizard-Generated File               ; C:/Users/Rodrigo/Documents/GitHub/TP2/REGISTER_BANK/BUS_MUX.v                  ;         ;
+; ALU/mux_carry.v                       ; yes             ; User Wizard-Generated File               ; C:/Users/Rodrigo/Documents/GitHub/TP2/ALU/mux_carry.v                          ;         ;
+; ALU/adderCarry.v                      ; yes             ; User Wizard-Generated File               ; C:/Users/Rodrigo/Documents/GitHub/TP2/ALU/adderCarry.v                         ;         ;
+; ALU/mux_1.v                           ; yes             ; User Wizard-Generated File               ; C:/Users/Rodrigo/Documents/GitHub/TP2/ALU/mux_1.v                              ;         ;
+; PIPELINE/COMPARE_UC2.v                ; yes             ; User Wizard-Generated File               ; C:/Users/Rodrigo/Documents/GitHub/TP2/PIPELINE/COMPARE_UC2.v                   ;         ;
+; IFU/programTest.mif                   ; yes             ; User Memory Initialization File          ; C:/Users/Rodrigo/Documents/GitHub/TP2/IFU/programTest.mif                      ;         ;
+; IFU/ROM_programa.v                    ; yes             ; User Wizard-Generated File               ; C:/Users/Rodrigo/Documents/GitHub/TP2/IFU/ROM_programa.v                       ;         ;
+; latch_8bFF.bdf                        ; yes             ; User Block Diagram/Schematic File        ; C:/Users/Rodrigo/Documents/GitHub/TP2/latch_8bFF.bdf                           ;         ;
+; RAM.v                                 ; yes             ; User Wizard-Generated File               ; C:/Users/Rodrigo/Documents/GitHub/TP2/RAM.v                                    ;         ;
+; rom_cs.v                              ; yes             ; Auto-Found Wizard-Generated File         ; C:/Users/Rodrigo/Documents/GitHub/TP2/rom_cs.v                                 ;         ;
 ; altsyncram.tdf                        ; yes             ; Megafunction                             ; c:/intelfpga_lite/18.1/quartus/libraries/megafunctions/altsyncram.tdf          ;         ;
 ; stratix_ram_block.inc                 ; yes             ; Megafunction                             ; c:/intelfpga_lite/18.1/quartus/libraries/megafunctions/stratix_ram_block.inc   ;         ;
 ; lpm_mux.inc                           ; yes             ; Megafunction                             ; c:/intelfpga_lite/18.1/quartus/libraries/megafunctions/lpm_mux.inc             ;         ;
@@ -287,47 +287,47 @@ refer to the applicable agreement for further details.
 ; altrom.inc                            ; yes             ; Megafunction                             ; c:/intelfpga_lite/18.1/quartus/libraries/megafunctions/altrom.inc              ;         ;
 ; altram.inc                            ; yes             ; Megafunction                             ; c:/intelfpga_lite/18.1/quartus/libraries/megafunctions/altram.inc              ;         ;
 ; altdpram.inc                          ; yes             ; Megafunction                             ; c:/intelfpga_lite/18.1/quartus/libraries/megafunctions/altdpram.inc            ;         ;
-; db/altsyncram_nmf1.tdf                ; yes             ; Auto-Generated Megafunction              ; C:/Users/Rama/Desktop/TP2/db/altsyncram_nmf1.tdf                               ;         ;
-; control store/control_store.mif       ; yes             ; Auto-Found Memory Initialization File    ; C:/Users/Rama/Desktop/TP2/control store/control_store.mif                      ;         ;
+; db/altsyncram_nmf1.tdf                ; yes             ; Auto-Generated Megafunction              ; C:/Users/Rodrigo/Documents/GitHub/TP2/db/altsyncram_nmf1.tdf                   ;         ;
+; control store/control_store.mif       ; yes             ; Auto-Found Memory Initialization File    ; C:/Users/Rodrigo/Documents/GitHub/TP2/control store/control_store.mif          ;         ;
 ; lpm_compare.tdf                       ; yes             ; Megafunction                             ; c:/intelfpga_lite/18.1/quartus/libraries/megafunctions/lpm_compare.tdf         ;         ;
 ; comptree.inc                          ; yes             ; Megafunction                             ; c:/intelfpga_lite/18.1/quartus/libraries/megafunctions/comptree.inc            ;         ;
 ; altshift.inc                          ; yes             ; Megafunction                             ; c:/intelfpga_lite/18.1/quartus/libraries/megafunctions/altshift.inc            ;         ;
-; db/cmpr_fng.tdf                       ; yes             ; Auto-Generated Megafunction              ; C:/Users/Rama/Desktop/TP2/db/cmpr_fng.tdf                                      ;         ;
+; db/cmpr_fng.tdf                       ; yes             ; Auto-Generated Megafunction              ; C:/Users/Rodrigo/Documents/GitHub/TP2/db/cmpr_fng.tdf                          ;         ;
 ; lpm_decode.tdf                        ; yes             ; Megafunction                             ; c:/intelfpga_lite/18.1/quartus/libraries/megafunctions/lpm_decode.tdf          ;         ;
 ; declut.inc                            ; yes             ; Megafunction                             ; c:/intelfpga_lite/18.1/quartus/libraries/megafunctions/declut.inc              ;         ;
 ; lpm_compare.inc                       ; yes             ; Megafunction                             ; c:/intelfpga_lite/18.1/quartus/libraries/megafunctions/lpm_compare.inc         ;         ;
 ; lpm_constant.inc                      ; yes             ; Megafunction                             ; c:/intelfpga_lite/18.1/quartus/libraries/megafunctions/lpm_constant.inc        ;         ;
-; db/decode_3df.tdf                     ; yes             ; Auto-Generated Megafunction              ; C:/Users/Rama/Desktop/TP2/db/decode_3df.tdf                                    ;         ;
+; db/decode_3df.tdf                     ; yes             ; Auto-Generated Megafunction              ; C:/Users/Rodrigo/Documents/GitHub/TP2/db/decode_3df.tdf                        ;         ;
 ; lpm_mux.tdf                           ; yes             ; Megafunction                             ; c:/intelfpga_lite/18.1/quartus/libraries/megafunctions/lpm_mux.tdf             ;         ;
 ; muxlut.inc                            ; yes             ; Megafunction                             ; c:/intelfpga_lite/18.1/quartus/libraries/megafunctions/muxlut.inc              ;         ;
 ; bypassff.inc                          ; yes             ; Megafunction                             ; c:/intelfpga_lite/18.1/quartus/libraries/megafunctions/bypassff.inc            ;         ;
-; db/mux_0tc.tdf                        ; yes             ; Auto-Generated Megafunction              ; C:/Users/Rama/Desktop/TP2/db/mux_0tc.tdf                                       ;         ;
+; db/mux_0tc.tdf                        ; yes             ; Auto-Generated Megafunction              ; C:/Users/Rodrigo/Documents/GitHub/TP2/db/mux_0tc.tdf                           ;         ;
 ; lpm_ff.tdf                            ; yes             ; Megafunction                             ; c:/intelfpga_lite/18.1/quartus/libraries/megafunctions/lpm_ff.tdf              ;         ;
-; db/altsyncram_53b1.tdf                ; yes             ; Auto-Generated Megafunction              ; C:/Users/Rama/Desktop/TP2/db/altsyncram_53b1.tdf                               ;         ;
+; db/altsyncram_53b1.tdf                ; yes             ; Auto-Generated Megafunction              ; C:/Users/Rodrigo/Documents/GitHub/TP2/db/altsyncram_53b1.tdf                   ;         ;
 ; lpm_counter.tdf                       ; yes             ; Megafunction                             ; c:/intelfpga_lite/18.1/quartus/libraries/megafunctions/lpm_counter.tdf         ;         ;
 ; lpm_add_sub.inc                       ; yes             ; Megafunction                             ; c:/intelfpga_lite/18.1/quartus/libraries/megafunctions/lpm_add_sub.inc         ;         ;
 ; cmpconst.inc                          ; yes             ; Megafunction                             ; c:/intelfpga_lite/18.1/quartus/libraries/megafunctions/cmpconst.inc            ;         ;
 ; lpm_counter.inc                       ; yes             ; Megafunction                             ; c:/intelfpga_lite/18.1/quartus/libraries/megafunctions/lpm_counter.inc         ;         ;
 ; dffeea.inc                            ; yes             ; Megafunction                             ; c:/intelfpga_lite/18.1/quartus/libraries/megafunctions/dffeea.inc              ;         ;
 ; alt_counter_stratix.inc               ; yes             ; Megafunction                             ; c:/intelfpga_lite/18.1/quartus/libraries/megafunctions/alt_counter_stratix.inc ;         ;
-; db/cntr_sej.tdf                       ; yes             ; Auto-Generated Megafunction              ; C:/Users/Rama/Desktop/TP2/db/cntr_sej.tdf                                      ;         ;
-; db/mux_ssc.tdf                        ; yes             ; Auto-Generated Megafunction              ; C:/Users/Rama/Desktop/TP2/db/mux_ssc.tdf                                       ;         ;
+; db/cntr_sej.tdf                       ; yes             ; Auto-Generated Megafunction              ; C:/Users/Rodrigo/Documents/GitHub/TP2/db/cntr_sej.tdf                          ;         ;
+; db/mux_ssc.tdf                        ; yes             ; Auto-Generated Megafunction              ; C:/Users/Rodrigo/Documents/GitHub/TP2/db/mux_ssc.tdf                           ;         ;
 ; lpm_add_sub.tdf                       ; yes             ; Megafunction                             ; c:/intelfpga_lite/18.1/quartus/libraries/megafunctions/lpm_add_sub.tdf         ;         ;
 ; addcore.inc                           ; yes             ; Megafunction                             ; c:/intelfpga_lite/18.1/quartus/libraries/megafunctions/addcore.inc             ;         ;
 ; look_add.inc                          ; yes             ; Megafunction                             ; c:/intelfpga_lite/18.1/quartus/libraries/megafunctions/look_add.inc            ;         ;
 ; alt_stratix_add_sub.inc               ; yes             ; Megafunction                             ; c:/intelfpga_lite/18.1/quartus/libraries/megafunctions/alt_stratix_add_sub.inc ;         ;
-; db/add_sub_vci.tdf                    ; yes             ; Auto-Generated Megafunction              ; C:/Users/Rama/Desktop/TP2/db/add_sub_vci.tdf                                   ;         ;
-; db/mux_iuc.tdf                        ; yes             ; Auto-Generated Megafunction              ; C:/Users/Rama/Desktop/TP2/db/mux_iuc.tdf                                       ;         ;
+; db/add_sub_vci.tdf                    ; yes             ; Auto-Generated Megafunction              ; C:/Users/Rodrigo/Documents/GitHub/TP2/db/add_sub_vci.tdf                       ;         ;
+; db/mux_iuc.tdf                        ; yes             ; Auto-Generated Megafunction              ; C:/Users/Rodrigo/Documents/GitHub/TP2/db/mux_iuc.tdf                           ;         ;
 ; lpm_or.tdf                            ; yes             ; Megafunction                             ; c:/intelfpga_lite/18.1/quartus/libraries/megafunctions/lpm_or.tdf              ;         ;
 ; lpm_and.tdf                           ; yes             ; Megafunction                             ; c:/intelfpga_lite/18.1/quartus/libraries/megafunctions/lpm_and.tdf             ;         ;
-; db/mux_tsc.tdf                        ; yes             ; Auto-Generated Megafunction              ; C:/Users/Rama/Desktop/TP2/db/mux_tsc.tdf                                       ;         ;
-; db/mux_kuc.tdf                        ; yes             ; Auto-Generated Megafunction              ; C:/Users/Rama/Desktop/TP2/db/mux_kuc.tdf                                       ;         ;
-; reg_w.bdf                             ; yes             ; Auto-Found Block Diagram/Schematic File  ; C:/Users/Rama/Desktop/TP2/reg_w.bdf                                            ;         ;
+; db/mux_tsc.tdf                        ; yes             ; Auto-Generated Megafunction              ; C:/Users/Rodrigo/Documents/GitHub/TP2/db/mux_tsc.tdf                           ;         ;
+; db/mux_kuc.tdf                        ; yes             ; Auto-Generated Megafunction              ; C:/Users/Rodrigo/Documents/GitHub/TP2/db/mux_kuc.tdf                           ;         ;
+; reg_w.bdf                             ; yes             ; Auto-Found Block Diagram/Schematic File  ; C:/Users/Rodrigo/Documents/GitHub/TP2/reg_w.bdf                                ;         ;
 ; 7495.bdf                              ; yes             ; Megafunction                             ; c:/intelfpga_lite/18.1/quartus/libraries/others/maxplus2/7495.bdf              ;         ;
-; db/mux_b9e.tdf                        ; yes             ; Auto-Generated Megafunction              ; C:/Users/Rama/Desktop/TP2/db/mux_b9e.tdf                                       ;         ;
-; db/altsyncram_99g1.tdf                ; yes             ; Auto-Generated Megafunction              ; C:/Users/Rama/Desktop/TP2/db/altsyncram_99g1.tdf                               ;         ;
-; db/mux_usc.tdf                        ; yes             ; Auto-Generated Megafunction              ; C:/Users/Rama/Desktop/TP2/db/mux_usc.tdf                                       ;         ;
-; db/decode_tcf.tdf                     ; yes             ; Auto-Generated Megafunction              ; C:/Users/Rama/Desktop/TP2/db/decode_tcf.tdf                                    ;         ;
+; db/mux_b9e.tdf                        ; yes             ; Auto-Generated Megafunction              ; C:/Users/Rodrigo/Documents/GitHub/TP2/db/mux_b9e.tdf                           ;         ;
+; db/altsyncram_99g1.tdf                ; yes             ; Auto-Generated Megafunction              ; C:/Users/Rodrigo/Documents/GitHub/TP2/db/altsyncram_99g1.tdf                   ;         ;
+; db/mux_usc.tdf                        ; yes             ; Auto-Generated Megafunction              ; C:/Users/Rodrigo/Documents/GitHub/TP2/db/mux_usc.tdf                           ;         ;
+; db/decode_tcf.tdf                     ; yes             ; Auto-Generated Megafunction              ; C:/Users/Rodrigo/Documents/GitHub/TP2/db/decode_tcf.tdf                        ;         ;
 +---------------------------------------+-----------------+------------------------------------------+--------------------------------------------------------------------------------+---------+
 
 
@@ -336,16 +336,16 @@ refer to the applicable agreement for further details.
 +---------------------------------------------+-----------+
 ; Resource                                    ; Usage     ;
 +---------------------------------------------+-----------+
-; Estimated Total logic elements              ; 1,933     ;
+; Estimated Total logic elements              ; 1,950     ;
 ;                                             ;           ;
-; Total combinational functions               ; 1297      ;
+; Total combinational functions               ; 1314      ;
 ; Logic element usage by number of LUT inputs ;           ;
-;     -- 4 input functions                    ; 1129      ;
-;     -- 3 input functions                    ; 95        ;
-;     -- <=2 input functions                  ; 73        ;
+;     -- 4 input functions                    ; 1147      ;
+;     -- 3 input functions                    ; 93        ;
+;     -- <=2 input functions                  ; 74        ;
 ;                                             ;           ;
 ; Logic elements by mode                      ;           ;
-;     -- normal mode                          ; 1254      ;
+;     -- normal mode                          ; 1271      ;
 ;     -- arithmetic mode                      ; 43        ;
 ;                                             ;           ;
 ; Total registers                             ; 751       ;
@@ -359,7 +359,7 @@ refer to the applicable agreement for further details.
 ;                                             ;           ;
 ; Maximum fan-out node                        ; CLK~input ;
 ; Maximum fan-out                             ; 672       ;
-; Total fan-out                               ; 8298      ;
+; Total fan-out                               ; 8366      ;
 ; Average fan-out                             ; 3.35      ;
 +---------------------------------------------+-----------+
 
@@ -369,7 +369,7 @@ refer to the applicable agreement for further details.
 +-------------------------------------------------+---------------------+---------------------------+-------------+--------------+---------+-----------+------+--------------+--------------------------------------------------------------------------------------------------------------------+---------------------+--------------+
 ; Compilation Hierarchy Node                      ; Combinational ALUTs ; Dedicated Logic Registers ; Memory Bits ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; Full Hierarchy Name                                                                                                ; Entity Name         ; Library Name ;
 +-------------------------------------------------+---------------------+---------------------------+-------------+--------------+---------+-----------+------+--------------+--------------------------------------------------------------------------------------------------------------------+---------------------+--------------+
-; |main                                           ; 1297 (34)           ; 751 (1)                   ; 53120       ; 0            ; 0       ; 0         ; 168  ; 0            ; |main                                                                                                              ; main                ; work         ;
+; |main                                           ; 1314 (34)           ; 751 (1)                   ; 53120       ; 0            ; 0       ; 0         ; 168  ; 0            ; |main                                                                                                              ; main                ; work         ;
 ;    |ALU:inst4|                                  ; 123 (0)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|ALU:inst4                                                                                                    ; ALU                 ; work         ;
 ;       |amasb:AplusBplusCARRY|                   ; 18 (0)              ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|ALU:inst4|amasb:AplusBplusCARRY                                                                              ; amasb               ; work         ;
 ;          |adderCarry:inst|                      ; 18 (0)              ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|ALU:inst4|amasb:AplusBplusCARRY|adderCarry:inst                                                              ; adderCarry          ; work         ;
@@ -385,18 +385,18 @@ refer to the applicable agreement for further details.
 ;       |mux_carry:inst10|                        ; 2 (0)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|ALU:inst4|mux_carry:inst10                                                                                   ; mux_carry           ; work         ;
 ;          |lpm_mux:LPM_MUX_component|            ; 2 (0)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|ALU:inst4|mux_carry:inst10|lpm_mux:LPM_MUX_component                                                         ; lpm_mux             ; work         ;
 ;             |mux_ssc:auto_generated|            ; 2 (2)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|ALU:inst4|mux_carry:inst10|lpm_mux:LPM_MUX_component|mux_ssc:auto_generated                                  ; mux_ssc             ; work         ;
-;    |IFU_block:inst17|                           ; 14 (3)              ; 11 (0)                    ; 28672       ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|IFU_block:inst17                                                                                             ; IFU_block           ; work         ;
+;    |IFU_block:inst17|                           ; 13 (2)              ; 11 (0)                    ; 28672       ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|IFU_block:inst17                                                                                             ; IFU_block           ; work         ;
 ;       |PC_counter:inst|                         ; 11 (0)              ; 11 (0)                    ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|IFU_block:inst17|PC_counter:inst                                                                             ; PC_counter          ; work         ;
 ;          |lpm_counter:LPM_COUNTER_component|    ; 11 (0)              ; 11 (0)                    ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|IFU_block:inst17|PC_counter:inst|lpm_counter:LPM_COUNTER_component                                           ; lpm_counter         ; work         ;
 ;             |cntr_sej:auto_generated|           ; 11 (11)             ; 11 (11)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|IFU_block:inst17|PC_counter:inst|lpm_counter:LPM_COUNTER_component|cntr_sej:auto_generated                   ; cntr_sej            ; work         ;
 ;       |ROM_programa:inst1|                      ; 0 (0)               ; 0 (0)                     ; 28672       ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|IFU_block:inst17|ROM_programa:inst1                                                                          ; ROM_programa        ; work         ;
 ;          |altsyncram:altsyncram_component|      ; 0 (0)               ; 0 (0)                     ; 28672       ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|IFU_block:inst17|ROM_programa:inst1|altsyncram:altsyncram_component                                          ; altsyncram          ; work         ;
 ;             |altsyncram_53b1:auto_generated|    ; 0 (0)               ; 0 (0)                     ; 28672       ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|IFU_block:inst17|ROM_programa:inst1|altsyncram:altsyncram_component|altsyncram_53b1:auto_generated           ; altsyncram_53b1     ; work         ;
-;    |Pipeline:inst5|                             ; 284 (0)             ; 121 (1)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|Pipeline:inst5                                                                                               ; Pipeline            ; work         ;
-;       |BLOQUE1_MUX:inst7|                       ; 43 (0)              ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|Pipeline:inst5|BLOQUE1_MUX:inst7                                                                             ; BLOQUE1_MUX         ; work         ;
-;          |lpm_mux:LPM_MUX_component|            ; 43 (0)              ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|Pipeline:inst5|BLOQUE1_MUX:inst7|lpm_mux:LPM_MUX_component                                                   ; lpm_mux             ; work         ;
-;             |mux_0tc:auto_generated|            ; 43 (43)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|Pipeline:inst5|BLOQUE1_MUX:inst7|lpm_mux:LPM_MUX_component|mux_0tc:auto_generated                            ; mux_0tc             ; work         ;
-;       |UC2:inst4|                               ; 241 (146)           ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|Pipeline:inst5|UC2:inst4                                                                                     ; UC2                 ; work         ;
+;    |Pipeline:inst5|                             ; 287 (0)             ; 121 (1)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|Pipeline:inst5                                                                                               ; Pipeline            ; work         ;
+;       |BLOQUE1_MUX:inst7|                       ; 42 (0)              ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|Pipeline:inst5|BLOQUE1_MUX:inst7                                                                             ; BLOQUE1_MUX         ; work         ;
+;          |lpm_mux:LPM_MUX_component|            ; 42 (0)              ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|Pipeline:inst5|BLOQUE1_MUX:inst7|lpm_mux:LPM_MUX_component                                                   ; lpm_mux             ; work         ;
+;             |mux_0tc:auto_generated|            ; 42 (42)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|Pipeline:inst5|BLOQUE1_MUX:inst7|lpm_mux:LPM_MUX_component|mux_0tc:auto_generated                            ; mux_0tc             ; work         ;
+;       |UC2:inst4|                               ; 245 (149)           ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|Pipeline:inst5|UC2:inst4                                                                                     ; UC2                 ; work         ;
 ;          |COMPARE_UC2:inst2|                    ; 2 (0)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|Pipeline:inst5|UC2:inst4|COMPARE_UC2:inst2                                                                   ; COMPARE_UC2         ; work         ;
 ;             |lpm_compare:LPM_COMPARE_component| ; 2 (0)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|Pipeline:inst5|UC2:inst4|COMPARE_UC2:inst2|lpm_compare:LPM_COMPARE_component                                 ; lpm_compare         ; work         ;
 ;                |cmpr_fng:auto_generated|        ; 2 (2)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|Pipeline:inst5|UC2:inst4|COMPARE_UC2:inst2|lpm_compare:LPM_COMPARE_component|cmpr_fng:auto_generated         ; cmpr_fng            ; work         ;
@@ -412,9 +412,9 @@ refer to the applicable agreement for further details.
 ;          |COMPARE_UC2:inst7|                    ; 1 (0)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|Pipeline:inst5|UC2:inst4|COMPARE_UC2:inst7                                                                   ; COMPARE_UC2         ; work         ;
 ;             |lpm_compare:LPM_COMPARE_component| ; 1 (0)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|Pipeline:inst5|UC2:inst4|COMPARE_UC2:inst7|lpm_compare:LPM_COMPARE_component                                 ; lpm_compare         ; work         ;
 ;                |cmpr_fng:auto_generated|        ; 1 (1)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|Pipeline:inst5|UC2:inst4|COMPARE_UC2:inst7|lpm_compare:LPM_COMPARE_component|cmpr_fng:auto_generated         ; cmpr_fng            ; work         ;
-;          |COMPARE_UC2:instan|                   ; 2 (0)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|Pipeline:inst5|UC2:inst4|COMPARE_UC2:instan                                                                  ; COMPARE_UC2         ; work         ;
-;             |lpm_compare:LPM_COMPARE_component| ; 2 (0)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|Pipeline:inst5|UC2:inst4|COMPARE_UC2:instan|lpm_compare:LPM_COMPARE_component                                ; lpm_compare         ; work         ;
-;                |cmpr_fng:auto_generated|        ; 2 (2)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|Pipeline:inst5|UC2:inst4|COMPARE_UC2:instan|lpm_compare:LPM_COMPARE_component|cmpr_fng:auto_generated        ; cmpr_fng            ; work         ;
+;          |COMPARE_UC2:instan|                   ; 3 (0)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|Pipeline:inst5|UC2:inst4|COMPARE_UC2:instan                                                                  ; COMPARE_UC2         ; work         ;
+;             |lpm_compare:LPM_COMPARE_component| ; 3 (0)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|Pipeline:inst5|UC2:inst4|COMPARE_UC2:instan|lpm_compare:LPM_COMPARE_component                                ; lpm_compare         ; work         ;
+;                |cmpr_fng:auto_generated|        ; 3 (3)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|Pipeline:inst5|UC2:inst4|COMPARE_UC2:instan|lpm_compare:LPM_COMPARE_component|cmpr_fng:auto_generated        ; cmpr_fng            ; work         ;
 ;          |UC2_decoder:inst3|                    ; 43 (0)              ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|Pipeline:inst5|UC2:inst4|UC2_decoder:inst3                                                                   ; UC2_decoder         ; work         ;
 ;             |lpm_decode:LPM_DECODE_component|   ; 43 (0)              ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|Pipeline:inst5|UC2:inst4|UC2_decoder:inst3|lpm_decode:LPM_DECODE_component                                   ; lpm_decode          ; work         ;
 ;                |decode_3df:auto_generated|      ; 43 (43)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|Pipeline:inst5|UC2:inst4|UC2_decoder:inst3|lpm_decode:LPM_DECODE_component|decode_3df:auto_generated         ; decode_3df          ; work         ;
@@ -434,8 +434,8 @@ refer to the applicable agreement for further details.
 ;       |lpm_ff:inst|                             ; 0 (0)               ; 16 (16)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|latch_16bFF:inst7|lpm_ff:inst                                                                                ; lpm_ff              ; work         ;
 ;    |latch_16bFF:inst8|                          ; 0 (0)               ; 16 (0)                    ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|latch_16bFF:inst8                                                                                            ; latch_16bFF         ; work         ;
 ;       |lpm_ff:inst|                             ; 0 (0)               ; 16 (16)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|latch_16bFF:inst8|lpm_ff:inst                                                                                ; lpm_ff              ; work         ;
-;    |latch_16bFF:inst9|                          ; 13 (0)              ; 16 (0)                    ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|latch_16bFF:inst9                                                                                            ; latch_16bFF         ; work         ;
-;       |lpm_ff:inst|                             ; 13 (13)             ; 16 (16)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|latch_16bFF:inst9|lpm_ff:inst                                                                                ; lpm_ff              ; work         ;
+;    |latch_16bFF:inst9|                          ; 26 (0)              ; 16 (0)                    ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|latch_16bFF:inst9                                                                                            ; latch_16bFF         ; work         ;
+;       |lpm_ff:inst|                             ; 26 (26)             ; 16 (16)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|latch_16bFF:inst9|lpm_ff:inst                                                                                ; lpm_ff              ; work         ;
 ;    |latch_8bFF:instSS|                          ; 0 (0)               ; 8 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|latch_8bFF:instSS                                                                                            ; latch_8bFF          ; work         ;
 ;       |lpm_ff:inst|                             ; 0 (0)               ; 8 (8)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|latch_8bFF:instSS|lpm_ff:inst                                                                                ; lpm_ff              ; work         ;
 ;    |lpm_ff:inst14|                              ; 0 (0)               ; 2 (2)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|lpm_ff:inst14                                                                                                ; lpm_ff              ; work         ;
@@ -553,10 +553,10 @@ refer to the applicable agreement for further details.
 ;       |regbank_16bRegister:R_AUX1|              ; 0 (0)               ; 16 (0)                    ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|regbank_mainBlock:inst11|regbank_16bRegister:R_AUX1                                                          ; regbank_16bRegister ; work         ;
 ;          |regbank_16bFF:inst|                   ; 0 (0)               ; 16 (0)                    ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|regbank_mainBlock:inst11|regbank_16bRegister:R_AUX1|regbank_16bFF:inst                                       ; regbank_16bFF       ; work         ;
 ;             |lpm_ff:inst|                       ; 0 (0)               ; 16 (16)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|regbank_mainBlock:inst11|regbank_16bRegister:R_AUX1|regbank_16bFF:inst|lpm_ff:inst                           ; lpm_ff              ; work         ;
-;    |shifter16Bits:inst|                         ; 11 (0)              ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|shifter16Bits:inst                                                                                           ; shifter16Bits       ; work         ;
-;       |lpm_mux1:MUX_4IN_1OUT|                   ; 11 (0)              ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|shifter16Bits:inst|lpm_mux1:MUX_4IN_1OUT                                                                     ; lpm_mux1            ; work         ;
-;          |lpm_mux:LPM_MUX_component|            ; 11 (0)              ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|shifter16Bits:inst|lpm_mux1:MUX_4IN_1OUT|lpm_mux:LPM_MUX_component                                           ; lpm_mux             ; work         ;
-;             |mux_b9e:auto_generated|            ; 11 (11)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|shifter16Bits:inst|lpm_mux1:MUX_4IN_1OUT|lpm_mux:LPM_MUX_component|mux_b9e:auto_generated                    ; mux_b9e             ; work         ;
+;    |shifter16Bits:inst|                         ; 13 (0)              ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|shifter16Bits:inst                                                                                           ; shifter16Bits       ; work         ;
+;       |lpm_mux1:MUX_4IN_1OUT|                   ; 13 (0)              ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|shifter16Bits:inst|lpm_mux1:MUX_4IN_1OUT                                                                     ; lpm_mux1            ; work         ;
+;          |lpm_mux:LPM_MUX_component|            ; 13 (0)              ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|shifter16Bits:inst|lpm_mux1:MUX_4IN_1OUT|lpm_mux:LPM_MUX_component                                           ; lpm_mux             ; work         ;
+;             |mux_b9e:auto_generated|            ; 13 (13)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|shifter16Bits:inst|lpm_mux1:MUX_4IN_1OUT|lpm_mux:LPM_MUX_component|mux_b9e:auto_generated                    ; mux_b9e             ; work         ;
 +-------------------------------------------------+---------------------+---------------------------+-------------+--------------+---------+-----------+------+--------------+--------------------------------------------------------------------------------------------------------------------+---------------------+--------------+
 Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
 
@@ -2169,20 +2169,20 @@ Note: In order to hide this table in the UI and the text report file, please set
 ;     SLD               ; 32                          ;
 ;     plain             ; 167                         ;
 ; cycloneiii_io_obuf    ; 32                          ;
-; cycloneiii_lcell_comb ; 1298                        ;
+; cycloneiii_lcell_comb ; 1315                        ;
 ;     arith             ; 43                          ;
 ;         2 data inputs ; 11                          ;
 ;         3 data inputs ; 32                          ;
-;     normal            ; 1255                        ;
+;     normal            ; 1272                        ;
 ;         0 data inputs ; 3                           ;
 ;         1 data inputs ; 1                           ;
-;         2 data inputs ; 59                          ;
-;         3 data inputs ; 63                          ;
-;         4 data inputs ; 1129                        ;
+;         2 data inputs ; 60                          ;
+;         3 data inputs ; 61                          ;
+;         4 data inputs ; 1147                        ;
 ; cycloneiii_ram_block  ; 93                          ;
 ;                       ;                             ;
 ; Max LUT depth         ; 8.00                        ;
-; Average LUT depth     ; 4.36                        ;
+; Average LUT depth     ; 4.37                        ;
 +-----------------------+-----------------------------+
 
 
@@ -2191,7 +2191,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+--------------+
 ; Partition Name ; Elapsed Time ;
 +----------------+--------------+
-; Top            ; 00:00:09     ;
+; Top            ; 00:00:08     ;
 +----------------+--------------+
 
 
@@ -2201,7 +2201,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
-    Info: Processing started: Sat Jun 22 18:26:36 2019
+    Info: Processing started: Sat Jun 22 15:28:23 2019
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off TP2 -c TP2
 Warning (125092): Tcl Script File DATA_RAM/DATA_RAM.qip not found
     Info (125063): set_global_assignment -name QIP_FILE DATA_RAM/DATA_RAM.qip
@@ -2216,11 +2216,11 @@ Info (12021): Found 1 design units, including 1 entities, in source file registe
 Info (12021): Found 1 design units, including 1 entities, in source file register_bank/regbank_16bff.bdf
     Info (12023): Found entity 1: regbank_16bFF
 Info (12021): Found 2 design units, including 1 entities, in source file register_bank/lpm_decode0.vhd
-    Info (12022): Found design unit 1: lpm_decode0-SYN File: C:/Users/Rama/Desktop/TP2/REGISTER_BANK/lpm_decode0.vhd Line: 85
-    Info (12023): Found entity 1: lpm_decode0 File: C:/Users/Rama/Desktop/TP2/REGISTER_BANK/lpm_decode0.vhd Line: 42
+    Info (12022): Found design unit 1: lpm_decode0-SYN File: C:/Users/Rodrigo/Documents/GitHub/TP2/REGISTER_BANK/lpm_decode0.vhd Line: 85
+    Info (12023): Found entity 1: lpm_decode0 File: C:/Users/Rodrigo/Documents/GitHub/TP2/REGISTER_BANK/lpm_decode0.vhd Line: 42
 Info (12021): Found 2 design units, including 1 entities, in source file lpm_mux1.vhd
-    Info (12022): Found design unit 1: lpm_mux1-SYN File: C:/Users/Rama/Desktop/TP2/lpm_mux1.vhd Line: 55
-    Info (12023): Found entity 1: lpm_mux1 File: C:/Users/Rama/Desktop/TP2/lpm_mux1.vhd Line: 42
+    Info (12022): Found design unit 1: lpm_mux1-SYN File: C:/Users/Rodrigo/Documents/GitHub/TP2/lpm_mux1.vhd Line: 55
+    Info (12023): Found entity 1: lpm_mux1 File: C:/Users/Rodrigo/Documents/GitHub/TP2/lpm_mux1.vhd Line: 42
 Info (12021): Found 1 design units, including 1 entities, in source file registerbank.bdf
     Info (12023): Found entity 1: RegisterBank
 Info (12021): Found 1 design units, including 1 entities, in source file alu/z_ffff.bdf
@@ -2250,11 +2250,11 @@ Info (12021): Found 1 design units, including 1 entities, in source file shifter
 Info (12021): Found 1 design units, including 1 entities, in source file latch_16bff.bdf
     Info (12023): Found entity 1: latch_16bFF
 Info (12021): Found 1 design units, including 1 entities, in source file mux_2in_16b.v
-    Info (12023): Found entity 1: mux_2in_16b File: C:/Users/Rama/Desktop/TP2/mux_2in_16b.v Line: 39
+    Info (12023): Found entity 1: mux_2in_16b File: C:/Users/Rodrigo/Documents/GitHub/TP2/mux_2in_16b.v Line: 39
 Info (12021): Found 1 design units, including 1 entities, in source file pc_counter.v
-    Info (12023): Found entity 1: PC_counter File: C:/Users/Rama/Desktop/TP2/PC_counter.v Line: 39
+    Info (12023): Found entity 1: PC_counter File: C:/Users/Rodrigo/Documents/GitHub/TP2/PC_counter.v Line: 39
 Info (12021): Found 1 design units, including 1 entities, in source file rom_program.v
-    Info (12023): Found entity 1: ROM_program File: C:/Users/Rama/Desktop/TP2/ROM_program.v Line: 39
+    Info (12023): Found entity 1: ROM_program File: C:/Users/Rodrigo/Documents/GitHub/TP2/ROM_program.v Line: 39
 Info (12021): Found 1 design units, including 1 entities, in source file ifu/ifu_block.bdf
     Info (12023): Found entity 1: IFU_block
 Info (12021): Found 1 design units, including 1 entities, in source file ifu/bloque_1.bdf
@@ -2262,49 +2262,49 @@ Info (12021): Found 1 design units, including 1 entities, in source file ifu/blo
 Info (12021): Found 1 design units, including 1 entities, in source file rom.bdf
     Info (12023): Found entity 1: ROM
 Info (12021): Found 1 design units, including 1 entities, in source file x_mux_y.v
-    Info (12023): Found entity 1: X_mux_Y File: C:/Users/Rama/Desktop/TP2/X_mux_Y.v Line: 39
+    Info (12023): Found entity 1: X_mux_Y File: C:/Users/Rodrigo/Documents/GitHub/TP2/X_mux_Y.v Line: 39
 Info (12021): Found 1 design units, including 1 entities, in source file instruction_decoder.v
-    Info (12023): Found entity 1: INSTRUCTION_decoder File: C:/Users/Rama/Desktop/TP2/INSTRUCTION_decoder.v Line: 39
+    Info (12023): Found entity 1: INSTRUCTION_decoder File: C:/Users/Rodrigo/Documents/GitHub/TP2/INSTRUCTION_decoder.v Line: 39
 Info (12021): Found 1 design units, including 1 entities, in source file xy_mux.bdf
     Info (12023): Found entity 1: XY_mux
 Info (12021): Found 1 design units, including 1 entities, in source file xy_inmux.v
-    Info (12023): Found entity 1: XY_inMUX File: C:/Users/Rama/Desktop/TP2/XY_inMUX.v Line: 39
+    Info (12023): Found entity 1: XY_inMUX File: C:/Users/Rodrigo/Documents/GitHub/TP2/XY_inMUX.v Line: 39
 Info (12021): Found 1 design units, including 1 entities, in source file pipeline/bloque1_mux.v
-    Info (12023): Found entity 1: BLOQUE1_MUX File: C:/Users/Rama/Desktop/TP2/PIPELINE/BLOQUE1_MUX.v Line: 39
+    Info (12023): Found entity 1: BLOQUE1_MUX File: C:/Users/Rodrigo/Documents/GitHub/TP2/PIPELINE/BLOQUE1_MUX.v Line: 39
 Info (12021): Found 1 design units, including 1 entities, in source file pipeline/pipeline.bdf
     Info (12023): Found entity 1: Pipeline
 Info (12021): Found 1 design units, including 1 entities, in source file pipeline/uc2.bdf
     Info (12023): Found entity 1: UC2
 Info (12021): Found 1 design units, including 1 entities, in source file pipeline/uc2_decoder.v
-    Info (12023): Found entity 1: UC2_decoder File: C:/Users/Rama/Desktop/TP2/PIPELINE/UC2_decoder.v Line: 39
+    Info (12023): Found entity 1: UC2_decoder File: C:/Users/Rodrigo/Documents/GitHub/TP2/PIPELINE/UC2_decoder.v Line: 39
 Info (12021): Found 1 design units, including 1 entities, in source file test_bus.bdf
     Info (12023): Found entity 1: TEST_BUS
 Info (12021): Found 1 design units, including 1 entities, in source file register_bank/bus_mux.v
-    Info (12023): Found entity 1: BUS_MUX File: C:/Users/Rama/Desktop/TP2/REGISTER_BANK/BUS_MUX.v Line: 39
+    Info (12023): Found entity 1: BUS_MUX File: C:/Users/Rodrigo/Documents/GitHub/TP2/REGISTER_BANK/BUS_MUX.v Line: 39
 Info (12021): Found 1 design units, including 1 entities, in source file alu/mux_carry.v
-    Info (12023): Found entity 1: mux_carry File: C:/Users/Rama/Desktop/TP2/ALU/mux_carry.v Line: 39
+    Info (12023): Found entity 1: mux_carry File: C:/Users/Rodrigo/Documents/GitHub/TP2/ALU/mux_carry.v Line: 39
 Info (12021): Found 1 design units, including 1 entities, in source file alu/addercarry.v
-    Info (12023): Found entity 1: adderCarry File: C:/Users/Rama/Desktop/TP2/ALU/adderCarry.v Line: 39
+    Info (12023): Found entity 1: adderCarry File: C:/Users/Rodrigo/Documents/GitHub/TP2/ALU/adderCarry.v Line: 39
 Info (12021): Found 1 design units, including 1 entities, in source file alu/mux_1.v
-    Info (12023): Found entity 1: mux_1 File: C:/Users/Rama/Desktop/TP2/ALU/mux_1.v Line: 39
+    Info (12023): Found entity 1: mux_1 File: C:/Users/Rodrigo/Documents/GitHub/TP2/ALU/mux_1.v Line: 39
 Info (12021): Found 1 design units, including 1 entities, in source file pipeline/compare_uc2.v
-    Info (12023): Found entity 1: COMPARE_UC2 File: C:/Users/Rama/Desktop/TP2/PIPELINE/COMPARE_UC2.v Line: 39
+    Info (12023): Found entity 1: COMPARE_UC2 File: C:/Users/Rodrigo/Documents/GitHub/TP2/PIPELINE/COMPARE_UC2.v Line: 39
 Info (12021): Found 1 design units, including 1 entities, in source file ifu/rom_programa.v
-    Info (12023): Found entity 1: ROM_programa File: C:/Users/Rama/Desktop/TP2/IFU/ROM_programa.v Line: 39
+    Info (12023): Found entity 1: ROM_programa File: C:/Users/Rodrigo/Documents/GitHub/TP2/IFU/ROM_programa.v Line: 39
 Info (12021): Found 1 design units, including 1 entities, in source file latch_8bff.bdf
     Info (12023): Found entity 1: latch_8bFF
 Info (12021): Found 1 design units, including 1 entities, in source file ifu/latch_14bff.bdf
     Info (12023): Found entity 1: latch_14bFF
 Info (12021): Found 1 design units, including 1 entities, in source file ram.v
-    Info (12023): Found entity 1: RAM File: C:/Users/Rama/Desktop/TP2/RAM.v Line: 39
+    Info (12023): Found entity 1: RAM File: C:/Users/Rodrigo/Documents/GitHub/TP2/RAM.v Line: 39
 Info (12127): Elaborating entity "main" for the top level hierarchy
 Warning (275002): No superset bus at connection
 Warning (12125): Using design file rom_cs.v, which is not specified as a design file for the current project, but contains definitions for 1 design units and 1 entities in project
-    Info (12023): Found entity 1: ROM_CS File: C:/Users/Rama/Desktop/TP2/rom_cs.v Line: 39
+    Info (12023): Found entity 1: ROM_CS File: C:/Users/Rodrigo/Documents/GitHub/TP2/rom_cs.v Line: 39
 Info (12128): Elaborating entity "ROM_CS" for hierarchy "ROM_CS:inst1"
-Info (12128): Elaborating entity "altsyncram" for hierarchy "ROM_CS:inst1|altsyncram:altsyncram_component" File: C:/Users/Rama/Desktop/TP2/rom_cs.v Line: 81
-Info (12130): Elaborated megafunction instantiation "ROM_CS:inst1|altsyncram:altsyncram_component" File: C:/Users/Rama/Desktop/TP2/rom_cs.v Line: 81
-Info (12133): Instantiated megafunction "ROM_CS:inst1|altsyncram:altsyncram_component" with the following parameter: File: C:/Users/Rama/Desktop/TP2/rom_cs.v Line: 81
+Info (12128): Elaborating entity "altsyncram" for hierarchy "ROM_CS:inst1|altsyncram:altsyncram_component" File: C:/Users/Rodrigo/Documents/GitHub/TP2/rom_cs.v Line: 81
+Info (12130): Elaborated megafunction instantiation "ROM_CS:inst1|altsyncram:altsyncram_component" File: C:/Users/Rodrigo/Documents/GitHub/TP2/rom_cs.v Line: 81
+Info (12133): Instantiated megafunction "ROM_CS:inst1|altsyncram:altsyncram_component" with the following parameter: File: C:/Users/Rodrigo/Documents/GitHub/TP2/rom_cs.v Line: 81
     Info (12134): Parameter "address_aclr_a" = "NONE"
     Info (12134): Parameter "clock_enable_input_a" = "BYPASS"
     Info (12134): Parameter "clock_enable_output_a" = "BYPASS"
@@ -2320,7 +2320,7 @@ Info (12133): Instantiated megafunction "ROM_CS:inst1|altsyncram:altsyncram_comp
     Info (12134): Parameter "width_a" = "63"
     Info (12134): Parameter "width_byteena_a" = "1"
 Info (12021): Found 1 design units, including 1 entities, in source file db/altsyncram_nmf1.tdf
-    Info (12023): Found entity 1: altsyncram_nmf1 File: C:/Users/Rama/Desktop/TP2/db/altsyncram_nmf1.tdf Line: 27
+    Info (12023): Found entity 1: altsyncram_nmf1 File: C:/Users/Rodrigo/Documents/GitHub/TP2/db/altsyncram_nmf1.tdf Line: 27
 Info (12128): Elaborating entity "altsyncram_nmf1" for hierarchy "ROM_CS:inst1|altsyncram:altsyncram_component|altsyncram_nmf1:auto_generated" File: c:/intelfpga_lite/18.1/quartus/libraries/megafunctions/altsyncram.tdf Line: 791
 Info (12128): Elaborating entity "Pipeline" for hierarchy "Pipeline:inst5"
 Warning (275002): No superset bus at connection
@@ -2328,35 +2328,35 @@ Info (12128): Elaborating entity "UC2" for hierarchy "Pipeline:inst5|UC2:inst4"
 Warning (275002): No superset bus at connection
 Warning (275002): No superset bus at connection
 Info (12128): Elaborating entity "COMPARE_UC2" for hierarchy "Pipeline:inst5|UC2:inst4|COMPARE_UC2:inst6"
-Info (12128): Elaborating entity "lpm_compare" for hierarchy "Pipeline:inst5|UC2:inst4|COMPARE_UC2:inst6|lpm_compare:LPM_COMPARE_component" File: C:/Users/Rama/Desktop/TP2/PIPELINE/COMPARE_UC2.v Line: 62
-Info (12130): Elaborated megafunction instantiation "Pipeline:inst5|UC2:inst4|COMPARE_UC2:inst6|lpm_compare:LPM_COMPARE_component" File: C:/Users/Rama/Desktop/TP2/PIPELINE/COMPARE_UC2.v Line: 62
-Info (12133): Instantiated megafunction "Pipeline:inst5|UC2:inst4|COMPARE_UC2:inst6|lpm_compare:LPM_COMPARE_component" with the following parameter: File: C:/Users/Rama/Desktop/TP2/PIPELINE/COMPARE_UC2.v Line: 62
+Info (12128): Elaborating entity "lpm_compare" for hierarchy "Pipeline:inst5|UC2:inst4|COMPARE_UC2:inst6|lpm_compare:LPM_COMPARE_component" File: C:/Users/Rodrigo/Documents/GitHub/TP2/PIPELINE/COMPARE_UC2.v Line: 62
+Info (12130): Elaborated megafunction instantiation "Pipeline:inst5|UC2:inst4|COMPARE_UC2:inst6|lpm_compare:LPM_COMPARE_component" File: C:/Users/Rodrigo/Documents/GitHub/TP2/PIPELINE/COMPARE_UC2.v Line: 62
+Info (12133): Instantiated megafunction "Pipeline:inst5|UC2:inst4|COMPARE_UC2:inst6|lpm_compare:LPM_COMPARE_component" with the following parameter: File: C:/Users/Rodrigo/Documents/GitHub/TP2/PIPELINE/COMPARE_UC2.v Line: 62
     Info (12134): Parameter "lpm_representation" = "UNSIGNED"
     Info (12134): Parameter "lpm_type" = "LPM_COMPARE"
     Info (12134): Parameter "lpm_width" = "35"
 Info (12021): Found 1 design units, including 1 entities, in source file db/cmpr_fng.tdf
-    Info (12023): Found entity 1: cmpr_fng File: C:/Users/Rama/Desktop/TP2/db/cmpr_fng.tdf Line: 22
+    Info (12023): Found entity 1: cmpr_fng File: C:/Users/Rodrigo/Documents/GitHub/TP2/db/cmpr_fng.tdf Line: 22
 Info (12128): Elaborating entity "cmpr_fng" for hierarchy "Pipeline:inst5|UC2:inst4|COMPARE_UC2:inst6|lpm_compare:LPM_COMPARE_component|cmpr_fng:auto_generated" File: c:/intelfpga_lite/18.1/quartus/libraries/megafunctions/lpm_compare.tdf Line: 280
 Info (12128): Elaborating entity "UC2_decoder" for hierarchy "Pipeline:inst5|UC2:inst4|UC2_decoder:inst3"
-Info (12128): Elaborating entity "lpm_decode" for hierarchy "Pipeline:inst5|UC2:inst4|UC2_decoder:inst3|lpm_decode:LPM_DECODE_component" File: C:/Users/Rama/Desktop/TP2/PIPELINE/UC2_decoder.v Line: 200
-Info (12130): Elaborated megafunction instantiation "Pipeline:inst5|UC2:inst4|UC2_decoder:inst3|lpm_decode:LPM_DECODE_component" File: C:/Users/Rama/Desktop/TP2/PIPELINE/UC2_decoder.v Line: 200
-Info (12133): Instantiated megafunction "Pipeline:inst5|UC2:inst4|UC2_decoder:inst3|lpm_decode:LPM_DECODE_component" with the following parameter: File: C:/Users/Rama/Desktop/TP2/PIPELINE/UC2_decoder.v Line: 200
+Info (12128): Elaborating entity "lpm_decode" for hierarchy "Pipeline:inst5|UC2:inst4|UC2_decoder:inst3|lpm_decode:LPM_DECODE_component" File: C:/Users/Rodrigo/Documents/GitHub/TP2/PIPELINE/UC2_decoder.v Line: 200
+Info (12130): Elaborated megafunction instantiation "Pipeline:inst5|UC2:inst4|UC2_decoder:inst3|lpm_decode:LPM_DECODE_component" File: C:/Users/Rodrigo/Documents/GitHub/TP2/PIPELINE/UC2_decoder.v Line: 200
+Info (12133): Instantiated megafunction "Pipeline:inst5|UC2:inst4|UC2_decoder:inst3|lpm_decode:LPM_DECODE_component" with the following parameter: File: C:/Users/Rodrigo/Documents/GitHub/TP2/PIPELINE/UC2_decoder.v Line: 200
     Info (12134): Parameter "lpm_decodes" = "64"
     Info (12134): Parameter "lpm_type" = "LPM_DECODE"
     Info (12134): Parameter "lpm_width" = "6"
 Info (12021): Found 1 design units, including 1 entities, in source file db/decode_3df.tdf
-    Info (12023): Found entity 1: decode_3df File: C:/Users/Rama/Desktop/TP2/db/decode_3df.tdf Line: 22
+    Info (12023): Found entity 1: decode_3df File: C:/Users/Rodrigo/Documents/GitHub/TP2/db/decode_3df.tdf Line: 22
 Info (12128): Elaborating entity "decode_3df" for hierarchy "Pipeline:inst5|UC2:inst4|UC2_decoder:inst3|lpm_decode:LPM_DECODE_component|decode_3df:auto_generated" File: c:/intelfpga_lite/18.1/quartus/libraries/megafunctions/lpm_decode.tdf Line: 76
 Info (12128): Elaborating entity "BLOQUE1_MUX" for hierarchy "Pipeline:inst5|BLOQUE1_MUX:inst7"
-Info (12128): Elaborating entity "lpm_mux" for hierarchy "Pipeline:inst5|BLOQUE1_MUX:inst7|lpm_mux:LPM_MUX_component" File: C:/Users/Rama/Desktop/TP2/PIPELINE/BLOQUE1_MUX.v Line: 68
-Info (12130): Elaborated megafunction instantiation "Pipeline:inst5|BLOQUE1_MUX:inst7|lpm_mux:LPM_MUX_component" File: C:/Users/Rama/Desktop/TP2/PIPELINE/BLOQUE1_MUX.v Line: 68
-Info (12133): Instantiated megafunction "Pipeline:inst5|BLOQUE1_MUX:inst7|lpm_mux:LPM_MUX_component" with the following parameter: File: C:/Users/Rama/Desktop/TP2/PIPELINE/BLOQUE1_MUX.v Line: 68
+Info (12128): Elaborating entity "lpm_mux" for hierarchy "Pipeline:inst5|BLOQUE1_MUX:inst7|lpm_mux:LPM_MUX_component" File: C:/Users/Rodrigo/Documents/GitHub/TP2/PIPELINE/BLOQUE1_MUX.v Line: 68
+Info (12130): Elaborated megafunction instantiation "Pipeline:inst5|BLOQUE1_MUX:inst7|lpm_mux:LPM_MUX_component" File: C:/Users/Rodrigo/Documents/GitHub/TP2/PIPELINE/BLOQUE1_MUX.v Line: 68
+Info (12133): Instantiated megafunction "Pipeline:inst5|BLOQUE1_MUX:inst7|lpm_mux:LPM_MUX_component" with the following parameter: File: C:/Users/Rodrigo/Documents/GitHub/TP2/PIPELINE/BLOQUE1_MUX.v Line: 68
     Info (12134): Parameter "lpm_size" = "2"
     Info (12134): Parameter "lpm_type" = "LPM_MUX"
     Info (12134): Parameter "lpm_width" = "73"
     Info (12134): Parameter "lpm_widths" = "1"
 Info (12021): Found 1 design units, including 1 entities, in source file db/mux_0tc.tdf
-    Info (12023): Found entity 1: mux_0tc File: C:/Users/Rama/Desktop/TP2/db/mux_0tc.tdf Line: 22
+    Info (12023): Found entity 1: mux_0tc File: C:/Users/Rodrigo/Documents/GitHub/TP2/db/mux_0tc.tdf Line: 22
 Info (12128): Elaborating entity "mux_0tc" for hierarchy "Pipeline:inst5|BLOQUE1_MUX:inst7|lpm_mux:LPM_MUX_component|mux_0tc:auto_generated" File: c:/intelfpga_lite/18.1/quartus/libraries/megafunctions/lpm_mux.tdf Line: 86
 Info (12128): Elaborating entity "LPM_FF" for hierarchy "Pipeline:inst5|LPM_FF:inst1"
 Info (12130): Elaborated megafunction instantiation "Pipeline:inst5|LPM_FF:inst1"
@@ -2365,9 +2365,9 @@ Info (12133): Instantiated megafunction "Pipeline:inst5|LPM_FF:inst1" with the f
     Info (12134): Parameter "LPM_WIDTH" = "73"
 Info (12128): Elaborating entity "IFU_block" for hierarchy "IFU_block:inst17"
 Info (12128): Elaborating entity "ROM_programa" for hierarchy "IFU_block:inst17|ROM_programa:inst1"
-Info (12128): Elaborating entity "altsyncram" for hierarchy "IFU_block:inst17|ROM_programa:inst1|altsyncram:altsyncram_component" File: C:/Users/Rama/Desktop/TP2/IFU/ROM_programa.v Line: 81
-Info (12130): Elaborated megafunction instantiation "IFU_block:inst17|ROM_programa:inst1|altsyncram:altsyncram_component" File: C:/Users/Rama/Desktop/TP2/IFU/ROM_programa.v Line: 81
-Info (12133): Instantiated megafunction "IFU_block:inst17|ROM_programa:inst1|altsyncram:altsyncram_component" with the following parameter: File: C:/Users/Rama/Desktop/TP2/IFU/ROM_programa.v Line: 81
+Info (12128): Elaborating entity "altsyncram" for hierarchy "IFU_block:inst17|ROM_programa:inst1|altsyncram:altsyncram_component" File: C:/Users/Rodrigo/Documents/GitHub/TP2/IFU/ROM_programa.v Line: 81
+Info (12130): Elaborated megafunction instantiation "IFU_block:inst17|ROM_programa:inst1|altsyncram:altsyncram_component" File: C:/Users/Rodrigo/Documents/GitHub/TP2/IFU/ROM_programa.v Line: 81
+Info (12133): Instantiated megafunction "IFU_block:inst17|ROM_programa:inst1|altsyncram:altsyncram_component" with the following parameter: File: C:/Users/Rodrigo/Documents/GitHub/TP2/IFU/ROM_programa.v Line: 81
     Info (12134): Parameter "address_aclr_a" = "NONE"
     Info (12134): Parameter "clock_enable_input_a" = "BYPASS"
     Info (12134): Parameter "clock_enable_output_a" = "BYPASS"
@@ -2383,55 +2383,55 @@ Info (12133): Instantiated megafunction "IFU_block:inst17|ROM_programa:inst1|alt
     Info (12134): Parameter "width_a" = "14"
     Info (12134): Parameter "width_byteena_a" = "1"
 Info (12021): Found 1 design units, including 1 entities, in source file db/altsyncram_53b1.tdf
-    Info (12023): Found entity 1: altsyncram_53b1 File: C:/Users/Rama/Desktop/TP2/db/altsyncram_53b1.tdf Line: 27
+    Info (12023): Found entity 1: altsyncram_53b1 File: C:/Users/Rodrigo/Documents/GitHub/TP2/db/altsyncram_53b1.tdf Line: 27
 Info (12128): Elaborating entity "altsyncram_53b1" for hierarchy "IFU_block:inst17|ROM_programa:inst1|altsyncram:altsyncram_component|altsyncram_53b1:auto_generated" File: c:/intelfpga_lite/18.1/quartus/libraries/megafunctions/altsyncram.tdf Line: 791
 Info (12128): Elaborating entity "PC_counter" for hierarchy "IFU_block:inst17|PC_counter:inst"
-Info (12128): Elaborating entity "lpm_counter" for hierarchy "IFU_block:inst17|PC_counter:inst|lpm_counter:LPM_COUNTER_component" File: C:/Users/Rama/Desktop/TP2/PC_counter.v Line: 70
-Info (12130): Elaborated megafunction instantiation "IFU_block:inst17|PC_counter:inst|lpm_counter:LPM_COUNTER_component" File: C:/Users/Rama/Desktop/TP2/PC_counter.v Line: 70
-Info (12133): Instantiated megafunction "IFU_block:inst17|PC_counter:inst|lpm_counter:LPM_COUNTER_component" with the following parameter: File: C:/Users/Rama/Desktop/TP2/PC_counter.v Line: 70
+Info (12128): Elaborating entity "lpm_counter" for hierarchy "IFU_block:inst17|PC_counter:inst|lpm_counter:LPM_COUNTER_component" File: C:/Users/Rodrigo/Documents/GitHub/TP2/PC_counter.v Line: 70
+Info (12130): Elaborated megafunction instantiation "IFU_block:inst17|PC_counter:inst|lpm_counter:LPM_COUNTER_component" File: C:/Users/Rodrigo/Documents/GitHub/TP2/PC_counter.v Line: 70
+Info (12133): Instantiated megafunction "IFU_block:inst17|PC_counter:inst|lpm_counter:LPM_COUNTER_component" with the following parameter: File: C:/Users/Rodrigo/Documents/GitHub/TP2/PC_counter.v Line: 70
     Info (12134): Parameter "lpm_direction" = "UP"
     Info (12134): Parameter "lpm_port_updown" = "PORT_UNUSED"
     Info (12134): Parameter "lpm_type" = "LPM_COUNTER"
     Info (12134): Parameter "lpm_width" = "11"
 Info (12021): Found 1 design units, including 1 entities, in source file db/cntr_sej.tdf
-    Info (12023): Found entity 1: cntr_sej File: C:/Users/Rama/Desktop/TP2/db/cntr_sej.tdf Line: 25
+    Info (12023): Found entity 1: cntr_sej File: C:/Users/Rodrigo/Documents/GitHub/TP2/db/cntr_sej.tdf Line: 25
 Info (12128): Elaborating entity "cntr_sej" for hierarchy "IFU_block:inst17|PC_counter:inst|lpm_counter:LPM_COUNTER_component|cntr_sej:auto_generated" File: c:/intelfpga_lite/18.1/quartus/libraries/megafunctions/lpm_counter.tdf Line: 258
 Info (12128): Elaborating entity "BLOQUE_1" for hierarchy "IFU_block:inst17|BLOQUE_1:inst4"
 Info (12128): Elaborating entity "ALU" for hierarchy "ALU:inst4"
 Info (12128): Elaborating entity "mux_carry" for hierarchy "ALU:inst4|mux_carry:inst10"
-Info (12128): Elaborating entity "lpm_mux" for hierarchy "ALU:inst4|mux_carry:inst10|lpm_mux:LPM_MUX_component" File: C:/Users/Rama/Desktop/TP2/ALU/mux_carry.v Line: 100
-Info (12130): Elaborated megafunction instantiation "ALU:inst4|mux_carry:inst10|lpm_mux:LPM_MUX_component" File: C:/Users/Rama/Desktop/TP2/ALU/mux_carry.v Line: 100
-Info (12133): Instantiated megafunction "ALU:inst4|mux_carry:inst10|lpm_mux:LPM_MUX_component" with the following parameter: File: C:/Users/Rama/Desktop/TP2/ALU/mux_carry.v Line: 100
+Info (12128): Elaborating entity "lpm_mux" for hierarchy "ALU:inst4|mux_carry:inst10|lpm_mux:LPM_MUX_component" File: C:/Users/Rodrigo/Documents/GitHub/TP2/ALU/mux_carry.v Line: 100
+Info (12130): Elaborated megafunction instantiation "ALU:inst4|mux_carry:inst10|lpm_mux:LPM_MUX_component" File: C:/Users/Rodrigo/Documents/GitHub/TP2/ALU/mux_carry.v Line: 100
+Info (12133): Instantiated megafunction "ALU:inst4|mux_carry:inst10|lpm_mux:LPM_MUX_component" with the following parameter: File: C:/Users/Rodrigo/Documents/GitHub/TP2/ALU/mux_carry.v Line: 100
     Info (12134): Parameter "lpm_size" = "13"
     Info (12134): Parameter "lpm_type" = "LPM_MUX"
     Info (12134): Parameter "lpm_width" = "1"
     Info (12134): Parameter "lpm_widths" = "4"
 Info (12021): Found 1 design units, including 1 entities, in source file db/mux_ssc.tdf
-    Info (12023): Found entity 1: mux_ssc File: C:/Users/Rama/Desktop/TP2/db/mux_ssc.tdf Line: 22
+    Info (12023): Found entity 1: mux_ssc File: C:/Users/Rodrigo/Documents/GitHub/TP2/db/mux_ssc.tdf Line: 22
 Info (12128): Elaborating entity "mux_ssc" for hierarchy "ALU:inst4|mux_carry:inst10|lpm_mux:LPM_MUX_component|mux_ssc:auto_generated" File: c:/intelfpga_lite/18.1/quartus/libraries/megafunctions/lpm_mux.tdf Line: 86
 Info (12128): Elaborating entity "amasb" for hierarchy "ALU:inst4|amasb:AplusBplusCARRY"
 Info (12128): Elaborating entity "adderCarry" for hierarchy "ALU:inst4|amasb:AplusBplusCARRY|adderCarry:inst"
-Info (12128): Elaborating entity "lpm_add_sub" for hierarchy "ALU:inst4|amasb:AplusBplusCARRY|adderCarry:inst|lpm_add_sub:LPM_ADD_SUB_component" File: C:/Users/Rama/Desktop/TP2/ALU/adderCarry.v Line: 71
-Info (12130): Elaborated megafunction instantiation "ALU:inst4|amasb:AplusBplusCARRY|adderCarry:inst|lpm_add_sub:LPM_ADD_SUB_component" File: C:/Users/Rama/Desktop/TP2/ALU/adderCarry.v Line: 71
-Info (12133): Instantiated megafunction "ALU:inst4|amasb:AplusBplusCARRY|adderCarry:inst|lpm_add_sub:LPM_ADD_SUB_component" with the following parameter: File: C:/Users/Rama/Desktop/TP2/ALU/adderCarry.v Line: 71
+Info (12128): Elaborating entity "lpm_add_sub" for hierarchy "ALU:inst4|amasb:AplusBplusCARRY|adderCarry:inst|lpm_add_sub:LPM_ADD_SUB_component" File: C:/Users/Rodrigo/Documents/GitHub/TP2/ALU/adderCarry.v Line: 71
+Info (12130): Elaborated megafunction instantiation "ALU:inst4|amasb:AplusBplusCARRY|adderCarry:inst|lpm_add_sub:LPM_ADD_SUB_component" File: C:/Users/Rodrigo/Documents/GitHub/TP2/ALU/adderCarry.v Line: 71
+Info (12133): Instantiated megafunction "ALU:inst4|amasb:AplusBplusCARRY|adderCarry:inst|lpm_add_sub:LPM_ADD_SUB_component" with the following parameter: File: C:/Users/Rodrigo/Documents/GitHub/TP2/ALU/adderCarry.v Line: 71
     Info (12134): Parameter "lpm_direction" = "ADD"
     Info (12134): Parameter "lpm_hint" = "ONE_INPUT_IS_CONSTANT=NO,CIN_USED=YES"
     Info (12134): Parameter "lpm_representation" = "SIGNED"
     Info (12134): Parameter "lpm_type" = "LPM_ADD_SUB"
     Info (12134): Parameter "lpm_width" = "16"
 Info (12021): Found 1 design units, including 1 entities, in source file db/add_sub_vci.tdf
-    Info (12023): Found entity 1: add_sub_vci File: C:/Users/Rama/Desktop/TP2/db/add_sub_vci.tdf Line: 22
+    Info (12023): Found entity 1: add_sub_vci File: C:/Users/Rodrigo/Documents/GitHub/TP2/db/add_sub_vci.tdf Line: 22
 Info (12128): Elaborating entity "add_sub_vci" for hierarchy "ALU:inst4|amasb:AplusBplusCARRY|adderCarry:inst|lpm_add_sub:LPM_ADD_SUB_component|add_sub_vci:auto_generated" File: c:/intelfpga_lite/18.1/quartus/libraries/megafunctions/lpm_add_sub.tdf Line: 118
 Info (12128): Elaborating entity "mux_1" for hierarchy "ALU:inst4|mux_1:inst11"
-Info (12128): Elaborating entity "lpm_mux" for hierarchy "ALU:inst4|mux_1:inst11|lpm_mux:LPM_MUX_component" File: C:/Users/Rama/Desktop/TP2/ALU/mux_1.v Line: 99
-Info (12130): Elaborated megafunction instantiation "ALU:inst4|mux_1:inst11|lpm_mux:LPM_MUX_component" File: C:/Users/Rama/Desktop/TP2/ALU/mux_1.v Line: 99
-Info (12133): Instantiated megafunction "ALU:inst4|mux_1:inst11|lpm_mux:LPM_MUX_component" with the following parameter: File: C:/Users/Rama/Desktop/TP2/ALU/mux_1.v Line: 99
+Info (12128): Elaborating entity "lpm_mux" for hierarchy "ALU:inst4|mux_1:inst11|lpm_mux:LPM_MUX_component" File: C:/Users/Rodrigo/Documents/GitHub/TP2/ALU/mux_1.v Line: 99
+Info (12130): Elaborated megafunction instantiation "ALU:inst4|mux_1:inst11|lpm_mux:LPM_MUX_component" File: C:/Users/Rodrigo/Documents/GitHub/TP2/ALU/mux_1.v Line: 99
+Info (12133): Instantiated megafunction "ALU:inst4|mux_1:inst11|lpm_mux:LPM_MUX_component" with the following parameter: File: C:/Users/Rodrigo/Documents/GitHub/TP2/ALU/mux_1.v Line: 99
     Info (12134): Parameter "lpm_size" = "13"
     Info (12134): Parameter "lpm_type" = "LPM_MUX"
     Info (12134): Parameter "lpm_width" = "16"
     Info (12134): Parameter "lpm_widths" = "4"
 Info (12021): Found 1 design units, including 1 entities, in source file db/mux_iuc.tdf
-    Info (12023): Found entity 1: mux_iuc File: C:/Users/Rama/Desktop/TP2/db/mux_iuc.tdf Line: 22
+    Info (12023): Found entity 1: mux_iuc File: C:/Users/Rodrigo/Documents/GitHub/TP2/db/mux_iuc.tdf Line: 22
 Info (12128): Elaborating entity "mux_iuc" for hierarchy "ALU:inst4|mux_1:inst11|lpm_mux:LPM_MUX_component|mux_iuc:auto_generated" File: c:/intelfpga_lite/18.1/quartus/libraries/megafunctions/lpm_mux.tdf Line: 86
 Info (12128): Elaborating entity "atoa" for hierarchy "ALU:inst4|atoa:WIRE_A"
 Info (12128): Elaborating entity "z_ffff" for hierarchy "ALU:inst4|z_ffff:inst4"
@@ -2457,15 +2457,15 @@ Info (12133): Instantiated megafunction "latch_16bFF:inst8|LPM_FF:inst" with the
     Info (12134): Parameter "LPM_FFTYPE" = "DFF"
     Info (12134): Parameter "LPM_WIDTH" = "16"
 Info (12128): Elaborating entity "mux_2in_16b" for hierarchy "mux_2in_16b:XKMmuxY"
-Info (12128): Elaborating entity "lpm_mux" for hierarchy "mux_2in_16b:XKMmuxY|lpm_mux:LPM_MUX_component" File: C:/Users/Rama/Desktop/TP2/mux_2in_16b.v Line: 68
-Info (12130): Elaborated megafunction instantiation "mux_2in_16b:XKMmuxY|lpm_mux:LPM_MUX_component" File: C:/Users/Rama/Desktop/TP2/mux_2in_16b.v Line: 68
-Info (12133): Instantiated megafunction "mux_2in_16b:XKMmuxY|lpm_mux:LPM_MUX_component" with the following parameter: File: C:/Users/Rama/Desktop/TP2/mux_2in_16b.v Line: 68
+Info (12128): Elaborating entity "lpm_mux" for hierarchy "mux_2in_16b:XKMmuxY|lpm_mux:LPM_MUX_component" File: C:/Users/Rodrigo/Documents/GitHub/TP2/mux_2in_16b.v Line: 68
+Info (12130): Elaborated megafunction instantiation "mux_2in_16b:XKMmuxY|lpm_mux:LPM_MUX_component" File: C:/Users/Rodrigo/Documents/GitHub/TP2/mux_2in_16b.v Line: 68
+Info (12133): Instantiated megafunction "mux_2in_16b:XKMmuxY|lpm_mux:LPM_MUX_component" with the following parameter: File: C:/Users/Rodrigo/Documents/GitHub/TP2/mux_2in_16b.v Line: 68
     Info (12134): Parameter "lpm_size" = "2"
     Info (12134): Parameter "lpm_type" = "LPM_MUX"
     Info (12134): Parameter "lpm_width" = "16"
     Info (12134): Parameter "lpm_widths" = "1"
 Info (12021): Found 1 design units, including 1 entities, in source file db/mux_tsc.tdf
-    Info (12023): Found entity 1: mux_tsc File: C:/Users/Rama/Desktop/TP2/db/mux_tsc.tdf Line: 22
+    Info (12023): Found entity 1: mux_tsc File: C:/Users/Rodrigo/Documents/GitHub/TP2/db/mux_tsc.tdf Line: 22
 Info (12128): Elaborating entity "mux_tsc" for hierarchy "mux_2in_16b:XKMmuxY|lpm_mux:LPM_MUX_component|mux_tsc:auto_generated" File: c:/intelfpga_lite/18.1/quartus/libraries/megafunctions/lpm_mux.tdf Line: 86
 Info (12128): Elaborating entity "regbank_mainBlock" for hierarchy "regbank_mainBlock:inst11"
 Warning (275083): Bus "TOMUX_R10[15..0]" found using same base name as "TOMUX_R1", which might lead to a name conflict.
@@ -2614,15 +2614,15 @@ Warning (275080): Converted elements in bus name "TOMUX_R30" using legacy naming
     Warning (275081): Converted element name(s) from "TOMUX_R30[15..0]" to "TOMUX_R3015..0"
     Warning (275081): Converted element name(s) from "TOMUX_R30[15..0]" to "TOMUX_R3015..0"
 Info (12128): Elaborating entity "BUS_MUX" for hierarchy "regbank_mainBlock:inst11|BUS_MUX:muxA"
-Info (12128): Elaborating entity "lpm_mux" for hierarchy "regbank_mainBlock:inst11|BUS_MUX:muxA|lpm_mux:LPM_MUX_component" File: C:/Users/Rama/Desktop/TP2/REGISTER_BANK/BUS_MUX.v Line: 180
-Info (12130): Elaborated megafunction instantiation "regbank_mainBlock:inst11|BUS_MUX:muxA|lpm_mux:LPM_MUX_component" File: C:/Users/Rama/Desktop/TP2/REGISTER_BANK/BUS_MUX.v Line: 180
-Info (12133): Instantiated megafunction "regbank_mainBlock:inst11|BUS_MUX:muxA|lpm_mux:LPM_MUX_component" with the following parameter: File: C:/Users/Rama/Desktop/TP2/REGISTER_BANK/BUS_MUX.v Line: 180
+Info (12128): Elaborating entity "lpm_mux" for hierarchy "regbank_mainBlock:inst11|BUS_MUX:muxA|lpm_mux:LPM_MUX_component" File: C:/Users/Rodrigo/Documents/GitHub/TP2/REGISTER_BANK/BUS_MUX.v Line: 180
+Info (12130): Elaborated megafunction instantiation "regbank_mainBlock:inst11|BUS_MUX:muxA|lpm_mux:LPM_MUX_component" File: C:/Users/Rodrigo/Documents/GitHub/TP2/REGISTER_BANK/BUS_MUX.v Line: 180
+Info (12133): Instantiated megafunction "regbank_mainBlock:inst11|BUS_MUX:muxA|lpm_mux:LPM_MUX_component" with the following parameter: File: C:/Users/Rodrigo/Documents/GitHub/TP2/REGISTER_BANK/BUS_MUX.v Line: 180
     Info (12134): Parameter "lpm_size" = "40"
     Info (12134): Parameter "lpm_type" = "LPM_MUX"
     Info (12134): Parameter "lpm_width" = "16"
     Info (12134): Parameter "lpm_widths" = "6"
 Info (12021): Found 1 design units, including 1 entities, in source file db/mux_kuc.tdf
-    Info (12023): Found entity 1: mux_kuc File: C:/Users/Rama/Desktop/TP2/db/mux_kuc.tdf Line: 22
+    Info (12023): Found entity 1: mux_kuc File: C:/Users/Rodrigo/Documents/GitHub/TP2/db/mux_kuc.tdf Line: 22
 Info (12128): Elaborating entity "mux_kuc" for hierarchy "regbank_mainBlock:inst11|BUS_MUX:muxA|lpm_mux:LPM_MUX_component|mux_kuc:auto_generated" File: c:/intelfpga_lite/18.1/quartus/libraries/megafunctions/lpm_mux.tdf Line: 86
 Info (12128): Elaborating entity "regbank_16bRegister" for hierarchy "regbank_mainBlock:inst11|regbank_16bRegister:R0"
 Info (12128): Elaborating entity "regbank_16bFF" for hierarchy "regbank_mainBlock:inst11|regbank_16bRegister:R0|regbank_16bFF:inst"
@@ -2633,9 +2633,9 @@ Info (12128): Elaborating entity "7495" for hierarchy "regbank_mainBlock:inst11|
 Info (12130): Elaborated megafunction instantiation "regbank_mainBlock:inst11|reg_w:inst1|7495:inst5"
 Info (12128): Elaborating entity "shifter16Bits" for hierarchy "shifter16Bits:inst"
 Info (12128): Elaborating entity "lpm_mux1" for hierarchy "shifter16Bits:inst|lpm_mux1:MUX_4IN_1OUT"
-Info (12128): Elaborating entity "lpm_mux" for hierarchy "shifter16Bits:inst|lpm_mux1:MUX_4IN_1OUT|lpm_mux:LPM_MUX_component" File: C:/Users/Rama/Desktop/TP2/lpm_mux1.vhd Line: 137
-Info (12130): Elaborated megafunction instantiation "shifter16Bits:inst|lpm_mux1:MUX_4IN_1OUT|lpm_mux:LPM_MUX_component" File: C:/Users/Rama/Desktop/TP2/lpm_mux1.vhd Line: 137
-Info (12133): Instantiated megafunction "shifter16Bits:inst|lpm_mux1:MUX_4IN_1OUT|lpm_mux:LPM_MUX_component" with the following parameter: File: C:/Users/Rama/Desktop/TP2/lpm_mux1.vhd Line: 137
+Info (12128): Elaborating entity "lpm_mux" for hierarchy "shifter16Bits:inst|lpm_mux1:MUX_4IN_1OUT|lpm_mux:LPM_MUX_component" File: C:/Users/Rodrigo/Documents/GitHub/TP2/lpm_mux1.vhd Line: 137
+Info (12130): Elaborated megafunction instantiation "shifter16Bits:inst|lpm_mux1:MUX_4IN_1OUT|lpm_mux:LPM_MUX_component" File: C:/Users/Rodrigo/Documents/GitHub/TP2/lpm_mux1.vhd Line: 137
+Info (12133): Instantiated megafunction "shifter16Bits:inst|lpm_mux1:MUX_4IN_1OUT|lpm_mux:LPM_MUX_component" with the following parameter: File: C:/Users/Rodrigo/Documents/GitHub/TP2/lpm_mux1.vhd Line: 137
     Info (12134): Parameter "LPM_WIDTH" = "16"
     Info (12134): Parameter "LPM_SIZE" = "4"
     Info (12134): Parameter "LPM_WIDTHS" = "2"
@@ -2643,12 +2643,12 @@ Info (12133): Instantiated megafunction "shifter16Bits:inst|lpm_mux1:MUX_4IN_1OU
     Info (12134): Parameter "LPM_TYPE" = "LPM_MUX"
     Info (12134): Parameter "LPM_HINT" = "UNUSED"
 Info (12021): Found 1 design units, including 1 entities, in source file db/mux_b9e.tdf
-    Info (12023): Found entity 1: mux_b9e File: C:/Users/Rama/Desktop/TP2/db/mux_b9e.tdf Line: 22
+    Info (12023): Found entity 1: mux_b9e File: C:/Users/Rodrigo/Documents/GitHub/TP2/db/mux_b9e.tdf Line: 22
 Info (12128): Elaborating entity "mux_b9e" for hierarchy "shifter16Bits:inst|lpm_mux1:MUX_4IN_1OUT|lpm_mux:LPM_MUX_component|mux_b9e:auto_generated" File: c:/intelfpga_lite/18.1/quartus/libraries/megafunctions/lpm_mux.tdf Line: 86
 Info (12128): Elaborating entity "RAM" for hierarchy "RAM:inst18"
-Info (12128): Elaborating entity "altsyncram" for hierarchy "RAM:inst18|altsyncram:altsyncram_component" File: C:/Users/Rama/Desktop/TP2/RAM.v Line: 85
-Info (12130): Elaborated megafunction instantiation "RAM:inst18|altsyncram:altsyncram_component" File: C:/Users/Rama/Desktop/TP2/RAM.v Line: 85
-Info (12133): Instantiated megafunction "RAM:inst18|altsyncram:altsyncram_component" with the following parameter: File: C:/Users/Rama/Desktop/TP2/RAM.v Line: 85
+Info (12128): Elaborating entity "altsyncram" for hierarchy "RAM:inst18|altsyncram:altsyncram_component" File: C:/Users/Rodrigo/Documents/GitHub/TP2/RAM.v Line: 85
+Info (12130): Elaborated megafunction instantiation "RAM:inst18|altsyncram:altsyncram_component" File: C:/Users/Rodrigo/Documents/GitHub/TP2/RAM.v Line: 85
+Info (12133): Instantiated megafunction "RAM:inst18|altsyncram:altsyncram_component" with the following parameter: File: C:/Users/Rodrigo/Documents/GitHub/TP2/RAM.v Line: 85
     Info (12134): Parameter "clock_enable_input_a" = "BYPASS"
     Info (12134): Parameter "clock_enable_output_a" = "BYPASS"
     Info (12134): Parameter "intended_device_family" = "Cyclone IV E"
@@ -2664,7 +2664,7 @@ Info (12133): Instantiated megafunction "RAM:inst18|altsyncram:altsyncram_compon
     Info (12134): Parameter "width_a" = "16"
     Info (12134): Parameter "width_byteena_a" = "1"
 Info (12021): Found 1 design units, including 1 entities, in source file db/altsyncram_99g1.tdf
-    Info (12023): Found entity 1: altsyncram_99g1 File: C:/Users/Rama/Desktop/TP2/db/altsyncram_99g1.tdf Line: 27
+    Info (12023): Found entity 1: altsyncram_99g1 File: C:/Users/Rodrigo/Documents/GitHub/TP2/db/altsyncram_99g1.tdf Line: 27
 Info (12128): Elaborating entity "altsyncram_99g1" for hierarchy "RAM:inst18|altsyncram:altsyncram_component|altsyncram_99g1:auto_generated" File: c:/intelfpga_lite/18.1/quartus/libraries/megafunctions/altsyncram.tdf Line: 791
 Info (12128): Elaborating entity "LPM_FF" for hierarchy "LPM_FF:inst14"
 Info (12130): Elaborated megafunction instantiation "LPM_FF:inst14"
@@ -2679,25 +2679,25 @@ Info (12133): Instantiated megafunction "latch_8bFF:instSS|LPM_FF:inst" with the
     Info (12134): Parameter "LPM_WIDTH" = "8"
 Info (12128): Elaborating entity "XY_mux" for hierarchy "XY_mux:inst3"
 Info (12128): Elaborating entity "X_mux_Y" for hierarchy "XY_mux:inst3|X_mux_Y:inst1"
-Info (12128): Elaborating entity "lpm_mux" for hierarchy "XY_mux:inst3|X_mux_Y:inst1|lpm_mux:LPM_MUX_component" File: C:/Users/Rama/Desktop/TP2/X_mux_Y.v Line: 68
-Info (12130): Elaborated megafunction instantiation "XY_mux:inst3|X_mux_Y:inst1|lpm_mux:LPM_MUX_component" File: C:/Users/Rama/Desktop/TP2/X_mux_Y.v Line: 68
-Info (12133): Instantiated megafunction "XY_mux:inst3|X_mux_Y:inst1|lpm_mux:LPM_MUX_component" with the following parameter: File: C:/Users/Rama/Desktop/TP2/X_mux_Y.v Line: 68
+Info (12128): Elaborating entity "lpm_mux" for hierarchy "XY_mux:inst3|X_mux_Y:inst1|lpm_mux:LPM_MUX_component" File: C:/Users/Rodrigo/Documents/GitHub/TP2/X_mux_Y.v Line: 68
+Info (12130): Elaborated megafunction instantiation "XY_mux:inst3|X_mux_Y:inst1|lpm_mux:LPM_MUX_component" File: C:/Users/Rodrigo/Documents/GitHub/TP2/X_mux_Y.v Line: 68
+Info (12133): Instantiated megafunction "XY_mux:inst3|X_mux_Y:inst1|lpm_mux:LPM_MUX_component" with the following parameter: File: C:/Users/Rodrigo/Documents/GitHub/TP2/X_mux_Y.v Line: 68
     Info (12134): Parameter "lpm_size" = "2"
     Info (12134): Parameter "lpm_type" = "LPM_MUX"
     Info (12134): Parameter "lpm_width" = "35"
     Info (12134): Parameter "lpm_widths" = "1"
 Info (12021): Found 1 design units, including 1 entities, in source file db/mux_usc.tdf
-    Info (12023): Found entity 1: mux_usc File: C:/Users/Rama/Desktop/TP2/db/mux_usc.tdf Line: 22
+    Info (12023): Found entity 1: mux_usc File: C:/Users/Rodrigo/Documents/GitHub/TP2/db/mux_usc.tdf Line: 22
 Info (12128): Elaborating entity "mux_usc" for hierarchy "XY_mux:inst3|X_mux_Y:inst1|lpm_mux:LPM_MUX_component|mux_usc:auto_generated" File: c:/intelfpga_lite/18.1/quartus/libraries/megafunctions/lpm_mux.tdf Line: 86
 Info (12128): Elaborating entity "INSTRUCTION_decoder" for hierarchy "XY_mux:inst3|INSTRUCTION_decoder:inst5"
-Info (12128): Elaborating entity "lpm_decode" for hierarchy "XY_mux:inst3|INSTRUCTION_decoder:inst5|lpm_decode:LPM_DECODE_component" File: C:/Users/Rama/Desktop/TP2/INSTRUCTION_decoder.v Line: 184
-Info (12130): Elaborated megafunction instantiation "XY_mux:inst3|INSTRUCTION_decoder:inst5|lpm_decode:LPM_DECODE_component" File: C:/Users/Rama/Desktop/TP2/INSTRUCTION_decoder.v Line: 184
-Info (12133): Instantiated megafunction "XY_mux:inst3|INSTRUCTION_decoder:inst5|lpm_decode:LPM_DECODE_component" with the following parameter: File: C:/Users/Rama/Desktop/TP2/INSTRUCTION_decoder.v Line: 184
+Info (12128): Elaborating entity "lpm_decode" for hierarchy "XY_mux:inst3|INSTRUCTION_decoder:inst5|lpm_decode:LPM_DECODE_component" File: C:/Users/Rodrigo/Documents/GitHub/TP2/INSTRUCTION_decoder.v Line: 184
+Info (12130): Elaborated megafunction instantiation "XY_mux:inst3|INSTRUCTION_decoder:inst5|lpm_decode:LPM_DECODE_component" File: C:/Users/Rodrigo/Documents/GitHub/TP2/INSTRUCTION_decoder.v Line: 184
+Info (12133): Instantiated megafunction "XY_mux:inst3|INSTRUCTION_decoder:inst5|lpm_decode:LPM_DECODE_component" with the following parameter: File: C:/Users/Rodrigo/Documents/GitHub/TP2/INSTRUCTION_decoder.v Line: 184
     Info (12134): Parameter "lpm_decodes" = "32"
     Info (12134): Parameter "lpm_type" = "LPM_DECODE"
     Info (12134): Parameter "lpm_width" = "5"
 Info (12021): Found 1 design units, including 1 entities, in source file db/decode_tcf.tdf
-    Info (12023): Found entity 1: decode_tcf File: C:/Users/Rama/Desktop/TP2/db/decode_tcf.tdf Line: 22
+    Info (12023): Found entity 1: decode_tcf File: C:/Users/Rodrigo/Documents/GitHub/TP2/db/decode_tcf.tdf Line: 22
 Info (12128): Elaborating entity "decode_tcf" for hierarchy "XY_mux:inst3|INSTRUCTION_decoder:inst5|lpm_decode:LPM_DECODE_component|decode_tcf:auto_generated" File: c:/intelfpga_lite/18.1/quartus/libraries/megafunctions/lpm_decode.tdf Line: 76
 Warning (13046): Tri-state node(s) do not directly drive top-level pin(s)
     Warning (13047): Converted the fan-out from the tri-state buffer "inst16[15]" to the node "RAM:inst18|altsyncram:altsyncram_component|altsyncram_99g1:auto_generated|q_a[15]" into an OR gate
@@ -2761,15 +2761,15 @@ Warning (13024): Output pins are stuck at VCC or GND
 Info (286030): Timing-Driven Synthesis is running
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
-Info (21057): Implemented 2233 device resources after synthesis - the final resource count might be different
+Info (21057): Implemented 2246 device resources after synthesis - the final resource count might be different
     Info (21058): Implemented 2 input pins
     Info (21059): Implemented 166 output pins
-    Info (21061): Implemented 1972 logic cells
+    Info (21061): Implemented 1985 logic cells
     Info (21064): Implemented 93 RAM segments
 Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 212 warnings
-    Info: Peak virtual memory: 729 megabytes
-    Info: Processing ended: Sat Jun 22 18:27:09 2019
-    Info: Elapsed time: 00:00:33
-    Info: Total CPU time (on all processors): 00:00:53
+    Info: Peak virtual memory: 4881 megabytes
+    Info: Processing ended: Sat Jun 22 15:29:00 2019
+    Info: Elapsed time: 00:00:37
+    Info: Total CPU time (on all processors): 00:00:57
 
 

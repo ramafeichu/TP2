@@ -53,13 +53,13 @@ R10
 R11
 n@a@l@u_vlg_vec_tst
 vmain
-Z13 !s110 1561221546
+Z13 !s110 1561228204
 !i10b 1
-!s100 UJYl?::D;mLZc5:TR9MbJ2
-IZhcmQ65RzJgV4ZhIXfElS1
+!s100 D4dN^L;<]Fo<I4=7C`3F51
+I<T`T76?:WlkJGkoBJMj660
 R1
-Z14 dC:/Users/Rama/Desktop/TP2/simulation/qsim
-w1561221545
+R2
+w1561228202
 R3
 R4
 R5
@@ -67,7 +67,7 @@ R6
 r1
 !s85 0
 31
-Z15 !s108 1561221546.000000
+!s108 1561228203.000000
 R8
 R9
 !i113 1
@@ -79,8 +79,8 @@ R13
 !s100 @8@a^AjEmg>4VdLgn67mH3
 I^b^FRjNGaCC[JViic<Pk90
 R1
-R14
-w1561221543
+R2
+w1561228199
 8Waveform6.vwf.vt
 FWaveform6.vwf.vt
 R12
@@ -88,14 +88,14 @@ R6
 r1
 !s85 0
 31
-R15
+!s108 1561228204.000000
 !s107 Waveform6.vwf.vt|
 !s90 -work|work|Waveform6.vwf.vt|
 !i113 1
 R10
 R11
 vPipeline
-Z16 !s110 1561061257
+Z14 !s110 1561061257
 !i10b 1
 !s100 _]GWimk>:8iLS6;`:EYNo2
 ITd7`bzP_@ZnO@GdTEX64l0
@@ -109,7 +109,7 @@ R6
 r1
 !s85 0
 31
-Z17 !s108 1561061257.000000
+Z15 !s108 1561061257.000000
 R8
 R9
 !i113 1
@@ -117,7 +117,7 @@ R10
 R11
 n@pipeline
 vPipeline_vlg_vec_tst
-R16
+R14
 !i10b 1
 !s100 GLhIVmULC>LiQzn8al0FD2
 ImMo_K4PdXOA<j?OF2bV973
@@ -131,15 +131,59 @@ R6
 r1
 !s85 0
 31
-R17
+R15
 !s107 Waveform1.vwf.vt|
 !s90 -work|work|Waveform1.vwf.vt|
 !i113 1
 R10
 R11
 n@pipeline_vlg_vec_tst
+vregbank_mainBlock
+!s110 1561227314
+!i10b 1
+!s100 [7PKgA<<bO6b@>LSG<S4n2
+IdL0T@h82T3RLa^8I^?mOc3
+R1
+R2
+w1561227313
+R3
+R4
+R5
+R6
+r1
+!s85 0
+31
+Z16 !s108 1561227314.000000
+R8
+R9
+!i113 1
+R10
+R11
+nregbank_main@block
+vregbank_mainBlock_vlg_vec_tst
+!s110 1561227315
+!i10b 1
+!s100 ]cf;>XTiL^gl<G:i9HMkH0
+I_Yb>zRinNCDfbdU9]^PD33
+R1
+R2
+w1561227311
+8Waveform7.vwf.vt
+FWaveform7.vwf.vt
+R12
+R6
+r1
+!s85 0
+31
+R16
+!s107 Waveform7.vwf.vt|
+!s90 -work|work|Waveform7.vwf.vt|
+!i113 1
+R10
+R11
+nregbank_main@block_vlg_vec_tst
 vUC2
-Z18 !s110 1561055723
+Z17 !s110 1561055723
 !i10b 1
 !s100 h?jA9J75:i]djQcQQ:?BI2
 IJLY_zX9T4RhC=o:2z2ekT1
@@ -153,7 +197,7 @@ R6
 r1
 !s85 0
 31
-Z19 !s108 1561055723.000000
+Z18 !s108 1561055723.000000
 R8
 R9
 !i113 1
@@ -161,7 +205,7 @@ R10
 R11
 n@u@c2
 vUC2_vlg_vec_tst
-R18
+R17
 !i10b 1
 !s100 iN6nNnSnH3WCF>]W]b3WW1
 IWSOR1A7m9mF5U0X<GQ75Q2
@@ -175,7 +219,7 @@ R6
 r1
 !s85 0
 31
-R19
+R18
 !s107 Waveform4.vwf.vt|
 !s90 -work|work|Waveform4.vwf.vt|
 !i113 1

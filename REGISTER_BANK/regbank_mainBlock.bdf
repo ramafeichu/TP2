@@ -101,7 +101,7 @@ refer to the applicable agreement for further details.
 )
 (pin
 	(input)
-	(rect -8 5640 168 5656)
+	(rect -208 5640 -32 5656)
 	(text "INPUT" (rect 133 0 161 10)(font "Arial" (font_size 6)))
 	(text "MR" (rect 9 0 25 12)(font "Arial" ))
 	(pt 176 8)
@@ -117,7 +117,7 @@ refer to the applicable agreement for further details.
 )
 (pin
 	(input)
-	(rect -8 5688 168 5704)
+	(rect -248 5688 -72 5704)
 	(text "INPUT" (rect 133 0 161 10)(font "Arial" (font_size 6)))
 	(text "MW" (rect 9 0 27 12)(font "Arial" ))
 	(pt 176 8)
@@ -2121,6 +2121,32 @@ refer to the applicable agreement for further details.
 		(rectangle (rect 16 16 208 112))
 	)
 )
+(symbol
+	(rect 344 5552 376 5600)
+	(text "NOT" (rect 0 1 10 21)(font "Arial" (font_size 6))(vertical))
+	(text "inst3" (rect 21 3 38 25)(font "Intel Clear" )(vertical))
+	(port
+		(pt 16 0)
+		(input)
+		(text "IN" (rect 2 7 13 19)(font "Courier New" (bold))(invisible))
+		(text "IN" (rect 7 2 19 13)(font "Courier New" (bold))(vertical)(invisible))
+		(line (pt 16 0)(pt 16 13))
+	)
+	(port
+		(pt 16 48)
+		(output)
+		(text "OUT" (rect 32 7 49 19)(font "Courier New" (bold))(invisible))
+		(text "OUT" (rect 7 32 19 49)(font "Courier New" (bold))(vertical)(invisible))
+		(line (pt 16 39)(pt 16 48))
+	)
+	(drawing
+		(line (pt 25 13)(pt 7 13))
+		(line (pt 7 13)(pt 16 31))
+		(line (pt 25 13)(pt 16 31))
+		(circle (rect 12 31 20 39))
+	)
+	(flipy_rotate90)
+)
 (connector
 	(pt 440 800)
 	(pt 360 800)
@@ -3189,34 +3215,13 @@ refer to the applicable agreement for further details.
 	(bus)
 )
 (connector
-	(pt 1496 1400)
-	(pt 1504 1400)
-	(bus)
-)
-(connector
 	(pt 1504 1400)
 	(pt 1640 1400)
 	(bus)
 )
 (connector
-	(pt 168 5648)
-	(pt 432 5648)
-)
-(connector
 	(pt 360 5664)
 	(pt 432 5664)
-)
-(connector
-	(pt 360 5336)
-	(pt 360 5480)
-)
-(connector
-	(pt 360 5480)
-	(pt 360 5664)
-)
-(connector
-	(pt 168 5696)
-	(pt 432 5696)
 )
 (connector
 	(pt 656 5648)
@@ -4084,6 +4089,26 @@ refer to the applicable agreement for further details.
 	(pt 200 5680)
 	(color 170 0 0)
 )
+(connector
+	(pt 360 5336)
+	(pt 360 5480)
+)
+(connector
+	(pt 360 5480)
+	(pt 360 5552)
+)
+(connector
+	(pt 360 5664)
+	(pt 360 5600)
+)
+(connector
+	(pt -72 5696)
+	(pt 432 5696)
+)
+(connector
+	(pt -32 5648)
+	(pt 432 5648)
+)
 (junction (pt 360 1216))
 (junction (pt 360 1072))
 (junction (pt 152 784))
@@ -4159,7 +4184,6 @@ refer to the applicable agreement for further details.
 (junction (pt 360 5192))
 (junction (pt 152 5320))
 (junction (pt 360 5336))
-(junction (pt 360 5480))
 (junction (pt 200 2088))
 (junction (pt 200 2232))
 (junction (pt 200 2368))
@@ -4194,5 +4218,5 @@ refer to the applicable agreement for further details.
 (junction (pt 1368 728))
 (junction (pt 200 5496))
 (junction (pt 152 5464))
-(junction (pt 1504 1400))
+(junction (pt 360 5480))
 (text "BUS C  " (rect 16 672 178 714)(font "Arial" (color 85 170 255)(font_size 28)))

@@ -1,5 +1,5 @@
 Flow report for TP2
-Sat Jun 22 18:39:05 2019
+Sat Jun 22 15:30:02 2019
 Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 
 
@@ -40,15 +40,15 @@ refer to the applicable agreement for further details.
 +----------------------------------------------------------------------------------+
 ; Flow Summary                                                                     ;
 +------------------------------------+---------------------------------------------+
-; Flow Status                        ; Successful - Sat Jun 22 18:39:05 2019       ;
+; Flow Status                        ; Successful - Sat Jun 22 15:30:02 2019       ;
 ; Quartus Prime Version              ; 18.1.0 Build 625 09/12/2018 SJ Lite Edition ;
 ; Revision Name                      ; TP2                                         ;
 ; Top-level Entity Name              ; main                                        ;
 ; Family                             ; Cyclone IV E                                ;
 ; Device                             ; EP4CE22F17C6                                ;
 ; Timing Models                      ; Final                                       ;
-; Total logic elements               ; 1,933                                       ;
-;     Total combinational functions  ; 1,297                                       ;
+; Total logic elements               ; 1,950                                       ;
+;     Total combinational functions  ; 1,314                                       ;
 ;     Dedicated logic registers      ; 751                                         ;
 ; Total registers                    ; 751                                         ;
 ; Total pins                         ; 168                                         ;
@@ -64,7 +64,7 @@ refer to the applicable agreement for further details.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 06/22/2019 18:26:37 ;
+; Start date & time ; 06/22/2019 15:28:25 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; TP2                 ;
 +-------------------+---------------------+
@@ -75,7 +75,7 @@ refer to the applicable agreement for further details.
 +-------------------------------------+----------------------------------------+---------------+-------------+------------+
 ; Assignment Name                     ; Value                                  ; Default Value ; Entity Name ; Section Id ;
 +-------------------------------------+----------------------------------------+---------------+-------------+------------+
-; COMPILER_SIGNATURE_ID               ; 172269383750633.156122079703792        ; --            ; --          ; --         ;
+; COMPILER_SIGNATURE_ID               ; 1096501067503.156122810407372          ; --            ; --          ; --         ;
 ; MAX_CORE_JUNCTION_TEMP              ; 85                                     ; --            ; --          ; --         ;
 ; MIN_CORE_JUNCTION_TEMP              ; 0                                      ; --            ; --          ; --         ;
 ; MISC_FILE                           ; REGISTER_BANK/lpm_decode0.bsf          ; --            ; --          ; --         ;
@@ -128,34 +128,28 @@ refer to the applicable agreement for further details.
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name          ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis ; 00:00:32     ; 1.0                     ; 729 MB              ; 00:00:52                           ;
-; EDA Netlist Writer   ; 00:00:01     ; 1.0                     ; 500 MB              ; 00:00:01                           ;
-; EDA Netlist Writer   ; 00:00:02     ; 1.0                     ; 513 MB              ; 00:00:02                           ;
-; EDA Netlist Writer   ; 00:00:01     ; 1.0                     ; 504 MB              ; 00:00:01                           ;
-; EDA Netlist Writer   ; 00:00:02     ; 1.0                     ; 513 MB              ; 00:00:02                           ;
-; EDA Netlist Writer   ; 00:00:01     ; 1.0                     ; 504 MB              ; 00:00:01                           ;
-; EDA Netlist Writer   ; 00:00:02     ; 1.0                     ; 513 MB              ; 00:00:02                           ;
-; EDA Netlist Writer   ; 00:00:02     ; 1.0                     ; 504 MB              ; 00:00:01                           ;
-; EDA Netlist Writer   ; 00:00:02     ; 1.0                     ; 513 MB              ; 00:00:02                           ;
-; Total                ; 00:00:45     ; --                      ; --                  ; 00:01:04                           ;
+; Analysis & Synthesis ; 00:00:36     ; 1.0                     ; 4881 MB             ; 00:00:56                           ;
+; EDA Netlist Writer   ; 00:00:01     ; 1.0                     ; 4641 MB             ; 00:00:02                           ;
+; EDA Netlist Writer   ; 00:00:02     ; 1.0                     ; 4645 MB             ; 00:00:02                           ;
+; EDA Netlist Writer   ; 00:00:02     ; 1.0                     ; 4645 MB             ; 00:00:02                           ;
+; EDA Netlist Writer   ; 00:00:02     ; 1.0                     ; 4645 MB             ; 00:00:02                           ;
+; EDA Netlist Writer   ; 00:00:02     ; 1.0                     ; 4653 MB             ; 00:00:03                           ;
+; Total                ; 00:00:45     ; --                      ; --                  ; 00:01:07                           ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 
-+-------------------------------------------------------------------------------------+
-; Flow OS Summary                                                                     ;
-+----------------------+------------------+-------------+------------+----------------+
-; Module Name          ; Machine Hostname ; OS Name     ; OS Version ; Processor type ;
-+----------------------+------------------+-------------+------------+----------------+
-; Analysis & Synthesis ; Ramita           ; Windows 8.1 ; 6.3        ; x86_64         ;
-; EDA Netlist Writer   ; Ramita           ; Windows 8.1 ; 6.3        ; x86_64         ;
-; EDA Netlist Writer   ; Ramita           ; Windows 8.1 ; 6.3        ; x86_64         ;
-; EDA Netlist Writer   ; Ramita           ; Windows 8.1 ; 6.3        ; x86_64         ;
-; EDA Netlist Writer   ; Ramita           ; Windows 8.1 ; 6.3        ; x86_64         ;
-; EDA Netlist Writer   ; Ramita           ; Windows 8.1 ; 6.3        ; x86_64         ;
-; EDA Netlist Writer   ; Ramita           ; Windows 8.1 ; 6.3        ; x86_64         ;
-; EDA Netlist Writer   ; Ramita           ; Windows 8.1 ; 6.3        ; x86_64         ;
-; EDA Netlist Writer   ; Ramita           ; Windows 8.1 ; 6.3        ; x86_64         ;
-+----------------------+------------------+-------------+------------+----------------+
++------------------------------------------------------------------------------------+
+; Flow OS Summary                                                                    ;
++----------------------+------------------+------------+------------+----------------+
+; Module Name          ; Machine Hostname ; OS Name    ; OS Version ; Processor type ;
++----------------------+------------------+------------+------------+----------------+
+; Analysis & Synthesis ; DESKTOP-D3A0RIL  ; Windows 10 ; 10.0       ; x86_64         ;
+; EDA Netlist Writer   ; DESKTOP-D3A0RIL  ; Windows 10 ; 10.0       ; x86_64         ;
+; EDA Netlist Writer   ; DESKTOP-D3A0RIL  ; Windows 10 ; 10.0       ; x86_64         ;
+; EDA Netlist Writer   ; DESKTOP-D3A0RIL  ; Windows 10 ; 10.0       ; x86_64         ;
+; EDA Netlist Writer   ; DESKTOP-D3A0RIL  ; Windows 10 ; 10.0       ; x86_64         ;
+; EDA Netlist Writer   ; DESKTOP-D3A0RIL  ; Windows 10 ; 10.0       ; x86_64         ;
++----------------------+------------------+------------+------------+----------------+
 
 
 ------------
@@ -163,13 +157,10 @@ refer to the applicable agreement for further details.
 ------------
 quartus_map --read_settings_files=on --write_settings_files=off TP2 -c TP2
 quartus_eda --gen_testbench --tool=modelsim_oem --format=verilog --write_settings_files=off TP2 -c TP2 --vector_source=C:/Users/Rama/Desktop/TP2/Waveform6.vwf --testbench_file=C:/Users/Rama/Desktop/TP2/simulation/qsim/Waveform6.vwf.vt
-quartus_eda --write_settings_files=off --simulation=on --functional=on --flatten_buses=off --tool=modelsim_oem --format=verilog --output_directory=C:/Users/Rama/Desktop/TP2/simulation/qsim/ TP2 -c TP2
+quartus_eda --gen_testbench --tool=modelsim_oem --format=verilog --write_settings_files=off TP2 -c TP2 --vector_source=C:/Users/Rodrigo/Documents/GitHub/TP2/Waveform6.vwf --testbench_file=C:/Users/Rodrigo/Documents/GitHub/TP2/simulation/modelsim/Waveform6.vwf.vt
 quartus_eda --gen_testbench --tool=modelsim_oem --format=verilog --write_settings_files=off TP2 -c TP2 --vector_source=C:/Users/Rama/Desktop/TP2/Waveform6.vwf --testbench_file=C:/Users/Rama/Desktop/TP2/simulation/qsim/Waveform6.vwf.vt
-quartus_eda --write_settings_files=off --simulation=on --functional=on --flatten_buses=off --tool=modelsim_oem --format=verilog --output_directory=C:/Users/Rama/Desktop/TP2/simulation/qsim/ TP2 -c TP2
-quartus_eda --gen_testbench --tool=modelsim_oem --format=verilog --write_settings_files=off TP2 -c TP2 --vector_source=C:/Users/Rama/Desktop/TP2/Waveform6.vwf --testbench_file=C:/Users/Rama/Desktop/TP2/simulation/qsim/Waveform6.vwf.vt
-quartus_eda --write_settings_files=off --simulation=on --functional=on --flatten_buses=off --tool=modelsim_oem --format=verilog --output_directory=C:/Users/Rama/Desktop/TP2/simulation/qsim/ TP2 -c TP2
-quartus_eda --gen_testbench --tool=modelsim_oem --format=verilog --write_settings_files=off TP2 -c TP2 --vector_source=C:/Users/Rama/Desktop/TP2/Waveform6.vwf --testbench_file=C:/Users/Rama/Desktop/TP2/simulation/qsim/Waveform6.vwf.vt
-quartus_eda --write_settings_files=off --simulation=on --functional=on --flatten_buses=off --tool=modelsim_oem --format=verilog --output_directory=C:/Users/Rama/Desktop/TP2/simulation/qsim/ TP2 -c TP2
+quartus_eda --gen_testbench --tool=modelsim_oem --format=verilog --write_settings_files=off TP2 -c TP2 --vector_source=C:/Users/Rodrigo/Documents/GitHub/TP2/Waveform6.vwf --testbench_file=C:/Users/Rodrigo/Documents/GitHub/TP2/simulation/qsim/Waveform6.vwf.vt
+quartus_eda --write_settings_files=off --simulation=on --functional=on --flatten_buses=off --tool=modelsim_oem --format=verilog --output_directory=C:/Users/Rodrigo/Documents/GitHub/TP2/simulation/qsim/ TP2 -c TP2
 
 
 
