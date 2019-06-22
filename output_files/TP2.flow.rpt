@@ -1,5 +1,5 @@
 Flow report for TP2
-Fri Jun 21 22:53:11 2019
+Fri Jun 21 21:00:14 2019
 Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 
 
@@ -40,17 +40,17 @@ refer to the applicable agreement for further details.
 +----------------------------------------------------------------------------------+
 ; Flow Summary                                                                     ;
 +------------------------------------+---------------------------------------------+
-; Flow Status                        ; Successful - Fri Jun 21 22:53:11 2019       ;
+; Flow Status                        ; Successful - Fri Jun 21 21:00:14 2019       ;
 ; Quartus Prime Version              ; 18.1.0 Build 625 09/12/2018 SJ Lite Edition ;
 ; Revision Name                      ; TP2                                         ;
 ; Top-level Entity Name              ; main                                        ;
 ; Family                             ; Cyclone IV E                                ;
 ; Device                             ; EP4CE22F17C6                                ;
 ; Timing Models                      ; Final                                       ;
-; Total logic elements               ; 1,958                                       ;
-;     Total combinational functions  ; 1,307                                       ;
-;     Dedicated logic registers      ; 771                                         ;
-; Total registers                    ; 771                                         ;
+; Total logic elements               ; 2,014                                       ;
+;     Total combinational functions  ; 1,380                                       ;
+;     Dedicated logic registers      ; 748                                         ;
+; Total registers                    ; 748                                         ;
 ; Total pins                         ; 127                                         ;
 ; Total virtual pins                 ; 0                                           ;
 ; Total memory bits                  ; 53,120                                      ;
@@ -64,7 +64,7 @@ refer to the applicable agreement for further details.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 06/21/2019 22:51:08 ;
+; Start date & time ; 06/21/2019 20:59:35 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; TP2                 ;
 +-------------------+---------------------+
@@ -75,7 +75,7 @@ refer to the applicable agreement for further details.
 +-------------------------------------+----------------------------------------+---------------+-------------+------------+
 ; Assignment Name                     ; Value                                  ; Default Value ; Entity Name ; Section Id ;
 +-------------------------------------+----------------------------------------+---------------+-------------+------------+
-; COMPILER_SIGNATURE_ID               ; 172269383750633.156115026804160        ; --            ; --          ; --         ;
+; COMPILER_SIGNATURE_ID               ; 1096501067503.156116157411516          ; --            ; --          ; --         ;
 ; MAX_CORE_JUNCTION_TEMP              ; 85                                     ; --            ; --          ; --         ;
 ; MIN_CORE_JUNCTION_TEMP              ; 0                                      ; --            ; --          ; --         ;
 ; MISC_FILE                           ; REGISTER_BANK/lpm_decode0.bsf          ; --            ; --          ; --         ;
@@ -94,8 +94,6 @@ refer to the applicable agreement for further details.
 ; MISC_FILE                           ; INSTRUCTION_decoder_bb.v               ; --            ; --          ; --         ;
 ; MISC_FILE                           ; XY_inMUX.bsf                           ; --            ; --          ; --         ;
 ; MISC_FILE                           ; XY_inMUX_bb.v                          ; --            ; --          ; --         ;
-; MISC_FILE                           ; DATA_RAM/DATA_RAM.bsf                  ; --            ; --          ; --         ;
-; MISC_FILE                           ; DATA_RAM/DATA_RAM_bb.v                 ; --            ; --          ; --         ;
 ; MISC_FILE                           ; PIPELINE/BLOQUE1_MUX.bsf               ; --            ; --          ; --         ;
 ; MISC_FILE                           ; PIPELINE/BLOQUE1_MUX_bb.v              ; --            ; --          ; --         ;
 ; MISC_FILE                           ; PIPELINE/UC2_decoder.bsf               ; --            ; --          ; --         ;
@@ -112,8 +110,8 @@ refer to the applicable agreement for further details.
 ; MISC_FILE                           ; PIPELINE/COMPARE_UC2_bb.v              ; --            ; --          ; --         ;
 ; MISC_FILE                           ; IFU/ROM_programa.bsf                   ; --            ; --          ; --         ;
 ; MISC_FILE                           ; IFU/ROM_programa_bb.v                  ; --            ; --          ; --         ;
-; MISC_FILE                           ; DATA_RAM.bsf                           ; --            ; --          ; --         ;
-; MISC_FILE                           ; DATA_RAM_bb.v                          ; --            ; --          ; --         ;
+; MISC_FILE                           ; RAM.bsf                                ; --            ; --          ; --         ;
+; MISC_FILE                           ; RAM_bb.v                               ; --            ; --          ; --         ;
 ; NOMINAL_CORE_SUPPLY_VOLTAGE         ; 1.2V                                   ; --            ; --          ; --         ;
 ; PARTITION_COLOR                     ; -- (Not supported for targeted family) ; --            ; main        ; Top        ;
 ; PARTITION_FITTER_PRESERVATION_LEVEL ; -- (Not supported for targeted family) ; --            ; main        ; Top        ;
@@ -130,33 +128,24 @@ refer to the applicable agreement for further details.
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name          ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis ; 00:00:31     ; 1.0                     ; 731 MB              ; 00:00:55                           ;
-; EDA Netlist Writer   ; 00:00:01     ; 1.0                     ; 503 MB              ; 00:00:01                           ;
-; EDA Netlist Writer   ; 00:00:01     ; 1.0                     ; 504 MB              ; 00:00:01                           ;
-; EDA Netlist Writer   ; 00:00:02     ; 1.0                     ; 508 MB              ; 00:00:02                           ;
-; Total                ; 00:00:35     ; --                      ; --                  ; 00:00:59                           ;
+; Analysis & Synthesis ; 00:00:40     ; 1.0                     ; 4878 MB             ; 00:01:00                           ;
+; Total                ; 00:00:40     ; --                      ; --                  ; 00:01:00                           ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 
-+-------------------------------------------------------------------------------------+
-; Flow OS Summary                                                                     ;
-+----------------------+------------------+-------------+------------+----------------+
-; Module Name          ; Machine Hostname ; OS Name     ; OS Version ; Processor type ;
-+----------------------+------------------+-------------+------------+----------------+
-; Analysis & Synthesis ; Ramita           ; Windows 8.1 ; 6.3        ; x86_64         ;
-; EDA Netlist Writer   ; Ramita           ; Windows 8.1 ; 6.3        ; x86_64         ;
-; EDA Netlist Writer   ; Ramita           ; Windows 8.1 ; 6.3        ; x86_64         ;
-; EDA Netlist Writer   ; Ramita           ; Windows 8.1 ; 6.3        ; x86_64         ;
-+----------------------+------------------+-------------+------------+----------------+
++------------------------------------------------------------------------------------+
+; Flow OS Summary                                                                    ;
++----------------------+------------------+------------+------------+----------------+
+; Module Name          ; Machine Hostname ; OS Name    ; OS Version ; Processor type ;
++----------------------+------------------+------------+------------+----------------+
+; Analysis & Synthesis ; DESKTOP-D3A0RIL  ; Windows 10 ; 10.0       ; x86_64         ;
++----------------------+------------------+------------+------------+----------------+
 
 
 ------------
 ; Flow Log ;
 ------------
 quartus_map --read_settings_files=on --write_settings_files=off TP2 -c TP2
-quartus_eda --gen_testbench --tool=modelsim_oem --format=verilog --write_settings_files=off TP2 -c TP2 --vector_source=C:/Users/Rama/Desktop/TP2/Waveform6.vwf --testbench_file=C:/Users/Rama/Desktop/TP2/simulation/modelsim/Waveform6.vwf.vt
-quartus_eda --gen_testbench --tool=modelsim_oem --format=verilog --write_settings_files=off TP2 -c TP2 --vector_source=C:/Users/Rama/Desktop/TP2/Waveform6.vwf --testbench_file=C:/Users/Rama/Desktop/TP2/simulation/qsim/Waveform6.vwf.vt
-quartus_eda --write_settings_files=off --simulation=on --functional=on --flatten_buses=off --tool=modelsim_oem --format=verilog --output_directory=C:/Users/Rama/Desktop/TP2/simulation/qsim/ TP2 -c TP2
 
 
 

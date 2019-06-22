@@ -18,7 +18,7 @@
 // the top level entity of the current Quartus project .The user can use this   
 // testbench to simulate his design using a third-party simulation tool .       
 // *****************************************************************************
-// Generated on "06/20/2019 21:24:17"
+// Generated on "06/21/2019 20:34:49"
                                                                                 
 // Verilog Test Bench (with test vectors) for design :                          main
 // 
@@ -30,46 +30,40 @@ module main_vlg_vec_tst();
 // constants                                           
 // general purpose registers
 reg CLK;
-reg CLKx2;
 // wires                                               
 wire [3:0] ALUC;
-wire [3:0] ALUC_ROM;
 wire [15:0] BUS_A;
 wire [15:0] BUS_b;
 wire [15:0] BUS_C;
-wire C_IEN;
 wire CARRY;
+wire HOLD;
 wire [15:0] IN_RAM;
 wire [13:0] INSTRUCTION;
 wire [15:0] KMUX;
-wire [1:1] KMx_ROM;
-wire [1:1] KMxTEST;
+wire KMx_SEL;
 wire MR;
 wire MW;
 wire [15:0] OUT_RAM;
-wire TEST_HOLD;
+wire [6:0] Type_ROM;
 
 // assign statements (if any)                          
 main i1 (
 // port map - connection between master ports and signals/registers   
 	.ALUC(ALUC),
-	.ALUC_ROM(ALUC_ROM),
 	.BUS_A(BUS_A),
 	.BUS_b(BUS_b),
 	.BUS_C(BUS_C),
-	.C_IEN(C_IEN),
 	.CARRY(CARRY),
 	.CLK(CLK),
-	.CLKx2(CLKx2),
+	.HOLD(HOLD),
 	.IN_RAM(IN_RAM),
 	.INSTRUCTION(INSTRUCTION),
 	.KMUX(KMUX),
-	.KMx_ROM(KMx_ROM),
-	.KMxTEST(KMxTEST),
+	.KMx_SEL(KMx_SEL),
 	.MR(MR),
 	.MW(MW),
 	.OUT_RAM(OUT_RAM),
-	.TEST_HOLD(TEST_HOLD)
+	.Type_ROM(Type_ROM)
 );
 initial 
 begin 
@@ -77,19 +71,15 @@ begin
 end 
 
 // CLK
-always
+initial
 begin
+	repeat(12)
+	begin
+		CLK = 1'b0;
+		CLK = #40000 1'b1;
+		# 40000;
+	end
 	CLK = 1'b0;
-	CLK = #25000 1'b1;
-	#25000;
-end 
-
-// CLKx2
-always
-begin
-	CLKx2 = 1'b0;
-	CLKx2 = #25000 1'b1;
-	#25000;
 end 
 endmodule
 

@@ -7,7 +7,7 @@ Note: if both ModelSim-Altera and ModelSim executables are available, ModelSim-A
 
 **** Generating the ModelSim Testbench ****
 
-quartus_eda --gen_testbench --tool=modelsim_oem --format=verilog --write_settings_files=off TP2 -c TP2 --vector_source="C:/Users/Rama/Desktop/TP2/Waveform6.vwf" --testbench_file="C:/Users/Rama/Desktop/TP2/simulation/qsim/Waveform6.vwf.vt"
+quartus_eda --gen_testbench --tool=modelsim_oem --format=verilog --write_settings_files=off TP2 -c TP2 --vector_source="C:/Users/Rodrigo/Documents/GitHub/TP2/Waveform5.vwf" --testbench_file="C:/Users/Rodrigo/Documents/GitHub/TP2/simulation/qsim/Waveform5.vwf.vt"
 
 Info: *******************************************************************
 Info: Running Quartus Prime EDA Netlist Writer
@@ -25,12 +25,14 @@ Info: Running Quartus Prime EDA Netlist Writer
     Info: the sole purpose of programming logic devices manufactured by
     Info: Intel and sold by Intel or its authorized distributors.  Please
     Info: refer to the applicable agreement for further details.
-    Info: Processing started: Fri Jun 21 22:53:08 2019
-Info: Command: quartus_eda --gen_testbench --tool=modelsim_oem --format=verilog --write_settings_files=off TP2 -c TP2 --vector_source=C:/Users/Rama/Desktop/TP2/Waveform6.vwf --testbench_file=C:/Users/Rama/Desktop/TP2/simulation/qsim/Waveform6.vwf.vt
+    Info: Processing started: Fri Jun 21 20:58:35 2019
+Info: Command: quartus_eda --gen_testbench --tool=modelsim_oem --format=verilog --write_settings_files=off TP2 -c TP2 --vector_source=C:/Users/Rodrigo/Documents/GitHub/TP2/Waveform5.vwf --testbench_file=C:/Users/Rodrigo/Documents/GitHub/TP2/simulation/qsim/Waveform5.vwf.vt
+Warning (125092): Tcl Script File DATA_RAM/DATA_RAM.qip not found
+    Info (125063): set_global_assignment -name QIP_FILE DATA_RAM/DATA_RAM.qip
 Info (119006): Selected device EP4CE22F17C6 for design "TP2"
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 
-ench files
+arning (201005): Ignoring output pin "KMUX[12]" in vector source file when writing test bench files
 
 Completed successfully. 
 
@@ -38,7 +40,7 @@ Completed successfully.
 
 **** Generating the functional simulation netlist ****
 
-quartus_eda --write_settings_files=off --simulation --functional=on --flatten_buses=off --tool=modelsim_oem --format=verilog --output_directory="C:/Users/Rama/Desktop/TP2/simulation/qsim/" TP2 -c TP2
+quartus_eda --write_settings_files=off --simulation --functional=on --flatten_buses=off --tool=modelsim_oem --format=verilog --output_directory="C:/Users/Rodrigo/Documents/GitHub/TP2/simulation/qsim/" TP2 -c TP2
 
 Info: *******************************************************************
 Info: Running Quartus Prime EDA Netlist Writer
@@ -56,14 +58,16 @@ Info: Running Quartus Prime EDA Netlist Writer
     Info: the sole purpose of programming logic devices manufactured by
     Info: Intel and sold by Intel or its authorized distributors.  Please
     Info: refer to the applicable agreement for further details.
-    Info: Processing started: Fri Jun 21 22:53:09 2019
-Info: Command: quartus_eda --write_settings_files=off --simulation=on --functional=on --flatten_buses=off --tool=modelsim_oem --format=verilog --output_directory=C:/Users/Rama/Desktop/TP2/simulation/qsim/ TP2 -c TP2
+    Info: Processing started: Fri Jun 21 20:58:38 2019
+Info: Command: quartus_eda --write_settings_files=off --simulation=on --functional=on --flatten_buses=off --tool=modelsim_oem --format=verilog --output_directory=C:/Users/Rodrigo/Documents/GitHub/TP2/simulation/qsim/ TP2 -c TP2
+Warning (125092): Tcl Script File DATA_RAM/DATA_RAM.qip not found
+    Info (125063): set_global_assignment -name QIP_FILE DATA_RAM/DATA_RAM.qip
 Info (119006): Selected device EP4CE22F17C6 for design "TP2"
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
-Info (204019): Generated file TP2.vo in folder "C:/Users/Rama/Desktop/TP2/simulation/qsim//" for EDA simulation tool
-Info: Quartus Prime EDA Netlist Writer was successful. 0 errors, 1 warning
-    Info: Peak virtual memory: 508 megabytes
-    Info: Processing ended: Fri Jun 21 22:53:11 2019
+Info (204019): Generated file TP2.vo in folder "C:/Users/Rodrigo/Documents/GitHub/TP2/simulation/qsim//" for EDA simulation tool
+Info: Quartus Prime EDA Netlist Writer was successful. 0 errors, 2 warnings
+    Info: Peak virtual memory: 4652 megabytes
+    Info: Processing ended: Fri Jun 21 20:58:40 2019
     Info: Elapsed time: 00:00:02
     Info: Total CPU time (on all processors): 00:00:02
 
@@ -71,7 +75,7 @@ Completed successfully.
 
 **** Generating the ModelSim .do script ****
 
-C:/Users/Rama/Desktop/TP2/simulation/qsim/TP2.do generated.
+C:/Users/Rodrigo/Documents/GitHub/TP2/simulation/qsim/TP2.do generated.
 
 Completed successfully. 
 
@@ -83,32 +87,34 @@ Reading C:/intelFPGA_lite/18.1/modelsim_ase/tcl/vsim/pref.tcl
 
 # 10.5b
 
-# do TP2.do
 
+# do TP2.do
 # ** Warning: (vlib-34) Library already exists at "work".
+
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 22:53:12 on Jun 21,2019
+# Start time: 20:58:41 on Jun 21,2019
 # vlog -work work TP2.vo 
 # -- Compiling module main
 
 # 
 # Top level modules:
 # 	main
-# End time: 22:53:12 on Jun 21,2019, Elapsed time: 0:00:00
+# End time: 20:58:42 on Jun 21,2019, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 22:53:12 on Jun 21,2019
-# vlog -work work Waveform6.vwf.vt 
+# Start time: 20:58:42 on Jun 21,2019
+# vlog -work work Waveform5.vwf.vt 
 # -- Compiling module main_vlg_vec_tst
+
 # 
 # Top level modules:
 # 	main_vlg_vec_tst
-# End time: 22:53:12 on Jun 21,2019, Elapsed time: 0:00:00
+# End time: 20:58:42 on Jun 21,2019, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 
 # vsim -novopt -c -t 1ps -L cycloneive_ver -L altera_ver -L altera_mf_ver -L 220model_ver -L sgate_ver -L altera_lnsim_ver work.main_vlg_vec_tst 
-# Start time: 22:53:13 on Jun 21,2019
+# Start time: 20:58:42 on Jun 21,2019
 # Loading work.main_vlg_vec_tst
 # Loading work.main
 # Loading cycloneive_ver.cycloneive_io_obuf
@@ -121,30 +127,22 @@ Reading C:/intelFPGA_lite/18.1/modelsim_ase/tcl/vsim/pref.tcl
 # Loading altera_ver.PRIM_GDFF_LOW
 # after#25
 
-# ** Note: $finish    : Waveform6.vwf.vt(70)
+# ** Note: $finish    : Waveform5.vwf.vt(70)
 #    Time: 1 us  Iteration: 0  Instance: /main_vlg_vec_tst
-# End time: 22:53:13 on Jun 21,2019, Elapsed time: 0:00:00
+# End time: 20:58:43 on Jun 21,2019, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 
 Completed successfully. 
 
 **** Converting ModelSim VCD to vector waveform ****
 
-Reading C:/Users/Rama/Desktop/TP2/Waveform6.vwf...
+Reading C:/Users/Rodrigo/Documents/GitHub/TP2/Waveform5.vwf...
 
-Reading C:/Users/Rama/Desktop/TP2/simulation/qsim/TP2.msim.vcd...
+Reading C:/Users/Rodrigo/Documents/GitHub/TP2/simulation/qsim/TP2.msim.vcd...
 
 Processing channel transitions... 
 
-Warning: ALUC_ROM[3] - signal not found in VCD.
-
-Warning: ALUC_ROM[2] - signal not found in VCD.
-
-Warning: ALUC_ROM[1] - signal not found in VCD.
-
-Warning: ALUC_ROM[0] - signal not found in VCD.
-
-Writing the resulting VWF to C:/Users/Rama/Desktop/TP2/simulation/qsim/TP2_20190621225314.sim.vwf
+Writing the resulting VWF to C:/Users/Rodrigo/Documents/GitHub/TP2/simulation/qsim/TP2_20190621205843.sim.vwf
 
 Finished VCD to VWF conversion.
 
