@@ -1623,16 +1623,16 @@ refer to the applicable agreement for further details.
 	(pt 712 512)
 )
 (connector
-	(pt 712 512)
-	(pt 712 416)
+	(pt 824 216)
+	(pt 712 216)
 )
 (connector
-	(pt 824 416)
 	(pt 824 208)
+	(pt 824 216)
 )
 (connector
-	(pt 824 416)
-	(pt 712 416)
+	(pt 712 216)
+	(pt 712 512)
 )
 (junction (pt 112 96))
 (junction (pt 112 128))

@@ -1,5 +1,5 @@
 Analysis & Synthesis report for TP2
-Sat Jun 22 15:29:00 2019
+Sat Jun 22 17:22:26 2019
 Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 
 
@@ -18,7 +18,7 @@ Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
  10. Registers Removed During Synthesis
  11. General Register Statistics
  12. Source assignments for ROM_CS:inst1|altsyncram:altsyncram_component|altsyncram_nmf1:auto_generated
- 13. Source assignments for IFU_block:inst17|ROM_programa:inst1|altsyncram:altsyncram_component|altsyncram_53b1:auto_generated
+ 13. Source assignments for IFU_block:inst17|ROM_programa:inst1|altsyncram:altsyncram_component|altsyncram_n4b1:auto_generated
  14. Source assignments for RAM:inst18|altsyncram:altsyncram_component|altsyncram_99g1:auto_generated
  15. Parameter Settings for User Entity Instance: ROM_CS:inst1|altsyncram:altsyncram_component
  16. Parameter Settings for User Entity Instance: Pipeline:inst5|UC2:inst4|COMPARE_UC2:inst6|lpm_compare:LPM_COMPARE_component
@@ -116,7 +116,7 @@ refer to the applicable agreement for further details.
 +----------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                     ;
 +------------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Sat Jun 22 15:29:00 2019       ;
+; Analysis & Synthesis Status        ; Successful - Sat Jun 22 17:22:26 2019       ;
 ; Quartus Prime Version              ; 18.1.0 Build 625 09/12/2018 SJ Lite Edition ;
 ; Revision Name                      ; TP2                                         ;
 ; Top-level Entity Name              ; main                                        ;
@@ -273,10 +273,10 @@ refer to the applicable agreement for further details.
 ; ALU/adderCarry.v                      ; yes             ; User Wizard-Generated File               ; C:/Users/Rodrigo/Documents/GitHub/TP2/ALU/adderCarry.v                         ;         ;
 ; ALU/mux_1.v                           ; yes             ; User Wizard-Generated File               ; C:/Users/Rodrigo/Documents/GitHub/TP2/ALU/mux_1.v                              ;         ;
 ; PIPELINE/COMPARE_UC2.v                ; yes             ; User Wizard-Generated File               ; C:/Users/Rodrigo/Documents/GitHub/TP2/PIPELINE/COMPARE_UC2.v                   ;         ;
-; IFU/programTest.mif                   ; yes             ; User Memory Initialization File          ; C:/Users/Rodrigo/Documents/GitHub/TP2/IFU/programTest.mif                      ;         ;
 ; IFU/ROM_programa.v                    ; yes             ; User Wizard-Generated File               ; C:/Users/Rodrigo/Documents/GitHub/TP2/IFU/ROM_programa.v                       ;         ;
 ; latch_8bFF.bdf                        ; yes             ; User Block Diagram/Schematic File        ; C:/Users/Rodrigo/Documents/GitHub/TP2/latch_8bFF.bdf                           ;         ;
 ; RAM.v                                 ; yes             ; User Wizard-Generated File               ; C:/Users/Rodrigo/Documents/GitHub/TP2/RAM.v                                    ;         ;
+; IFU/programTest2.mif                  ; yes             ; User Memory Initialization File          ; C:/Users/Rodrigo/Documents/GitHub/TP2/IFU/programTest2.mif                     ;         ;
 ; rom_cs.v                              ; yes             ; Auto-Found Wizard-Generated File         ; C:/Users/Rodrigo/Documents/GitHub/TP2/rom_cs.v                                 ;         ;
 ; altsyncram.tdf                        ; yes             ; Megafunction                             ; c:/intelfpga_lite/18.1/quartus/libraries/megafunctions/altsyncram.tdf          ;         ;
 ; stratix_ram_block.inc                 ; yes             ; Megafunction                             ; c:/intelfpga_lite/18.1/quartus/libraries/megafunctions/stratix_ram_block.inc   ;         ;
@@ -303,7 +303,7 @@ refer to the applicable agreement for further details.
 ; bypassff.inc                          ; yes             ; Megafunction                             ; c:/intelfpga_lite/18.1/quartus/libraries/megafunctions/bypassff.inc            ;         ;
 ; db/mux_0tc.tdf                        ; yes             ; Auto-Generated Megafunction              ; C:/Users/Rodrigo/Documents/GitHub/TP2/db/mux_0tc.tdf                           ;         ;
 ; lpm_ff.tdf                            ; yes             ; Megafunction                             ; c:/intelfpga_lite/18.1/quartus/libraries/megafunctions/lpm_ff.tdf              ;         ;
-; db/altsyncram_53b1.tdf                ; yes             ; Auto-Generated Megafunction              ; C:/Users/Rodrigo/Documents/GitHub/TP2/db/altsyncram_53b1.tdf                   ;         ;
+; db/altsyncram_n4b1.tdf                ; yes             ; Auto-Generated Megafunction              ; C:/Users/Rodrigo/Documents/GitHub/TP2/db/altsyncram_n4b1.tdf                   ;         ;
 ; lpm_counter.tdf                       ; yes             ; Megafunction                             ; c:/intelfpga_lite/18.1/quartus/libraries/megafunctions/lpm_counter.tdf         ;         ;
 ; lpm_add_sub.inc                       ; yes             ; Megafunction                             ; c:/intelfpga_lite/18.1/quartus/libraries/megafunctions/lpm_add_sub.inc         ;         ;
 ; cmpconst.inc                          ; yes             ; Megafunction                             ; c:/intelfpga_lite/18.1/quartus/libraries/megafunctions/cmpconst.inc            ;         ;
@@ -391,7 +391,7 @@ refer to the applicable agreement for further details.
 ;             |cntr_sej:auto_generated|           ; 11 (11)             ; 11 (11)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|IFU_block:inst17|PC_counter:inst|lpm_counter:LPM_COUNTER_component|cntr_sej:auto_generated                   ; cntr_sej            ; work         ;
 ;       |ROM_programa:inst1|                      ; 0 (0)               ; 0 (0)                     ; 28672       ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|IFU_block:inst17|ROM_programa:inst1                                                                          ; ROM_programa        ; work         ;
 ;          |altsyncram:altsyncram_component|      ; 0 (0)               ; 0 (0)                     ; 28672       ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|IFU_block:inst17|ROM_programa:inst1|altsyncram:altsyncram_component                                          ; altsyncram          ; work         ;
-;             |altsyncram_53b1:auto_generated|    ; 0 (0)               ; 0 (0)                     ; 28672       ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|IFU_block:inst17|ROM_programa:inst1|altsyncram:altsyncram_component|altsyncram_53b1:auto_generated           ; altsyncram_53b1     ; work         ;
+;             |altsyncram_n4b1:auto_generated|    ; 0 (0)               ; 0 (0)                     ; 28672       ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|IFU_block:inst17|ROM_programa:inst1|altsyncram:altsyncram_component|altsyncram_n4b1:auto_generated           ; altsyncram_n4b1     ; work         ;
 ;    |Pipeline:inst5|                             ; 287 (0)             ; 121 (1)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|Pipeline:inst5                                                                                               ; Pipeline            ; work         ;
 ;       |BLOQUE1_MUX:inst7|                       ; 42 (0)              ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|Pipeline:inst5|BLOQUE1_MUX:inst7                                                                             ; BLOQUE1_MUX         ; work         ;
 ;          |lpm_mux:LPM_MUX_component|            ; 42 (0)              ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|Pipeline:inst5|BLOQUE1_MUX:inst7|lpm_mux:LPM_MUX_component                                                   ; lpm_mux             ; work         ;
@@ -566,7 +566,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +---------------------------------------------------------------------------------------------------------------+------+-------------+--------------+--------------+--------------+--------------+-------+-----------------------------------------------------------------------+
 ; Name                                                                                                          ; Type ; Mode        ; Port A Depth ; Port A Width ; Port B Depth ; Port B Width ; Size  ; MIF                                                                   ;
 +---------------------------------------------------------------------------------------------------------------+------+-------------+--------------+--------------+--------------+--------------+-------+-----------------------------------------------------------------------+
-; IFU_block:inst17|ROM_programa:inst1|altsyncram:altsyncram_component|altsyncram_53b1:auto_generated|ALTSYNCRAM ; AUTO ; ROM         ; 2048         ; 14           ; --           ; --           ; 28672 ; ./IFU/programTest.mif                                                 ;
+; IFU_block:inst17|ROM_programa:inst1|altsyncram:altsyncram_component|altsyncram_n4b1:auto_generated|ALTSYNCRAM ; AUTO ; ROM         ; 2048         ; 14           ; --           ; --           ; 28672 ; ./IFU/programTest2.mif                                                ;
 ; RAM:inst18|altsyncram:altsyncram_component|altsyncram_99g1:auto_generated|ALTSYNCRAM                          ; AUTO ; Single Port ; 1024         ; 16           ; --           ; --           ; 16384 ; None                                                                  ;
 ; ROM_CS:inst1|altsyncram:altsyncram_component|altsyncram_nmf1:auto_generated|ALTSYNCRAM                        ; AUTO ; ROM         ; 128          ; 63           ; --           ; --           ; 8064  ; C:/Users/Rodrigo/Documents/GitHub/TP2/Control Store/control_store.mif ;
 +---------------------------------------------------------------------------------------------------------------+------+-------------+--------------+--------------+--------------+--------------+-------+-----------------------------------------------------------------------+
@@ -643,7 +643,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 
 
 +---------------------------------------------------------------------------------------------------------------------------+
-; Source assignments for IFU_block:inst17|ROM_programa:inst1|altsyncram:altsyncram_component|altsyncram_53b1:auto_generated ;
+; Source assignments for IFU_block:inst17|ROM_programa:inst1|altsyncram:altsyncram_component|altsyncram_n4b1:auto_generated ;
 +---------------------------------+--------------------+------+-------------------------------------------------------------+
 ; Assignment                      ; Value              ; From ; To                                                          ;
 +---------------------------------+--------------------+------+-------------------------------------------------------------+
@@ -981,62 +981,62 @@ Note: In order to hide this table in the UI and the text report file, please set
 
 +------------------------------------------------------------------------------------------------------------------+
 ; Parameter Settings for User Entity Instance: IFU_block:inst17|ROM_programa:inst1|altsyncram:altsyncram_component ;
-+------------------------------------+-----------------------+-----------------------------------------------------+
-; Parameter Name                     ; Value                 ; Type                                                ;
-+------------------------------------+-----------------------+-----------------------------------------------------+
-; BYTE_SIZE_BLOCK                    ; 8                     ; Untyped                                             ;
-; AUTO_CARRY_CHAINS                  ; ON                    ; AUTO_CARRY                                          ;
-; IGNORE_CARRY_BUFFERS               ; OFF                   ; IGNORE_CARRY                                        ;
-; AUTO_CASCADE_CHAINS                ; ON                    ; AUTO_CASCADE                                        ;
-; IGNORE_CASCADE_BUFFERS             ; OFF                   ; IGNORE_CASCADE                                      ;
-; WIDTH_BYTEENA                      ; 1                     ; Untyped                                             ;
-; OPERATION_MODE                     ; ROM                   ; Untyped                                             ;
-; WIDTH_A                            ; 14                    ; Signed Integer                                      ;
-; WIDTHAD_A                          ; 11                    ; Signed Integer                                      ;
-; NUMWORDS_A                         ; 2048                  ; Signed Integer                                      ;
-; OUTDATA_REG_A                      ; UNREGISTERED          ; Untyped                                             ;
-; ADDRESS_ACLR_A                     ; NONE                  ; Untyped                                             ;
-; OUTDATA_ACLR_A                     ; NONE                  ; Untyped                                             ;
-; WRCONTROL_ACLR_A                   ; NONE                  ; Untyped                                             ;
-; INDATA_ACLR_A                      ; NONE                  ; Untyped                                             ;
-; BYTEENA_ACLR_A                     ; NONE                  ; Untyped                                             ;
-; WIDTH_B                            ; 1                     ; Untyped                                             ;
-; WIDTHAD_B                          ; 1                     ; Untyped                                             ;
-; NUMWORDS_B                         ; 1                     ; Untyped                                             ;
-; INDATA_REG_B                       ; CLOCK1                ; Untyped                                             ;
-; WRCONTROL_WRADDRESS_REG_B          ; CLOCK1                ; Untyped                                             ;
-; RDCONTROL_REG_B                    ; CLOCK1                ; Untyped                                             ;
-; ADDRESS_REG_B                      ; CLOCK1                ; Untyped                                             ;
-; OUTDATA_REG_B                      ; UNREGISTERED          ; Untyped                                             ;
-; BYTEENA_REG_B                      ; CLOCK1                ; Untyped                                             ;
-; INDATA_ACLR_B                      ; NONE                  ; Untyped                                             ;
-; WRCONTROL_ACLR_B                   ; NONE                  ; Untyped                                             ;
-; ADDRESS_ACLR_B                     ; NONE                  ; Untyped                                             ;
-; OUTDATA_ACLR_B                     ; NONE                  ; Untyped                                             ;
-; RDCONTROL_ACLR_B                   ; NONE                  ; Untyped                                             ;
-; BYTEENA_ACLR_B                     ; NONE                  ; Untyped                                             ;
-; WIDTH_BYTEENA_A                    ; 1                     ; Signed Integer                                      ;
-; WIDTH_BYTEENA_B                    ; 1                     ; Untyped                                             ;
-; RAM_BLOCK_TYPE                     ; AUTO                  ; Untyped                                             ;
-; BYTE_SIZE                          ; 8                     ; Untyped                                             ;
-; READ_DURING_WRITE_MODE_MIXED_PORTS ; DONT_CARE             ; Untyped                                             ;
-; READ_DURING_WRITE_MODE_PORT_A      ; NEW_DATA_NO_NBE_READ  ; Untyped                                             ;
-; READ_DURING_WRITE_MODE_PORT_B      ; NEW_DATA_NO_NBE_READ  ; Untyped                                             ;
-; INIT_FILE                          ; ./IFU/programTest.mif ; Untyped                                             ;
-; INIT_FILE_LAYOUT                   ; PORT_A                ; Untyped                                             ;
-; MAXIMUM_DEPTH                      ; 0                     ; Untyped                                             ;
-; CLOCK_ENABLE_INPUT_A               ; BYPASS                ; Untyped                                             ;
-; CLOCK_ENABLE_INPUT_B               ; NORMAL                ; Untyped                                             ;
-; CLOCK_ENABLE_OUTPUT_A              ; BYPASS                ; Untyped                                             ;
-; CLOCK_ENABLE_OUTPUT_B              ; NORMAL                ; Untyped                                             ;
-; CLOCK_ENABLE_CORE_A                ; USE_INPUT_CLKEN       ; Untyped                                             ;
-; CLOCK_ENABLE_CORE_B                ; USE_INPUT_CLKEN       ; Untyped                                             ;
-; ENABLE_ECC                         ; FALSE                 ; Untyped                                             ;
-; ECC_PIPELINE_STAGE_ENABLED         ; FALSE                 ; Untyped                                             ;
-; WIDTH_ECCSTATUS                    ; 3                     ; Untyped                                             ;
-; DEVICE_FAMILY                      ; Cyclone IV E          ; Untyped                                             ;
-; CBXI_PARAMETER                     ; altsyncram_53b1       ; Untyped                                             ;
-+------------------------------------+-----------------------+-----------------------------------------------------+
++------------------------------------+------------------------+----------------------------------------------------+
+; Parameter Name                     ; Value                  ; Type                                               ;
++------------------------------------+------------------------+----------------------------------------------------+
+; BYTE_SIZE_BLOCK                    ; 8                      ; Untyped                                            ;
+; AUTO_CARRY_CHAINS                  ; ON                     ; AUTO_CARRY                                         ;
+; IGNORE_CARRY_BUFFERS               ; OFF                    ; IGNORE_CARRY                                       ;
+; AUTO_CASCADE_CHAINS                ; ON                     ; AUTO_CASCADE                                       ;
+; IGNORE_CASCADE_BUFFERS             ; OFF                    ; IGNORE_CASCADE                                     ;
+; WIDTH_BYTEENA                      ; 1                      ; Untyped                                            ;
+; OPERATION_MODE                     ; ROM                    ; Untyped                                            ;
+; WIDTH_A                            ; 14                     ; Signed Integer                                     ;
+; WIDTHAD_A                          ; 11                     ; Signed Integer                                     ;
+; NUMWORDS_A                         ; 2048                   ; Signed Integer                                     ;
+; OUTDATA_REG_A                      ; UNREGISTERED           ; Untyped                                            ;
+; ADDRESS_ACLR_A                     ; NONE                   ; Untyped                                            ;
+; OUTDATA_ACLR_A                     ; NONE                   ; Untyped                                            ;
+; WRCONTROL_ACLR_A                   ; NONE                   ; Untyped                                            ;
+; INDATA_ACLR_A                      ; NONE                   ; Untyped                                            ;
+; BYTEENA_ACLR_A                     ; NONE                   ; Untyped                                            ;
+; WIDTH_B                            ; 1                      ; Untyped                                            ;
+; WIDTHAD_B                          ; 1                      ; Untyped                                            ;
+; NUMWORDS_B                         ; 1                      ; Untyped                                            ;
+; INDATA_REG_B                       ; CLOCK1                 ; Untyped                                            ;
+; WRCONTROL_WRADDRESS_REG_B          ; CLOCK1                 ; Untyped                                            ;
+; RDCONTROL_REG_B                    ; CLOCK1                 ; Untyped                                            ;
+; ADDRESS_REG_B                      ; CLOCK1                 ; Untyped                                            ;
+; OUTDATA_REG_B                      ; UNREGISTERED           ; Untyped                                            ;
+; BYTEENA_REG_B                      ; CLOCK1                 ; Untyped                                            ;
+; INDATA_ACLR_B                      ; NONE                   ; Untyped                                            ;
+; WRCONTROL_ACLR_B                   ; NONE                   ; Untyped                                            ;
+; ADDRESS_ACLR_B                     ; NONE                   ; Untyped                                            ;
+; OUTDATA_ACLR_B                     ; NONE                   ; Untyped                                            ;
+; RDCONTROL_ACLR_B                   ; NONE                   ; Untyped                                            ;
+; BYTEENA_ACLR_B                     ; NONE                   ; Untyped                                            ;
+; WIDTH_BYTEENA_A                    ; 1                      ; Signed Integer                                     ;
+; WIDTH_BYTEENA_B                    ; 1                      ; Untyped                                            ;
+; RAM_BLOCK_TYPE                     ; AUTO                   ; Untyped                                            ;
+; BYTE_SIZE                          ; 8                      ; Untyped                                            ;
+; READ_DURING_WRITE_MODE_MIXED_PORTS ; DONT_CARE              ; Untyped                                            ;
+; READ_DURING_WRITE_MODE_PORT_A      ; NEW_DATA_NO_NBE_READ   ; Untyped                                            ;
+; READ_DURING_WRITE_MODE_PORT_B      ; NEW_DATA_NO_NBE_READ   ; Untyped                                            ;
+; INIT_FILE                          ; ./IFU/programTest2.mif ; Untyped                                            ;
+; INIT_FILE_LAYOUT                   ; PORT_A                 ; Untyped                                            ;
+; MAXIMUM_DEPTH                      ; 0                      ; Untyped                                            ;
+; CLOCK_ENABLE_INPUT_A               ; BYPASS                 ; Untyped                                            ;
+; CLOCK_ENABLE_INPUT_B               ; NORMAL                 ; Untyped                                            ;
+; CLOCK_ENABLE_OUTPUT_A              ; BYPASS                 ; Untyped                                            ;
+; CLOCK_ENABLE_OUTPUT_B              ; NORMAL                 ; Untyped                                            ;
+; CLOCK_ENABLE_CORE_A                ; USE_INPUT_CLKEN        ; Untyped                                            ;
+; CLOCK_ENABLE_CORE_B                ; USE_INPUT_CLKEN        ; Untyped                                            ;
+; ENABLE_ECC                         ; FALSE                  ; Untyped                                            ;
+; ECC_PIPELINE_STAGE_ENABLED         ; FALSE                  ; Untyped                                            ;
+; WIDTH_ECCSTATUS                    ; 3                      ; Untyped                                            ;
+; DEVICE_FAMILY                      ; Cyclone IV E           ; Untyped                                            ;
+; CBXI_PARAMETER                     ; altsyncram_n4b1        ; Untyped                                            ;
++------------------------------------+------------------------+----------------------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
 
@@ -2191,7 +2191,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+--------------+
 ; Partition Name ; Elapsed Time ;
 +----------------+--------------+
-; Top            ; 00:00:08     ;
+; Top            ; 00:00:07     ;
 +----------------+--------------+
 
 
@@ -2201,7 +2201,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
-    Info: Processing started: Sat Jun 22 15:28:23 2019
+    Info: Processing started: Sat Jun 22 17:21:54 2019
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off TP2 -c TP2
 Warning (125092): Tcl Script File DATA_RAM/DATA_RAM.qip not found
     Info (125063): set_global_assignment -name QIP_FILE DATA_RAM/DATA_RAM.qip
@@ -2327,6 +2327,9 @@ Warning (275002): No superset bus at connection
 Info (12128): Elaborating entity "UC2" for hierarchy "Pipeline:inst5|UC2:inst4"
 Warning (275002): No superset bus at connection
 Warning (275002): No superset bus at connection
+Warning (275008): Primitive "AND2" of instance "inst19" not used
+Warning (275008): Primitive "AND2" of instance "inst23" not used
+Warning (275008): Primitive "AND2" of instance "inst24" not used
 Info (12128): Elaborating entity "COMPARE_UC2" for hierarchy "Pipeline:inst5|UC2:inst4|COMPARE_UC2:inst6"
 Info (12128): Elaborating entity "lpm_compare" for hierarchy "Pipeline:inst5|UC2:inst4|COMPARE_UC2:inst6|lpm_compare:LPM_COMPARE_component" File: C:/Users/Rodrigo/Documents/GitHub/TP2/PIPELINE/COMPARE_UC2.v Line: 62
 Info (12130): Elaborated megafunction instantiation "Pipeline:inst5|UC2:inst4|COMPARE_UC2:inst6|lpm_compare:LPM_COMPARE_component" File: C:/Users/Rodrigo/Documents/GitHub/TP2/PIPELINE/COMPARE_UC2.v Line: 62
@@ -2371,7 +2374,7 @@ Info (12133): Instantiated megafunction "IFU_block:inst17|ROM_programa:inst1|alt
     Info (12134): Parameter "address_aclr_a" = "NONE"
     Info (12134): Parameter "clock_enable_input_a" = "BYPASS"
     Info (12134): Parameter "clock_enable_output_a" = "BYPASS"
-    Info (12134): Parameter "init_file" = "./IFU/programTest.mif"
+    Info (12134): Parameter "init_file" = "./IFU/programTest2.mif"
     Info (12134): Parameter "intended_device_family" = "Cyclone IV E"
     Info (12134): Parameter "lpm_hint" = "ENABLE_RUNTIME_MOD=NO"
     Info (12134): Parameter "lpm_type" = "altsyncram"
@@ -2382,9 +2385,9 @@ Info (12133): Instantiated megafunction "IFU_block:inst17|ROM_programa:inst1|alt
     Info (12134): Parameter "widthad_a" = "11"
     Info (12134): Parameter "width_a" = "14"
     Info (12134): Parameter "width_byteena_a" = "1"
-Info (12021): Found 1 design units, including 1 entities, in source file db/altsyncram_53b1.tdf
-    Info (12023): Found entity 1: altsyncram_53b1 File: C:/Users/Rodrigo/Documents/GitHub/TP2/db/altsyncram_53b1.tdf Line: 27
-Info (12128): Elaborating entity "altsyncram_53b1" for hierarchy "IFU_block:inst17|ROM_programa:inst1|altsyncram:altsyncram_component|altsyncram_53b1:auto_generated" File: c:/intelfpga_lite/18.1/quartus/libraries/megafunctions/altsyncram.tdf Line: 791
+Info (12021): Found 1 design units, including 1 entities, in source file db/altsyncram_n4b1.tdf
+    Info (12023): Found entity 1: altsyncram_n4b1 File: C:/Users/Rodrigo/Documents/GitHub/TP2/db/altsyncram_n4b1.tdf Line: 27
+Info (12128): Elaborating entity "altsyncram_n4b1" for hierarchy "IFU_block:inst17|ROM_programa:inst1|altsyncram:altsyncram_component|altsyncram_n4b1:auto_generated" File: c:/intelfpga_lite/18.1/quartus/libraries/megafunctions/altsyncram.tdf Line: 791
 Info (12128): Elaborating entity "PC_counter" for hierarchy "IFU_block:inst17|PC_counter:inst"
 Info (12128): Elaborating entity "lpm_counter" for hierarchy "IFU_block:inst17|PC_counter:inst|lpm_counter:LPM_COUNTER_component" File: C:/Users/Rodrigo/Documents/GitHub/TP2/PC_counter.v Line: 70
 Info (12130): Elaborated megafunction instantiation "IFU_block:inst17|PC_counter:inst|lpm_counter:LPM_COUNTER_component" File: C:/Users/Rodrigo/Documents/GitHub/TP2/PC_counter.v Line: 70
@@ -2766,10 +2769,10 @@ Info (21057): Implemented 2246 device resources after synthesis - the final reso
     Info (21059): Implemented 166 output pins
     Info (21061): Implemented 1985 logic cells
     Info (21064): Implemented 93 RAM segments
-Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 212 warnings
-    Info: Peak virtual memory: 4881 megabytes
-    Info: Processing ended: Sat Jun 22 15:29:00 2019
-    Info: Elapsed time: 00:00:37
-    Info: Total CPU time (on all processors): 00:00:57
+Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 215 warnings
+    Info: Peak virtual memory: 4879 megabytes
+    Info: Processing ended: Sat Jun 22 17:22:26 2019
+    Info: Elapsed time: 00:00:32
+    Info: Total CPU time (on all processors): 00:00:51
 
 
