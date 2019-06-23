@@ -279,6 +279,22 @@ refer to the applicable agreement for further details.
 		(line (pt 78 12)(pt 82 8))
 	)
 )
+(pin
+	(output)
+	(rect 704 96 880 112)
+	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
+	(text "ALUC[3..0]" (rect 90 0 145 12)(font "Arial" ))
+	(pt 0 8)
+	(drawing
+		(line (pt 0 8)(pt 52 8))
+		(line (pt 52 4)(pt 78 4))
+		(line (pt 52 12)(pt 78 12))
+		(line (pt 52 12)(pt 52 4))
+		(line (pt 78 4)(pt 82 8))
+		(line (pt 82 8)(pt 78 12))
+		(line (pt 78 12)(pt 82 8))
+	)
+)
 (symbol
 	(rect 880 232 1056 328)
 	(text "latch_16bFF" (rect 5 0 79 19)(font "Intel Clear" (font_size 8)))
@@ -2216,17 +2232,6 @@ refer to the applicable agreement for further details.
 	(bus)
 )
 (connector
-	(text "MIR[62..59]" (rect 861 136 915 153)(font "Intel Clear" ))
-	(pt 824 152)
-	(pt 936 152)
-	(bus)
-)
-(connector
-	(pt 936 152)
-	(pt 1184 152)
-	(bus)
-)
-(connector
 	(text "gnd[15..8]" (rect 16 -56 63 -39)(font "Intel Clear" ))
 	(pt -8 -40)
 	(pt 136 -40)
@@ -2426,6 +2431,22 @@ refer to the applicable agreement for further details.
 	(text "ROM[50..45]" (rect -121 160 -61 177)(font "Intel Clear" ))
 	(pt -136 176)
 	(pt -72 176)
+	(bus)
+)
+(connector
+	(pt 704 152)
+	(pt 704 104)
+	(bus)
+)
+(connector
+	(text "MIR[62..59]" (rect 861 136 915 153)(font "Intel Clear" ))
+	(pt 704 152)
+	(pt 936 152)
+	(bus)
+)
+(connector
+	(pt 936 152)
+	(pt 1184 152)
 	(bus)
 )
 (junction (pt -152 -648))

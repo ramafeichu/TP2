@@ -20,6 +20,22 @@
 					"strict" : false
 				},
 				{
+					"name" : "ALUC[3]",
+					"strict" : false
+				},
+				{
+					"name" : "ALUC[2]",
+					"strict" : false
+				},
+				{
+					"name" : "ALUC[1]",
+					"strict" : false
+				},
+				{
+					"name" : "ALUC[0]",
+					"strict" : false
+				},
+				{
 					"name" : "BUS_A[15]",
 					"strict" : false
 				},
