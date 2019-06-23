@@ -8,10 +8,6 @@
 					"strict" : false
 				},
 				{
-					"name" : "HOLD",
-					"strict" : false
-				},
-				{
 					"name" : "MW",
 					"strict" : false
 				},
@@ -641,10 +637,6 @@
 				},
 				{
 					"name" : "CLK",
-					"strict" : false
-				},
-				{
-					"name" : "CLOCK_UC1",
 					"strict" : false
 				},
 				{
