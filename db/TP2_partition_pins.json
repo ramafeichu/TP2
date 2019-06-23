@@ -20,6 +20,22 @@
 					"strict" : false
 				},
 				{
+					"name" : "ALU_ROM[3]",
+					"strict" : false
+				},
+				{
+					"name" : "ALU_ROM[2]",
+					"strict" : false
+				},
+				{
+					"name" : "ALU_ROM[1]",
+					"strict" : false
+				},
+				{
+					"name" : "ALU_ROM[0]",
+					"strict" : false
+				},
+				{
 					"name" : "ALUC[3]",
 					"strict" : false
 				},
@@ -624,35 +640,11 @@
 					"strict" : false
 				},
 				{
-					"name" : "Type_ROM[6]",
-					"strict" : false
-				},
-				{
-					"name" : "Type_ROM[5]",
-					"strict" : false
-				},
-				{
-					"name" : "Type_ROM[4]",
-					"strict" : false
-				},
-				{
-					"name" : "Type_ROM[3]",
-					"strict" : false
-				},
-				{
-					"name" : "Type_ROM[2]",
-					"strict" : false
-				},
-				{
-					"name" : "Type_ROM[1]",
-					"strict" : false
-				},
-				{
-					"name" : "Type_ROM[0]",
-					"strict" : false
-				},
-				{
 					"name" : "CLK",
+					"strict" : false
+				},
+				{
+					"name" : "CLOCK_UC1",
 					"strict" : false
 				},
 				{

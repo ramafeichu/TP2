@@ -1,5 +1,5 @@
 Analysis & Synthesis report for TP2
-Sun Jun 23 16:45:02 2019
+Sun Jun 23 18:59:33 2019
 Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 
 
@@ -85,12 +85,14 @@ Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
  77. Parameter Settings for User Entity Instance: LPM_FF:inst14
  78. Parameter Settings for User Entity Instance: latch_8bFF:instSS|LPM_FF:inst
  79. Parameter Settings for User Entity Instance: latch_16bFF:inst7|LPM_FF:inst
- 80. Parameter Settings for User Entity Instance: XY_mux:inst3|X_mux_Y:inst1|lpm_mux:LPM_MUX_component
- 81. Parameter Settings for User Entity Instance: XY_mux:inst3|INSTRUCTION_decoder:inst5|lpm_decode:LPM_DECODE_component
- 82. altsyncram Parameter Settings by Entity Instance
- 83. Post-Synthesis Netlist Statistics for Top Partition
- 84. Elapsed Time Per Partition
- 85. Analysis & Synthesis Messages
+ 80. Parameter Settings for User Entity Instance: XY_mux:inst3|X_Y_6_MUX:inst12|lpm_mux:LPM_MUX_component
+ 81. Parameter Settings for User Entity Instance: XY_mux:inst3|X_mux_Y:inst1|lpm_mux:LPM_MUX_component
+ 82. Parameter Settings for User Entity Instance: XY_mux:inst3|INSTRUCTION_decoder:inst5|lpm_decode:LPM_DECODE_component
+ 83. Parameter Settings for User Entity Instance: LPM_FF:inst20
+ 84. altsyncram Parameter Settings by Entity Instance
+ 85. Post-Synthesis Netlist Statistics for Top Partition
+ 86. Elapsed Time Per Partition
+ 87. Analysis & Synthesis Messages
 
 
 
@@ -116,18 +118,18 @@ refer to the applicable agreement for further details.
 +----------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                     ;
 +------------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Sun Jun 23 16:45:02 2019       ;
+; Analysis & Synthesis Status        ; Successful - Sun Jun 23 18:59:33 2019       ;
 ; Quartus Prime Version              ; 18.1.0 Build 625 09/12/2018 SJ Lite Edition ;
 ; Revision Name                      ; TP2                                         ;
 ; Top-level Entity Name              ; main                                        ;
 ; Family                             ; Cyclone IV E                                ;
-; Total logic elements               ; 1,953                                       ;
-;     Total combinational functions  ; 1,317                                       ;
-;     Dedicated logic registers      ; 751                                         ;
-; Total registers                    ; 751                                         ;
-; Total pins                         ; 172                                         ;
+; Total logic elements               ; 2,019                                       ;
+;     Total combinational functions  ; 1,375                                       ;
+;     Dedicated logic registers      ; 765                                         ;
+; Total registers                    ; 765                                         ;
+; Total pins                         ; 170                                         ;
 ; Total virtual pins                 ; 0                                           ;
-; Total memory bits                  ; 53,120                                      ;
+; Total memory bits                  ; 52,992                                      ;
 ; Embedded Multiplier 9-bit elements ; 0                                           ;
 ; Total PLLs                         ; 0                                           ;
 +------------------------------------+---------------------------------------------+
@@ -232,7 +234,7 @@ refer to the applicable agreement for further details.
 ;                            ;             ;
 ; Usage by Processor         ; % Time Used ;
 ;     Processor 1            ; 100.0%      ;
-;     Processor 2            ;   0.0%      ;
+;     Processor 2            ;   0.1%      ;
 +----------------------------+-------------+
 
 
@@ -277,6 +279,7 @@ refer to the applicable agreement for further details.
 ; latch_8bFF.bdf                        ; yes             ; User Block Diagram/Schematic File        ; C:/Users/Rodrigo/Documents/GitHub/TP2/latch_8bFF.bdf                           ;         ;
 ; RAM.v                                 ; yes             ; User Wizard-Generated File               ; C:/Users/Rodrigo/Documents/GitHub/TP2/RAM.v                                    ;         ;
 ; IFU/counter.mif                       ; yes             ; User Memory Initialization File          ; C:/Users/Rodrigo/Documents/GitHub/TP2/IFU/counter.mif                          ;         ;
+; X_Y_6_MUX.v                           ; yes             ; User Wizard-Generated File               ; C:/Users/Rodrigo/Documents/GitHub/TP2/X_Y_6_MUX.v                              ;         ;
 ; rom_cs.v                              ; yes             ; Auto-Found Wizard-Generated File         ; C:/Users/Rodrigo/Documents/GitHub/TP2/rom_cs.v                                 ;         ;
 ; altsyncram.tdf                        ; yes             ; Megafunction                             ; c:/intelfpga_lite/18.1/quartus/libraries/megafunctions/altsyncram.tdf          ;         ;
 ; stratix_ram_block.inc                 ; yes             ; Megafunction                             ; c:/intelfpga_lite/18.1/quartus/libraries/megafunctions/stratix_ram_block.inc   ;         ;
@@ -326,6 +329,7 @@ refer to the applicable agreement for further details.
 ; 7495.bdf                              ; yes             ; Megafunction                             ; c:/intelfpga_lite/18.1/quartus/libraries/others/maxplus2/7495.bdf              ;         ;
 ; db/mux_b9e.tdf                        ; yes             ; Auto-Generated Megafunction              ; C:/Users/Rodrigo/Documents/GitHub/TP2/db/mux_b9e.tdf                           ;         ;
 ; db/altsyncram_99g1.tdf                ; yes             ; Auto-Generated Megafunction              ; C:/Users/Rodrigo/Documents/GitHub/TP2/db/altsyncram_99g1.tdf                   ;         ;
+; db/mux_crc.tdf                        ; yes             ; Auto-Generated Megafunction              ; C:/Users/Rodrigo/Documents/GitHub/TP2/db/mux_crc.tdf                           ;         ;
 ; db/mux_usc.tdf                        ; yes             ; Auto-Generated Megafunction              ; C:/Users/Rodrigo/Documents/GitHub/TP2/db/mux_usc.tdf                           ;         ;
 ; db/decode_tcf.tdf                     ; yes             ; Auto-Generated Megafunction              ; C:/Users/Rodrigo/Documents/GitHub/TP2/db/decode_tcf.tdf                        ;         ;
 +---------------------------------------+-----------------+------------------------------------------+--------------------------------------------------------------------------------+---------+
@@ -336,30 +340,30 @@ refer to the applicable agreement for further details.
 +---------------------------------------------+-----------+
 ; Resource                                    ; Usage     ;
 +---------------------------------------------+-----------+
-; Estimated Total logic elements              ; 1,953     ;
+; Estimated Total logic elements              ; 2,019     ;
 ;                                             ;           ;
-; Total combinational functions               ; 1317      ;
+; Total combinational functions               ; 1375      ;
 ; Logic element usage by number of LUT inputs ;           ;
-;     -- 4 input functions                    ; 1150      ;
-;     -- 3 input functions                    ; 92        ;
+;     -- 4 input functions                    ; 1187      ;
+;     -- 3 input functions                    ; 113       ;
 ;     -- <=2 input functions                  ; 75        ;
 ;                                             ;           ;
 ; Logic elements by mode                      ;           ;
-;     -- normal mode                          ; 1274      ;
+;     -- normal mode                          ; 1332      ;
 ;     -- arithmetic mode                      ; 43        ;
 ;                                             ;           ;
-; Total registers                             ; 751       ;
-;     -- Dedicated logic registers            ; 751       ;
+; Total registers                             ; 765       ;
+;     -- Dedicated logic registers            ; 765       ;
 ;     -- I/O registers                        ; 0         ;
 ;                                             ;           ;
-; I/O pins                                    ; 172       ;
-; Total memory bits                           ; 53120     ;
+; I/O pins                                    ; 170       ;
+; Total memory bits                           ; 52992     ;
 ;                                             ;           ;
 ; Embedded Multiplier 9-bit elements          ; 0         ;
 ;                                             ;           ;
 ; Maximum fan-out node                        ; CLK~input ;
-; Maximum fan-out                             ; 672       ;
-; Total fan-out                               ; 8385      ;
+; Maximum fan-out                             ; 677       ;
+; Total fan-out                               ; 8617      ;
 ; Average fan-out                             ; 3.35      ;
 +---------------------------------------------+-----------+
 
@@ -369,8 +373,8 @@ refer to the applicable agreement for further details.
 +-------------------------------------------------+---------------------+---------------------------+-------------+--------------+---------+-----------+------+--------------+--------------------------------------------------------------------------------------------------------------------+---------------------+--------------+
 ; Compilation Hierarchy Node                      ; Combinational ALUTs ; Dedicated Logic Registers ; Memory Bits ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; Full Hierarchy Name                                                                                                ; Entity Name         ; Library Name ;
 +-------------------------------------------------+---------------------+---------------------------+-------------+--------------+---------+-----------+------+--------------+--------------------------------------------------------------------------------------------------------------------+---------------------+--------------+
-; |main                                           ; 1317 (34)           ; 751 (1)                   ; 53120       ; 0            ; 0       ; 0         ; 172  ; 0            ; |main                                                                                                              ; main                ; work         ;
-;    |ALU:inst4|                                  ; 123 (0)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|ALU:inst4                                                                                                    ; ALU                 ; work         ;
+; |main                                           ; 1375 (35)           ; 765 (1)                   ; 52992       ; 0            ; 0       ; 0         ; 170  ; 0            ; |main                                                                                                              ; main                ; work         ;
+;    |ALU:inst4|                                  ; 112 (0)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|ALU:inst4                                                                                                    ; ALU                 ; work         ;
 ;       |amasb:AplusBplusCARRY|                   ; 18 (0)              ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|ALU:inst4|amasb:AplusBplusCARRY                                                                              ; amasb               ; work         ;
 ;          |adderCarry:inst|                      ; 18 (0)              ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|ALU:inst4|amasb:AplusBplusCARRY|adderCarry:inst                                                              ; adderCarry          ; work         ;
 ;             |lpm_add_sub:LPM_ADD_SUB_component| ; 18 (0)              ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|ALU:inst4|amasb:AplusBplusCARRY|adderCarry:inst|lpm_add_sub:LPM_ADD_SUB_component                            ; lpm_add_sub         ; work         ;
@@ -379,12 +383,12 @@ refer to the applicable agreement for further details.
 ;          |adderCarry:inst|                      ; 17 (0)              ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|ALU:inst4|amasb:AplusB|adderCarry:inst                                                                       ; adderCarry          ; work         ;
 ;             |lpm_add_sub:LPM_ADD_SUB_component| ; 17 (0)              ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|ALU:inst4|amasb:AplusB|adderCarry:inst|lpm_add_sub:LPM_ADD_SUB_component                                     ; lpm_add_sub         ; work         ;
 ;                |add_sub_vci:auto_generated|     ; 17 (17)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|ALU:inst4|amasb:AplusB|adderCarry:inst|lpm_add_sub:LPM_ADD_SUB_component|add_sub_vci:auto_generated          ; add_sub_vci         ; work         ;
-;       |mux_1:inst11|                            ; 86 (0)              ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|ALU:inst4|mux_1:inst11                                                                                       ; mux_1               ; work         ;
-;          |lpm_mux:LPM_MUX_component|            ; 86 (0)              ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|ALU:inst4|mux_1:inst11|lpm_mux:LPM_MUX_component                                                             ; lpm_mux             ; work         ;
-;             |mux_iuc:auto_generated|            ; 86 (86)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|ALU:inst4|mux_1:inst11|lpm_mux:LPM_MUX_component|mux_iuc:auto_generated                                      ; mux_iuc             ; work         ;
-;       |mux_carry:inst10|                        ; 2 (0)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|ALU:inst4|mux_carry:inst10                                                                                   ; mux_carry           ; work         ;
-;          |lpm_mux:LPM_MUX_component|            ; 2 (0)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|ALU:inst4|mux_carry:inst10|lpm_mux:LPM_MUX_component                                                         ; lpm_mux             ; work         ;
-;             |mux_ssc:auto_generated|            ; 2 (2)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|ALU:inst4|mux_carry:inst10|lpm_mux:LPM_MUX_component|mux_ssc:auto_generated                                  ; mux_ssc             ; work         ;
+;       |mux_1:inst11|                            ; 74 (0)              ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|ALU:inst4|mux_1:inst11                                                                                       ; mux_1               ; work         ;
+;          |lpm_mux:LPM_MUX_component|            ; 74 (0)              ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|ALU:inst4|mux_1:inst11|lpm_mux:LPM_MUX_component                                                             ; lpm_mux             ; work         ;
+;             |mux_iuc:auto_generated|            ; 74 (74)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|ALU:inst4|mux_1:inst11|lpm_mux:LPM_MUX_component|mux_iuc:auto_generated                                      ; mux_iuc             ; work         ;
+;       |mux_carry:inst10|                        ; 3 (0)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|ALU:inst4|mux_carry:inst10                                                                                   ; mux_carry           ; work         ;
+;          |lpm_mux:LPM_MUX_component|            ; 3 (0)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|ALU:inst4|mux_carry:inst10|lpm_mux:LPM_MUX_component                                                         ; lpm_mux             ; work         ;
+;             |mux_ssc:auto_generated|            ; 3 (3)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|ALU:inst4|mux_carry:inst10|lpm_mux:LPM_MUX_component|mux_ssc:auto_generated                                  ; mux_ssc             ; work         ;
 ;    |IFU_block:inst17|                           ; 13 (2)              ; 11 (0)                    ; 28672       ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|IFU_block:inst17                                                                                             ; IFU_block           ; work         ;
 ;       |PC_counter:inst|                         ; 11 (0)              ; 11 (0)                    ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|IFU_block:inst17|PC_counter:inst                                                                             ; PC_counter          ; work         ;
 ;          |lpm_counter:LPM_COUNTER_component|    ; 11 (0)              ; 11 (0)                    ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|IFU_block:inst17|PC_counter:inst|lpm_counter:LPM_COUNTER_component                                           ; lpm_counter         ; work         ;
@@ -392,17 +396,17 @@ refer to the applicable agreement for further details.
 ;       |ROM_programa:inst1|                      ; 0 (0)               ; 0 (0)                     ; 28672       ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|IFU_block:inst17|ROM_programa:inst1                                                                          ; ROM_programa        ; work         ;
 ;          |altsyncram:altsyncram_component|      ; 0 (0)               ; 0 (0)                     ; 28672       ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|IFU_block:inst17|ROM_programa:inst1|altsyncram:altsyncram_component                                          ; altsyncram          ; work         ;
 ;             |altsyncram_dla1:auto_generated|    ; 0 (0)               ; 0 (0)                     ; 28672       ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|IFU_block:inst17|ROM_programa:inst1|altsyncram:altsyncram_component|altsyncram_dla1:auto_generated           ; altsyncram_dla1     ; work         ;
-;    |Pipeline:inst5|                             ; 288 (0)             ; 121 (1)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|Pipeline:inst5                                                                                               ; Pipeline            ; work         ;
-;       |BLOQUE1_MUX:inst7|                       ; 43 (0)              ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|Pipeline:inst5|BLOQUE1_MUX:inst7                                                                             ; BLOQUE1_MUX         ; work         ;
-;          |lpm_mux:LPM_MUX_component|            ; 43 (0)              ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|Pipeline:inst5|BLOQUE1_MUX:inst7|lpm_mux:LPM_MUX_component                                                   ; lpm_mux             ; work         ;
-;             |mux_0tc:auto_generated|            ; 43 (43)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|Pipeline:inst5|BLOQUE1_MUX:inst7|lpm_mux:LPM_MUX_component|mux_0tc:auto_generated                            ; mux_0tc             ; work         ;
-;       |UC2:inst4|                               ; 245 (149)           ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|Pipeline:inst5|UC2:inst4                                                                                     ; UC2                 ; work         ;
-;          |COMPARE_UC2:inst2|                    ; 2 (0)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|Pipeline:inst5|UC2:inst4|COMPARE_UC2:inst2                                                                   ; COMPARE_UC2         ; work         ;
-;             |lpm_compare:LPM_COMPARE_component| ; 2 (0)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|Pipeline:inst5|UC2:inst4|COMPARE_UC2:inst2|lpm_compare:LPM_COMPARE_component                                 ; lpm_compare         ; work         ;
-;                |cmpr_fng:auto_generated|        ; 2 (2)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|Pipeline:inst5|UC2:inst4|COMPARE_UC2:inst2|lpm_compare:LPM_COMPARE_component|cmpr_fng:auto_generated         ; cmpr_fng            ; work         ;
-;          |COMPARE_UC2:inst4|                    ; 3 (0)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|Pipeline:inst5|UC2:inst4|COMPARE_UC2:inst4                                                                   ; COMPARE_UC2         ; work         ;
-;             |lpm_compare:LPM_COMPARE_component| ; 3 (0)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|Pipeline:inst5|UC2:inst4|COMPARE_UC2:inst4|lpm_compare:LPM_COMPARE_component                                 ; lpm_compare         ; work         ;
-;                |cmpr_fng:auto_generated|        ; 3 (3)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|Pipeline:inst5|UC2:inst4|COMPARE_UC2:inst4|lpm_compare:LPM_COMPARE_component|cmpr_fng:auto_generated         ; cmpr_fng            ; work         ;
+;    |Pipeline:inst5|                             ; 295 (0)             ; 127 (1)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|Pipeline:inst5                                                                                               ; Pipeline            ; work         ;
+;       |BLOQUE1_MUX:inst7|                       ; 44 (0)              ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|Pipeline:inst5|BLOQUE1_MUX:inst7                                                                             ; BLOQUE1_MUX         ; work         ;
+;          |lpm_mux:LPM_MUX_component|            ; 44 (0)              ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|Pipeline:inst5|BLOQUE1_MUX:inst7|lpm_mux:LPM_MUX_component                                                   ; lpm_mux             ; work         ;
+;             |mux_0tc:auto_generated|            ; 44 (44)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|Pipeline:inst5|BLOQUE1_MUX:inst7|lpm_mux:LPM_MUX_component|mux_0tc:auto_generated                            ; mux_0tc             ; work         ;
+;       |UC2:inst4|                               ; 251 (143)           ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|Pipeline:inst5|UC2:inst4                                                                                     ; UC2                 ; work         ;
+;          |COMPARE_UC2:inst2|                    ; 8 (0)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|Pipeline:inst5|UC2:inst4|COMPARE_UC2:inst2                                                                   ; COMPARE_UC2         ; work         ;
+;             |lpm_compare:LPM_COMPARE_component| ; 8 (0)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|Pipeline:inst5|UC2:inst4|COMPARE_UC2:inst2|lpm_compare:LPM_COMPARE_component                                 ; lpm_compare         ; work         ;
+;                |cmpr_fng:auto_generated|        ; 8 (8)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|Pipeline:inst5|UC2:inst4|COMPARE_UC2:inst2|lpm_compare:LPM_COMPARE_component|cmpr_fng:auto_generated         ; cmpr_fng            ; work         ;
+;          |COMPARE_UC2:inst4|                    ; 8 (0)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|Pipeline:inst5|UC2:inst4|COMPARE_UC2:inst4                                                                   ; COMPARE_UC2         ; work         ;
+;             |lpm_compare:LPM_COMPARE_component| ; 8 (0)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|Pipeline:inst5|UC2:inst4|COMPARE_UC2:inst4|lpm_compare:LPM_COMPARE_component                                 ; lpm_compare         ; work         ;
+;                |cmpr_fng:auto_generated|        ; 8 (8)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|Pipeline:inst5|UC2:inst4|COMPARE_UC2:inst4|lpm_compare:LPM_COMPARE_component|cmpr_fng:auto_generated         ; cmpr_fng            ; work         ;
 ;          |COMPARE_UC2:inst5|                    ; 1 (0)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|Pipeline:inst5|UC2:inst4|COMPARE_UC2:inst5                                                                   ; COMPARE_UC2         ; work         ;
 ;             |lpm_compare:LPM_COMPARE_component| ; 1 (0)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|Pipeline:inst5|UC2:inst4|COMPARE_UC2:inst5|lpm_compare:LPM_COMPARE_component                                 ; lpm_compare         ; work         ;
 ;                |cmpr_fng:auto_generated|        ; 1 (1)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|Pipeline:inst5|UC2:inst4|COMPARE_UC2:inst5|lpm_compare:LPM_COMPARE_component|cmpr_fng:auto_generated         ; cmpr_fng            ; work         ;
@@ -412,40 +416,45 @@ refer to the applicable agreement for further details.
 ;          |COMPARE_UC2:inst7|                    ; 1 (0)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|Pipeline:inst5|UC2:inst4|COMPARE_UC2:inst7                                                                   ; COMPARE_UC2         ; work         ;
 ;             |lpm_compare:LPM_COMPARE_component| ; 1 (0)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|Pipeline:inst5|UC2:inst4|COMPARE_UC2:inst7|lpm_compare:LPM_COMPARE_component                                 ; lpm_compare         ; work         ;
 ;                |cmpr_fng:auto_generated|        ; 1 (1)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|Pipeline:inst5|UC2:inst4|COMPARE_UC2:inst7|lpm_compare:LPM_COMPARE_component|cmpr_fng:auto_generated         ; cmpr_fng            ; work         ;
-;          |COMPARE_UC2:instan|                   ; 3 (0)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|Pipeline:inst5|UC2:inst4|COMPARE_UC2:instan                                                                  ; COMPARE_UC2         ; work         ;
-;             |lpm_compare:LPM_COMPARE_component| ; 3 (0)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|Pipeline:inst5|UC2:inst4|COMPARE_UC2:instan|lpm_compare:LPM_COMPARE_component                                ; lpm_compare         ; work         ;
-;                |cmpr_fng:auto_generated|        ; 3 (3)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|Pipeline:inst5|UC2:inst4|COMPARE_UC2:instan|lpm_compare:LPM_COMPARE_component|cmpr_fng:auto_generated        ; cmpr_fng            ; work         ;
-;          |UC2_decoder:inst3|                    ; 43 (0)              ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|Pipeline:inst5|UC2:inst4|UC2_decoder:inst3                                                                   ; UC2_decoder         ; work         ;
-;             |lpm_decode:LPM_DECODE_component|   ; 43 (0)              ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|Pipeline:inst5|UC2:inst4|UC2_decoder:inst3|lpm_decode:LPM_DECODE_component                                   ; lpm_decode          ; work         ;
-;                |decode_3df:auto_generated|      ; 43 (43)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|Pipeline:inst5|UC2:inst4|UC2_decoder:inst3|lpm_decode:LPM_DECODE_component|decode_3df:auto_generated         ; decode_3df          ; work         ;
-;          |UC2_decoder:inst|                     ; 42 (0)              ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|Pipeline:inst5|UC2:inst4|UC2_decoder:inst                                                                    ; UC2_decoder         ; work         ;
-;             |lpm_decode:LPM_DECODE_component|   ; 42 (0)              ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|Pipeline:inst5|UC2:inst4|UC2_decoder:inst|lpm_decode:LPM_DECODE_component                                    ; lpm_decode          ; work         ;
-;                |decode_3df:auto_generated|      ; 42 (42)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|Pipeline:inst5|UC2:inst4|UC2_decoder:inst|lpm_decode:LPM_DECODE_component|decode_3df:auto_generated          ; decode_3df          ; work         ;
+;          |COMPARE_UC2:instan|                   ; 8 (0)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|Pipeline:inst5|UC2:inst4|COMPARE_UC2:instan                                                                  ; COMPARE_UC2         ; work         ;
+;             |lpm_compare:LPM_COMPARE_component| ; 8 (0)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|Pipeline:inst5|UC2:inst4|COMPARE_UC2:instan|lpm_compare:LPM_COMPARE_component                                ; lpm_compare         ; work         ;
+;                |cmpr_fng:auto_generated|        ; 8 (8)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|Pipeline:inst5|UC2:inst4|COMPARE_UC2:instan|lpm_compare:LPM_COMPARE_component|cmpr_fng:auto_generated        ; cmpr_fng            ; work         ;
+;          |UC2_decoder:inst3|                    ; 42 (0)              ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|Pipeline:inst5|UC2:inst4|UC2_decoder:inst3                                                                   ; UC2_decoder         ; work         ;
+;             |lpm_decode:LPM_DECODE_component|   ; 42 (0)              ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|Pipeline:inst5|UC2:inst4|UC2_decoder:inst3|lpm_decode:LPM_DECODE_component                                   ; lpm_decode          ; work         ;
+;                |decode_3df:auto_generated|      ; 42 (42)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|Pipeline:inst5|UC2:inst4|UC2_decoder:inst3|lpm_decode:LPM_DECODE_component|decode_3df:auto_generated         ; decode_3df          ; work         ;
+;          |UC2_decoder:inst|                     ; 39 (0)              ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|Pipeline:inst5|UC2:inst4|UC2_decoder:inst                                                                    ; UC2_decoder         ; work         ;
+;             |lpm_decode:LPM_DECODE_component|   ; 39 (0)              ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|Pipeline:inst5|UC2:inst4|UC2_decoder:inst|lpm_decode:LPM_DECODE_component                                    ; lpm_decode          ; work         ;
+;                |decode_3df:auto_generated|      ; 39 (39)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|Pipeline:inst5|UC2:inst4|UC2_decoder:inst|lpm_decode:LPM_DECODE_component|decode_3df:auto_generated          ; decode_3df          ; work         ;
 ;       |lpm_ff:inst1|                            ; 0 (0)               ; 44 (44)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|Pipeline:inst5|lpm_ff:inst1                                                                                  ; lpm_ff              ; work         ;
-;       |lpm_ff:inst2|                            ; 0 (0)               ; 38 (38)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|Pipeline:inst5|lpm_ff:inst2                                                                                  ; lpm_ff              ; work         ;
+;       |lpm_ff:inst2|                            ; 0 (0)               ; 44 (44)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|Pipeline:inst5|lpm_ff:inst2                                                                                  ; lpm_ff              ; work         ;
 ;       |lpm_ff:inst3|                            ; 0 (0)               ; 38 (38)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|Pipeline:inst5|lpm_ff:inst3                                                                                  ; lpm_ff              ; work         ;
 ;    |RAM:inst18|                                 ; 0 (0)               ; 0 (0)                     ; 16384       ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|RAM:inst18                                                                                                   ; RAM                 ; work         ;
 ;       |altsyncram:altsyncram_component|         ; 0 (0)               ; 0 (0)                     ; 16384       ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|RAM:inst18|altsyncram:altsyncram_component                                                                   ; altsyncram          ; work         ;
 ;          |altsyncram_99g1:auto_generated|       ; 0 (0)               ; 0 (0)                     ; 16384       ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|RAM:inst18|altsyncram:altsyncram_component|altsyncram_99g1:auto_generated                                    ; altsyncram_99g1     ; work         ;
-;    |ROM_CS:inst1|                               ; 0 (0)               ; 0 (0)                     ; 8064        ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|ROM_CS:inst1                                                                                                 ; ROM_CS              ; work         ;
-;       |altsyncram:altsyncram_component|         ; 0 (0)               ; 0 (0)                     ; 8064        ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|ROM_CS:inst1|altsyncram:altsyncram_component                                                                 ; altsyncram          ; work         ;
-;          |altsyncram_nmf1:auto_generated|       ; 0 (0)               ; 0 (0)                     ; 8064        ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|ROM_CS:inst1|altsyncram:altsyncram_component|altsyncram_nmf1:auto_generated                                  ; altsyncram_nmf1     ; work         ;
+;    |ROM_CS:inst1|                               ; 0 (0)               ; 0 (0)                     ; 7936        ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|ROM_CS:inst1                                                                                                 ; ROM_CS              ; work         ;
+;       |altsyncram:altsyncram_component|         ; 0 (0)               ; 0 (0)                     ; 7936        ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|ROM_CS:inst1|altsyncram:altsyncram_component                                                                 ; altsyncram          ; work         ;
+;          |altsyncram_nmf1:auto_generated|       ; 0 (0)               ; 0 (0)                     ; 7936        ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|ROM_CS:inst1|altsyncram:altsyncram_component|altsyncram_nmf1:auto_generated                                  ; altsyncram_nmf1     ; work         ;
+;    |XY_mux:inst3|                               ; 7 (1)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|XY_mux:inst3                                                                                                 ; XY_mux              ; work         ;
+;       |X_Y_6_MUX:inst12|                        ; 6 (0)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|XY_mux:inst3|X_Y_6_MUX:inst12                                                                                ; X_Y_6_MUX           ; work         ;
+;          |lpm_mux:LPM_MUX_component|            ; 6 (0)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|XY_mux:inst3|X_Y_6_MUX:inst12|lpm_mux:LPM_MUX_component                                                      ; lpm_mux             ; work         ;
+;             |mux_crc:auto_generated|            ; 6 (6)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|XY_mux:inst3|X_Y_6_MUX:inst12|lpm_mux:LPM_MUX_component|mux_crc:auto_generated                               ; mux_crc             ; work         ;
 ;    |latch_16bFF:inst7|                          ; 0 (0)               ; 16 (0)                    ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|latch_16bFF:inst7                                                                                            ; latch_16bFF         ; work         ;
 ;       |lpm_ff:inst|                             ; 0 (0)               ; 16 (16)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|latch_16bFF:inst7|lpm_ff:inst                                                                                ; lpm_ff              ; work         ;
 ;    |latch_16bFF:inst8|                          ; 0 (0)               ; 16 (0)                    ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|latch_16bFF:inst8                                                                                            ; latch_16bFF         ; work         ;
 ;       |lpm_ff:inst|                             ; 0 (0)               ; 16 (16)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|latch_16bFF:inst8|lpm_ff:inst                                                                                ; lpm_ff              ; work         ;
-;    |latch_16bFF:inst9|                          ; 28 (0)              ; 16 (0)                    ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|latch_16bFF:inst9                                                                                            ; latch_16bFF         ; work         ;
-;       |lpm_ff:inst|                             ; 28 (28)             ; 16 (16)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|latch_16bFF:inst9|lpm_ff:inst                                                                                ; lpm_ff              ; work         ;
+;    |latch_16bFF:inst9|                          ; 15 (0)              ; 16 (0)                    ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|latch_16bFF:inst9                                                                                            ; latch_16bFF         ; work         ;
+;       |lpm_ff:inst|                             ; 15 (15)             ; 16 (16)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|latch_16bFF:inst9|lpm_ff:inst                                                                                ; lpm_ff              ; work         ;
 ;    |latch_8bFF:instSS|                          ; 0 (0)               ; 8 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|latch_8bFF:instSS                                                                                            ; latch_8bFF          ; work         ;
 ;       |lpm_ff:inst|                             ; 0 (0)               ; 8 (8)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|latch_8bFF:instSS|lpm_ff:inst                                                                                ; lpm_ff              ; work         ;
 ;    |lpm_ff:inst14|                              ; 0 (0)               ; 2 (2)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|lpm_ff:inst14                                                                                                ; lpm_ff              ; work         ;
-;    |regbank_mainBlock:inst11|                   ; 818 (0)             ; 560 (0)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|regbank_mainBlock:inst11                                                                                     ; regbank_mainBlock   ; work         ;
-;       |BUS_MUX:muxA|                            ; 401 (0)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|regbank_mainBlock:inst11|BUS_MUX:muxA                                                                        ; BUS_MUX             ; work         ;
-;          |lpm_mux:LPM_MUX_component|            ; 401 (0)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|regbank_mainBlock:inst11|BUS_MUX:muxA|lpm_mux:LPM_MUX_component                                              ; lpm_mux             ; work         ;
-;             |mux_kuc:auto_generated|            ; 401 (401)           ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|regbank_mainBlock:inst11|BUS_MUX:muxA|lpm_mux:LPM_MUX_component|mux_kuc:auto_generated                       ; mux_kuc             ; work         ;
-;       |BUS_MUX:muxB|                            ; 400 (0)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|regbank_mainBlock:inst11|BUS_MUX:muxB                                                                        ; BUS_MUX             ; work         ;
-;          |lpm_mux:LPM_MUX_component|            ; 400 (0)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|regbank_mainBlock:inst11|BUS_MUX:muxB|lpm_mux:LPM_MUX_component                                              ; lpm_mux             ; work         ;
-;             |mux_kuc:auto_generated|            ; 400 (400)           ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|regbank_mainBlock:inst11|BUS_MUX:muxB|lpm_mux:LPM_MUX_component|mux_kuc:auto_generated                       ; mux_kuc             ; work         ;
+;    |lpm_ff:inst20|                              ; 0 (0)               ; 8 (8)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|lpm_ff:inst20                                                                                                ; lpm_ff              ; work         ;
+;    |regbank_mainBlock:inst11|                   ; 884 (0)             ; 560 (0)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|regbank_mainBlock:inst11                                                                                     ; regbank_mainBlock   ; work         ;
+;       |BUS_MUX:muxA|                            ; 435 (0)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|regbank_mainBlock:inst11|BUS_MUX:muxA                                                                        ; BUS_MUX             ; work         ;
+;          |lpm_mux:LPM_MUX_component|            ; 435 (0)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|regbank_mainBlock:inst11|BUS_MUX:muxA|lpm_mux:LPM_MUX_component                                              ; lpm_mux             ; work         ;
+;             |mux_kuc:auto_generated|            ; 435 (435)           ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|regbank_mainBlock:inst11|BUS_MUX:muxA|lpm_mux:LPM_MUX_component|mux_kuc:auto_generated                       ; mux_kuc             ; work         ;
+;       |BUS_MUX:muxB|                            ; 432 (0)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|regbank_mainBlock:inst11|BUS_MUX:muxB                                                                        ; BUS_MUX             ; work         ;
+;          |lpm_mux:LPM_MUX_component|            ; 432 (0)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|regbank_mainBlock:inst11|BUS_MUX:muxB|lpm_mux:LPM_MUX_component                                              ; lpm_mux             ; work         ;
+;             |mux_kuc:auto_generated|            ; 432 (432)           ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|regbank_mainBlock:inst11|BUS_MUX:muxB|lpm_mux:LPM_MUX_component|mux_kuc:auto_generated                       ; mux_kuc             ; work         ;
 ;       |reg_w:inst1|                             ; 17 (17)             ; 16 (0)                    ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|regbank_mainBlock:inst11|reg_w:inst1                                                                         ; reg_w               ; work         ;
 ;          |7495:inst3|                           ; 0 (0)               ; 4 (4)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|regbank_mainBlock:inst11|reg_w:inst1|7495:inst3                                                              ; 7495                ; work         ;
 ;          |7495:inst4|                           ; 0 (0)               ; 4 (4)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|regbank_mainBlock:inst11|reg_w:inst1|7495:inst4                                                              ; 7495                ; work         ;
@@ -553,10 +562,10 @@ refer to the applicable agreement for further details.
 ;       |regbank_16bRegister:R_AUX1|              ; 0 (0)               ; 16 (0)                    ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|regbank_mainBlock:inst11|regbank_16bRegister:R_AUX1                                                          ; regbank_16bRegister ; work         ;
 ;          |regbank_16bFF:inst|                   ; 0 (0)               ; 16 (0)                    ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|regbank_mainBlock:inst11|regbank_16bRegister:R_AUX1|regbank_16bFF:inst                                       ; regbank_16bFF       ; work         ;
 ;             |lpm_ff:inst|                       ; 0 (0)               ; 16 (16)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|regbank_mainBlock:inst11|regbank_16bRegister:R_AUX1|regbank_16bFF:inst|lpm_ff:inst                           ; lpm_ff              ; work         ;
-;    |shifter16Bits:inst|                         ; 13 (0)              ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|shifter16Bits:inst                                                                                           ; shifter16Bits       ; work         ;
-;       |lpm_mux1:MUX_4IN_1OUT|                   ; 13 (0)              ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|shifter16Bits:inst|lpm_mux1:MUX_4IN_1OUT                                                                     ; lpm_mux1            ; work         ;
-;          |lpm_mux:LPM_MUX_component|            ; 13 (0)              ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|shifter16Bits:inst|lpm_mux1:MUX_4IN_1OUT|lpm_mux:LPM_MUX_component                                           ; lpm_mux             ; work         ;
-;             |mux_b9e:auto_generated|            ; 13 (13)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|shifter16Bits:inst|lpm_mux1:MUX_4IN_1OUT|lpm_mux:LPM_MUX_component|mux_b9e:auto_generated                    ; mux_b9e             ; work         ;
+;    |shifter16Bits:inst|                         ; 14 (0)              ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|shifter16Bits:inst                                                                                           ; shifter16Bits       ; work         ;
+;       |lpm_mux1:MUX_4IN_1OUT|                   ; 14 (0)              ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|shifter16Bits:inst|lpm_mux1:MUX_4IN_1OUT                                                                     ; lpm_mux1            ; work         ;
+;          |lpm_mux:LPM_MUX_component|            ; 14 (0)              ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|shifter16Bits:inst|lpm_mux1:MUX_4IN_1OUT|lpm_mux:LPM_MUX_component                                           ; lpm_mux             ; work         ;
+;             |mux_b9e:auto_generated|            ; 14 (14)             ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |main|shifter16Bits:inst|lpm_mux1:MUX_4IN_1OUT|lpm_mux:LPM_MUX_component|mux_b9e:auto_generated                    ; mux_b9e             ; work         ;
 +-------------------------------------------------+---------------------+---------------------------+-------------+--------------+---------+-----------+------+--------------+--------------------------------------------------------------------------------------------------------------------+---------------------+--------------+
 Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
 
@@ -579,6 +588,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +--------+--------------+---------+--------------+--------------+-------------------------------------------------------+-------------------------+
 ; Altera ; LPM_MUX      ; 18.1    ; N/A          ; N/A          ; |main|XY_mux:inst3|X_mux_Y:inst1                      ; X_mux_Y.v               ;
 ; Altera ; LPM_DECODE   ; 18.1    ; N/A          ; N/A          ; |main|XY_mux:inst3|INSTRUCTION_decoder:inst5          ; INSTRUCTION_decoder.v   ;
+; Altera ; LPM_MUX      ; 18.1    ; N/A          ; N/A          ; |main|XY_mux:inst3|X_Y_6_MUX:inst12                   ; X_Y_6_MUX.v             ;
 ; Altera ; LPM_ADD_SUB  ; 18.1    ; N/A          ; N/A          ; |main|ALU:inst4|amasb:AplusB|adderCarry:inst          ; ALU/adderCarry.v        ;
 ; Altera ; LPM_ADD_SUB  ; 18.1    ; N/A          ; N/A          ; |main|ALU:inst4|amasb:AplusBplusCARRY|adderCarry:inst ; ALU/adderCarry.v        ;
 ; Altera ; LPM_MUX      ; 18.1    ; N/A          ; N/A          ; |main|ALU:inst4|mux_carry:inst10                      ; ALU/mux_carry.v         ;
@@ -623,9 +633,9 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +----------------------------------------------+-------+
 ; Statistic                                    ; Value ;
 +----------------------------------------------+-------+
-; Total registers                              ; 751   ;
+; Total registers                              ; 765   ;
 ; Number of registers using Synchronous Clear  ; 8     ;
-; Number of registers using Synchronous Load   ; 32    ;
+; Number of registers using Synchronous Load   ; 35    ;
 ; Number of registers using Asynchronous Clear ; 0     ;
 ; Number of registers using Asynchronous Load  ; 0     ;
 ; Number of registers using Clock Enable       ; 544   ;
@@ -2077,6 +2087,25 @@ Note: In order to hide this table in the UI and the text report file, please set
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
 
++------------------------------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: XY_mux:inst3|X_Y_6_MUX:inst12|lpm_mux:LPM_MUX_component ;
++------------------------+--------------+--------------------------------------------------------------+
+; Parameter Name         ; Value        ; Type                                                         ;
++------------------------+--------------+--------------------------------------------------------------+
+; AUTO_CARRY_CHAINS      ; ON           ; AUTO_CARRY                                                   ;
+; IGNORE_CARRY_BUFFERS   ; OFF          ; IGNORE_CARRY                                                 ;
+; AUTO_CASCADE_CHAINS    ; ON           ; AUTO_CASCADE                                                 ;
+; IGNORE_CASCADE_BUFFERS ; OFF          ; IGNORE_CASCADE                                               ;
+; LPM_WIDTH              ; 6            ; Signed Integer                                               ;
+; LPM_SIZE               ; 2            ; Signed Integer                                               ;
+; LPM_WIDTHS             ; 1            ; Signed Integer                                               ;
+; LPM_PIPELINE           ; 0            ; Untyped                                                      ;
+; CBXI_PARAMETER         ; mux_crc      ; Untyped                                                      ;
+; DEVICE_FAMILY          ; Cyclone IV E ; Untyped                                                      ;
++------------------------+--------------+--------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
 +---------------------------------------------------------------------------------------------------+
 ; Parameter Settings for User Entity Instance: XY_mux:inst3|X_mux_Y:inst1|lpm_mux:LPM_MUX_component ;
 +------------------------+--------------+-----------------------------------------------------------+
@@ -2112,6 +2141,25 @@ Note: In order to hide this table in the UI and the text report file, please set
 ; AUTO_CASCADE_CHAINS    ; ON           ; AUTO_CASCADE                                                                ;
 ; IGNORE_CASCADE_BUFFERS ; OFF          ; IGNORE_CASCADE                                                              ;
 +------------------------+--------------+-----------------------------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: LPM_FF:inst20 ;
++------------------------+--------------+--------------------+
+; Parameter Name         ; Value        ; Type               ;
++------------------------+--------------+--------------------+
+; LPM_WIDTH              ; 14           ; Untyped            ;
+; LPM_AVALUE             ; UNUSED       ; Untyped            ;
+; LPM_SVALUE             ; UNUSED       ; Untyped            ;
+; LPM_FFTYPE             ; DFF          ; Untyped            ;
+; DEVICE_FAMILY          ; Cyclone IV E ; Untyped            ;
+; CBXI_PARAMETER         ; NOTHING      ; Untyped            ;
+; AUTO_CARRY_CHAINS      ; ON           ; AUTO_CARRY         ;
+; IGNORE_CARRY_BUFFERS   ; OFF          ; IGNORE_CARRY       ;
+; AUTO_CASCADE_CHAINS    ; ON           ; AUTO_CASCADE       ;
+; IGNORE_CASCADE_BUFFERS ; OFF          ; IGNORE_CASCADE     ;
++------------------------+--------------+--------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
 
@@ -2162,27 +2210,27 @@ Note: In order to hide this table in the UI and the text report file, please set
 +-----------------------+-----------------------------+
 ; Type                  ; Count                       ;
 +-----------------------+-----------------------------+
-; boundary_port         ; 172                         ;
-; cycloneiii_ff         ; 751                         ;
+; boundary_port         ; 170                         ;
+; cycloneiii_ff         ; 765                         ;
 ;     ENA               ; 544                         ;
 ;     SCLR              ; 8                           ;
-;     SLD               ; 32                          ;
-;     plain             ; 167                         ;
+;     SLD               ; 35                          ;
+;     plain             ; 178                         ;
 ; cycloneiii_io_obuf    ; 32                          ;
-; cycloneiii_lcell_comb ; 1318                        ;
+; cycloneiii_lcell_comb ; 1376                        ;
 ;     arith             ; 43                          ;
 ;         2 data inputs ; 11                          ;
 ;         3 data inputs ; 32                          ;
-;     normal            ; 1275                        ;
+;     normal            ; 1333                        ;
 ;         0 data inputs ; 3                           ;
 ;         1 data inputs ; 1                           ;
 ;         2 data inputs ; 61                          ;
-;         3 data inputs ; 60                          ;
-;         4 data inputs ; 1150                        ;
-; cycloneiii_ram_block  ; 93                          ;
+;         3 data inputs ; 81                          ;
+;         4 data inputs ; 1187                        ;
+; cycloneiii_ram_block  ; 92                          ;
 ;                       ;                             ;
-; Max LUT depth         ; 8.00                        ;
-; Average LUT depth     ; 4.37                        ;
+; Max LUT depth         ; 9.00                        ;
+; Average LUT depth     ; 4.65                        ;
 +-----------------------+-----------------------------+
 
 
@@ -2191,7 +2239,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+--------------+
 ; Partition Name ; Elapsed Time ;
 +----------------+--------------+
-; Top            ; 00:00:08     ;
+; Top            ; 00:00:09     ;
 +----------------+--------------+
 
 
@@ -2201,7 +2249,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
-    Info: Processing started: Sun Jun 23 16:44:24 2019
+    Info: Processing started: Sun Jun 23 18:58:55 2019
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off TP2 -c TP2
 Warning (125092): Tcl Script File DATA_RAM/DATA_RAM.qip not found
     Info (125063): set_global_assignment -name QIP_FILE DATA_RAM/DATA_RAM.qip
@@ -2297,7 +2345,11 @@ Info (12021): Found 1 design units, including 1 entities, in source file ifu/lat
     Info (12023): Found entity 1: latch_14bFF
 Info (12021): Found 1 design units, including 1 entities, in source file ram.v
     Info (12023): Found entity 1: RAM File: C:/Users/Rodrigo/Documents/GitHub/TP2/RAM.v Line: 39
+Info (12021): Found 1 design units, including 1 entities, in source file x_y_6_mux.v
+    Info (12023): Found entity 1: X_Y_6_MUX File: C:/Users/Rodrigo/Documents/GitHub/TP2/X_Y_6_MUX.v Line: 39
 Info (12127): Elaborating entity "main" for the top level hierarchy
+Warning (275004): Undeclared parameter DFF
+Warning (275006): Can't find a definition for parameter LPM_FFTYPE -- assuming DFF was intended to be a quoted string
 Warning (275002): No superset bus at connection
 Warning (12125): Using design file rom_cs.v, which is not specified as a design file for the current project, but contains definitions for 1 design units and 1 entities in project
     Info (12023): Found entity 1: ROM_CS File: C:/Users/Rodrigo/Documents/GitHub/TP2/rom_cs.v Line: 39
@@ -2681,6 +2733,17 @@ Info (12133): Instantiated megafunction "latch_8bFF:instSS|LPM_FF:inst" with the
     Info (12134): Parameter "LPM_FFTYPE" = "DFF"
     Info (12134): Parameter "LPM_WIDTH" = "8"
 Info (12128): Elaborating entity "XY_mux" for hierarchy "XY_mux:inst3"
+Info (12128): Elaborating entity "X_Y_6_MUX" for hierarchy "XY_mux:inst3|X_Y_6_MUX:inst12"
+Info (12128): Elaborating entity "lpm_mux" for hierarchy "XY_mux:inst3|X_Y_6_MUX:inst12|lpm_mux:LPM_MUX_component" File: C:/Users/Rodrigo/Documents/GitHub/TP2/X_Y_6_MUX.v Line: 68
+Info (12130): Elaborated megafunction instantiation "XY_mux:inst3|X_Y_6_MUX:inst12|lpm_mux:LPM_MUX_component" File: C:/Users/Rodrigo/Documents/GitHub/TP2/X_Y_6_MUX.v Line: 68
+Info (12133): Instantiated megafunction "XY_mux:inst3|X_Y_6_MUX:inst12|lpm_mux:LPM_MUX_component" with the following parameter: File: C:/Users/Rodrigo/Documents/GitHub/TP2/X_Y_6_MUX.v Line: 68
+    Info (12134): Parameter "lpm_size" = "2"
+    Info (12134): Parameter "lpm_type" = "LPM_MUX"
+    Info (12134): Parameter "lpm_width" = "6"
+    Info (12134): Parameter "lpm_widths" = "1"
+Info (12021): Found 1 design units, including 1 entities, in source file db/mux_crc.tdf
+    Info (12023): Found entity 1: mux_crc File: C:/Users/Rodrigo/Documents/GitHub/TP2/db/mux_crc.tdf Line: 22
+Info (12128): Elaborating entity "mux_crc" for hierarchy "XY_mux:inst3|X_Y_6_MUX:inst12|lpm_mux:LPM_MUX_component|mux_crc:auto_generated" File: c:/intelfpga_lite/18.1/quartus/libraries/megafunctions/lpm_mux.tdf Line: 86
 Info (12128): Elaborating entity "X_mux_Y" for hierarchy "XY_mux:inst3|X_mux_Y:inst1"
 Info (12128): Elaborating entity "lpm_mux" for hierarchy "XY_mux:inst3|X_mux_Y:inst1|lpm_mux:LPM_MUX_component" File: C:/Users/Rodrigo/Documents/GitHub/TP2/X_mux_Y.v Line: 68
 Info (12130): Elaborated megafunction instantiation "XY_mux:inst3|X_mux_Y:inst1|lpm_mux:LPM_MUX_component" File: C:/Users/Rodrigo/Documents/GitHub/TP2/X_mux_Y.v Line: 68
@@ -2702,6 +2765,20 @@ Info (12133): Instantiated megafunction "XY_mux:inst3|INSTRUCTION_decoder:inst5|
 Info (12021): Found 1 design units, including 1 entities, in source file db/decode_tcf.tdf
     Info (12023): Found entity 1: decode_tcf File: C:/Users/Rodrigo/Documents/GitHub/TP2/db/decode_tcf.tdf Line: 22
 Info (12128): Elaborating entity "decode_tcf" for hierarchy "XY_mux:inst3|INSTRUCTION_decoder:inst5|lpm_decode:LPM_DECODE_component|decode_tcf:auto_generated" File: c:/intelfpga_lite/18.1/quartus/libraries/megafunctions/lpm_decode.tdf Line: 76
+Info (12128): Elaborating entity "LPM_FF" for hierarchy "LPM_FF:inst20"
+Info (12130): Elaborated megafunction instantiation "LPM_FF:inst20"
+Info (12133): Instantiated megafunction "LPM_FF:inst20" with the following parameter:
+    Info (12134): Parameter "LPM_FFTYPE" = "DFF"
+    Info (12134): Parameter "LPM_WIDTH" = "14"
+Warning (14284): Synthesized away the following node(s):
+    Warning (14285): Synthesized away the following RAM node(s):
+        Warning (14320): Synthesized away node "ROM_CS:inst1|altsyncram:altsyncram_component|altsyncram_nmf1:auto_generated|q_a[9]" File: C:/Users/Rodrigo/Documents/GitHub/TP2/db/altsyncram_nmf1.tdf Line: 223
+Warning (19016): Clock multiplexers are found and protected
+    Warning (19017): Found clock multiplexer XY_mux:inst3|X_Y_6_MUX:inst12|lpm_mux:LPM_MUX_component|mux_crc:auto_generated|result_node[2]~0 File: C:/Users/Rodrigo/Documents/GitHub/TP2/db/mux_crc.tdf Line: 29
+    Warning (19017): Found clock multiplexer XY_mux:inst3|X_Y_6_MUX:inst12|lpm_mux:LPM_MUX_component|mux_crc:auto_generated|result_node[1]~1 File: C:/Users/Rodrigo/Documents/GitHub/TP2/db/mux_crc.tdf Line: 29
+    Warning (19017): Found clock multiplexer XY_mux:inst3|X_Y_6_MUX:inst12|lpm_mux:LPM_MUX_component|mux_crc:auto_generated|result_node[0]~2 File: C:/Users/Rodrigo/Documents/GitHub/TP2/db/mux_crc.tdf Line: 29
+    Warning (19017): Found clock multiplexer XY_mux:inst3|X_Y_6_MUX:inst12|lpm_mux:LPM_MUX_component|mux_crc:auto_generated|result_node[3]~3 File: C:/Users/Rodrigo/Documents/GitHub/TP2/db/mux_crc.tdf Line: 29
+    Warning (19017): Found clock multiplexer XY_mux:inst3|X_Y_6_MUX:inst12|lpm_mux:LPM_MUX_component|mux_crc:auto_generated|result_node[4]~4 File: C:/Users/Rodrigo/Documents/GitHub/TP2/db/mux_crc.tdf Line: 29
 Warning (13046): Tri-state node(s) do not directly drive top-level pin(s)
     Warning (13047): Converted the fan-out from the tri-state buffer "inst16[15]" to the node "RAM:inst18|altsyncram:altsyncram_component|altsyncram_99g1:auto_generated|q_a[15]" into an OR gate
     Warning (13047): Converted the fan-out from the tri-state buffer "inst16[14]" to the node "RAM:inst18|altsyncram:altsyncram_component|altsyncram_99g1:auto_generated|q_a[14]" into an OR gate
@@ -2764,15 +2841,15 @@ Warning (13024): Output pins are stuck at VCC or GND
 Info (286030): Timing-Driven Synthesis is running
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
-Info (21057): Implemented 2255 device resources after synthesis - the final resource count might be different
-    Info (21058): Implemented 2 input pins
-    Info (21059): Implemented 170 output pins
-    Info (21061): Implemented 1990 logic cells
-    Info (21064): Implemented 93 RAM segments
-Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 215 warnings
+Info (21057): Implemented 2321 device resources after synthesis - the final resource count might be different
+    Info (21058): Implemented 3 input pins
+    Info (21059): Implemented 167 output pins
+    Info (21061): Implemented 2059 logic cells
+    Info (21064): Implemented 92 RAM segments
+Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 226 warnings
     Info: Peak virtual memory: 4881 megabytes
-    Info: Processing ended: Sun Jun 23 16:45:02 2019
+    Info: Processing ended: Sun Jun 23 18:59:33 2019
     Info: Elapsed time: 00:00:38
-    Info: Total CPU time (on all processors): 00:00:58
+    Info: Total CPU time (on all processors): 00:00:59
 
 

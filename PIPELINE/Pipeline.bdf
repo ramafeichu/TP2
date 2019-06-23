@@ -213,7 +213,7 @@ refer to the applicable agreement for further details.
 )
 (pin
 	(input)
-	(rect 1016 216 1032 392)
+	(rect 424 424 440 600)
 	(text "INPUT" (rect 0 15 10 43)(font "Arial" (font_size 6))(vertical))
 	(text "CLK3" (rect 0 140 12 167)(font "Arial" )(vertical))
 	(pt 8 0)
@@ -310,7 +310,7 @@ refer to the applicable agreement for further details.
 )
 (pin
 	(output)
-	(rect 1056 464 1232 480)
+	(rect 1104 464 1280 480)
 	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
 	(text "ALU_MIR[3..0]" (rect 90 0 163 12)(font "Arial" ))
 	(pt 0 8)
@@ -802,7 +802,7 @@ refer to the applicable agreement for further details.
 	)
 )
 (symbol
-	(rect 544 168 576 200)
+	(rect 544 184 576 216)
 	(text "GND" (rect 8 16 29 26)(font "Arial" (font_size 6)))
 	(text "12" (rect 3 21 14 33)(font "Arial" )(invisible))
 	(port
@@ -1321,11 +1321,6 @@ refer to the applicable agreement for further details.
 	(pt 1288 192)
 )
 (connector
-	(pt 1256 192)
-	(pt 1288 192)
-	(bus)
-)
-(connector
 	(text "STAGE3[0]" (rect 483 64 533 81)(font "Intel Clear" ))
 	(pt 560 80)
 	(pt 408 80)
@@ -1502,58 +1497,14 @@ refer to the applicable agreement for further details.
 	(bus)
 )
 (connector
-	(text "toGND[72..0]" (rect 514 152 574 169)(font "Intel Clear" ))
-	(pt 560 168)
-	(pt 752 168)
-	(bus)
-)
-(connector
 	(text "STAGE3[72..0]" (rect 627 168 694 185)(font "Intel Clear" ))
 	(pt 632 184)
 	(pt 752 184)
 	(bus)
 )
 (connector
-	(pt 1000 176)
-	(pt 1000 424)
-	(bus)
-)
-(connector
-	(pt 976 472)
-	(pt 976 176)
-	(bus)
-)
-(connector
-	(text "result[58..57]" (rect 997 408 1059 425)(font "Intel Clear" ))
-	(pt 1096 424)
-	(pt 1000 424)
-	(bus)
-)
-(connector
-	(text "result[62..59]" (rect 967 456 1029 473)(font "Intel Clear" ))
-	(pt 1056 472)
-	(pt 976 472)
-	(bus)
-)
-(connector
 	(pt 1424 696)
 	(pt 952 696)
-	(bus)
-)
-(connector
-	(text "result[72..0]" (rect 1010 160 1066 177)(font "Intel Clear" ))
-	(pt 1000 176)
-	(pt 1080 176)
-	(bus)
-)
-(connector
-	(pt 952 176)
-	(pt 976 176)
-	(bus)
-)
-(connector
-	(pt 976 176)
-	(pt 1000 176)
 	(bus)
 )
 (connector
@@ -1589,15 +1540,6 @@ refer to the applicable agreement for further details.
 	(bus)
 )
 (connector
-	(pt 1024 192)
-	(pt 1024 216)
-)
-(connector
-	(text "CLOCK3" (rect 1032 176 1073 193)(font "Intel Clear" ))
-	(pt 1080 192)
-	(pt 1024 192)
-)
-(connector
 	(pt 1704 512)
 	(pt 808 512)
 )
@@ -1608,11 +1550,6 @@ refer to the applicable agreement for further details.
 (connector
 	(pt 1704 624)
 	(pt 1704 664)
-)
-(connector
-	(text "CLOCK3" (rect 1072 525 1089 566)(font "Intel Clear" )(vertical))
-	(pt 1088 528)
-	(pt 1088 576)
 )
 (connector
 	(pt 1088 528)
@@ -1633,6 +1570,114 @@ refer to the applicable agreement for further details.
 (connector
 	(pt 712 216)
 	(pt 712 512)
+)
+(connector
+	(pt 568 168)
+	(pt 568 184)
+	(bus)
+)
+(connector
+	(pt 752 168)
+	(pt 568 168)
+	(bus)
+)
+(connector
+	(text "toGND[72..0]" (rect 514 168 574 185)(font "Intel Clear" ))
+	(pt 568 184)
+	(pt 560 184)
+	(bus)
+)
+(connector
+	(pt 1000 176)
+	(pt 1000 184)
+	(bus)
+)
+(connector
+	(pt 976 176)
+	(pt 976 184)
+	(bus)
+)
+(connector
+	(text "result[72..0]" (rect 1010 160 1066 177)(font "Intel Clear" ))
+	(pt 1000 176)
+	(pt 1080 176)
+	(bus)
+)
+(connector
+	(pt 952 176)
+	(pt 976 176)
+	(bus)
+)
+(connector
+	(pt 976 176)
+	(pt 1000 176)
+	(bus)
+)
+(connector
+	(pt 1000 424)
+	(pt 1000 392)
+	(bus)
+)
+(connector
+	(pt 1000 392)
+	(pt 1288 392)
+	(bus)
+)
+(connector
+	(pt 1288 392)
+	(pt 1288 192)
+	(bus)
+)
+(connector
+	(pt 976 368)
+	(pt 976 472)
+	(bus)
+)
+(connector
+	(pt 1264 368)
+	(pt 976 368)
+	(bus)
+)
+(connector
+	(pt 1264 368)
+	(pt 1264 192)
+	(bus)
+)
+(connector
+	(pt 1256 192)
+	(pt 1264 192)
+	(bus)
+)
+(connector
+	(pt 1264 192)
+	(pt 1288 192)
+	(bus)
+)
+(connector
+	(text "STAGE4[58..57]" (rect 997 408 1070 425)(font "Intel Clear" ))
+	(pt 1096 424)
+	(pt 1000 424)
+	(bus)
+)
+(connector
+	(text "STAGE4[62..59]" (rect 1015 456 1088 473)(font "Intel Clear" ))
+	(pt 1104 472)
+	(pt 976 472)
+	(bus)
+)
+(connector
+	(pt 432 416)
+	(pt 432 424)
+)
+(connector
+	(text "CLK3" (rect 1072 549 1089 574)(font "Intel Clear" )(vertical))
+	(pt 1088 528)
+	(pt 1088 576)
+)
+(connector
+	(text "CLK4" (rect 1032 176 1057 193)(font "Intel Clear" ))
+	(pt 1032 192)
+	(pt 1080 192)
 )
 (junction (pt 112 96))
 (junction (pt 112 128))
@@ -1663,3 +1708,4 @@ refer to the applicable agreement for further details.
 (junction (pt 976 176))
 (junction (pt 952 176))
 (junction (pt 912 176))
+(junction (pt 1264 192))
