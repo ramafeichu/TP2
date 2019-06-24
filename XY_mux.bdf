@@ -21,7 +21,7 @@ refer to the applicable agreement for further details.
 (header "graphic" (version "1.4"))
 (pin
 	(input)
-	(rect 368 120 536 136)
+	(rect 344 136 512 152)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
 	(text "ROM[34..0]" (rect 5 0 61 12)(font "Arial" ))
 	(pt 168 8)
@@ -103,7 +103,7 @@ refer to the applicable agreement for further details.
 	(input)
 	(rect 528 624 696 640)
 	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
-	(text "A_ROM[5..0]" (rect 5 0 69 12)(font "Arial" ))
+	(text "A_ROM[5..0]" (rect 5 0 68 12)(font "Arial" ))
 	(pt 168 8)
 	(drawing
 		(line (pt 84 12)(pt 109 12))
@@ -117,9 +117,9 @@ refer to the applicable agreement for further details.
 )
 (pin
 	(input)
-	(rect 472 640 648 656)
+	(rect 304 640 480 656)
 	(text "INPUT" (rect 133 0 161 10)(font "Arial" (font_size 6)))
-	(text "A_PROG[4..0]" (rect 5 0 76 12)(font "Arial" ))
+	(text "A_PROG[4..0]" (rect 5 0 75 12)(font "Arial" ))
 	(pt 176 8)
 	(drawing
 		(line (pt 92 12)(pt 117 12))
@@ -698,7 +698,7 @@ refer to the applicable agreement for further details.
 	)
 )
 (symbol
-	(rect 680 680 712 712)
+	(rect 680 720 712 752)
 	(text "GND" (rect 8 16 29 26)(font "Arial" (font_size 6)))
 	(text "inst10" (rect 3 21 31 38)(font "Intel Clear" )(invisible))
 	(port
@@ -953,134 +953,6 @@ refer to the applicable agreement for further details.
 	(bus)
 )
 (connector
-	(pt 160 168)
-	(pt 248 168)
-)
-(connector
-	(pt 160 184)
-	(pt 248 184)
-)
-(connector
-	(pt 160 200)
-	(pt 248 200)
-)
-(connector
-	(pt 160 216)
-	(pt 248 216)
-)
-(connector
-	(pt 160 232)
-	(pt 248 232)
-)
-(connector
-	(pt 160 248)
-	(pt 248 248)
-)
-(connector
-	(pt 160 264)
-	(pt 248 264)
-)
-(connector
-	(pt 160 280)
-	(pt 248 280)
-)
-(connector
-	(pt 160 296)
-	(pt 248 296)
-)
-(connector
-	(pt 160 312)
-	(pt 248 312)
-)
-(connector
-	(pt 160 328)
-	(pt 248 328)
-)
-(connector
-	(pt 160 344)
-	(pt 248 344)
-)
-(connector
-	(pt 160 360)
-	(pt 248 360)
-)
-(connector
-	(pt 160 376)
-	(pt 248 376)
-)
-(connector
-	(pt 160 392)
-	(pt 248 392)
-)
-(connector
-	(pt 160 408)
-	(pt 248 408)
-)
-(connector
-	(pt 160 424)
-	(pt 248 424)
-)
-(connector
-	(pt 160 440)
-	(pt 248 440)
-)
-(connector
-	(pt 160 456)
-	(pt 248 456)
-)
-(connector
-	(pt 160 472)
-	(pt 248 472)
-)
-(connector
-	(pt 160 488)
-	(pt 248 488)
-)
-(connector
-	(pt 160 504)
-	(pt 248 504)
-)
-(connector
-	(pt 160 520)
-	(pt 248 520)
-)
-(connector
-	(pt 160 536)
-	(pt 248 536)
-)
-(connector
-	(pt 160 552)
-	(pt 248 552)
-)
-(connector
-	(pt 160 568)
-	(pt 248 568)
-)
-(connector
-	(pt 160 584)
-	(pt 248 584)
-)
-(connector
-	(pt 160 600)
-	(pt 248 600)
-)
-(connector
-	(pt 160 616)
-	(pt 248 616)
-)
-(connector
-	(pt 160 632)
-	(pt 248 632)
-)
-(connector
-	(pt 160 648)
-	(pt 248 648)
-)
-(connector
-	(pt 160 664)
-	(pt 248 664)
-)
-(connector
 	(pt 552 368)
 	(pt 528 368)
 )
@@ -1123,27 +995,6 @@ refer to the applicable agreement for further details.
 (connector
 	(pt 712 360)
 	(pt 712 304)
-)
-(connector
-	(pt 248 144)
-	(pt 248 168)
-	(bus)
-)
-(connector
-	(pt 248 168)
-	(pt 248 184)
-	(bus)
-)
-(connector
-	(pt 536 128)
-	(pt 816 128)
-	(bus)
-)
-(connector
-	(text "eq[34..0]" (rect 466 128 507 145)(font "Intel Clear" ))
-	(pt 248 144)
-	(pt 816 144)
-	(bus)
 )
 (connector
 	(pt 600 216)
@@ -1225,11 +1076,6 @@ refer to the applicable agreement for further details.
 	(bus)
 )
 (connector
-	(text "gnd" (rect 680 657 697 674)(font "Intel Clear" )(vertical))
-	(pt 696 648)
-	(pt 696 680)
-)
-(connector
 	(pt 616 360)
 	(pt 712 360)
 )
@@ -1243,9 +1089,199 @@ refer to the applicable agreement for further details.
 	(bus)
 )
 (connector
-	(pt 648 648)
-	(pt 696 648)
+	(pt 896 360)
+	(pt 896 608)
+)
+(connector
+	(pt 968 640)
+	(pt 1072 640)
 	(bus)
+)
+(connector
+	(text "eq[0]" (rect 187 152 211 169)(font "Intel Clear" ))
+	(pt 160 168)
+	(pt 248 168)
+)
+(connector
+	(text "eq[1]" (rect 194 168 218 185)(font "Intel Clear" ))
+	(pt 160 184)
+	(pt 248 184)
+)
+(connector
+	(text "eq[2]" (rect 200 184 224 201)(font "Intel Clear" ))
+	(pt 160 200)
+	(pt 248 200)
+)
+(connector
+	(text "eq[3]" (rect 209 200 233 217)(font "Intel Clear" ))
+	(pt 160 216)
+	(pt 248 216)
+)
+(connector
+	(text "eq[4]" (rect 179 216 203 233)(font "Intel Clear" ))
+	(pt 160 232)
+	(pt 248 232)
+)
+(connector
+	(text "eq[5]" (rect 213 232 237 249)(font "Intel Clear" ))
+	(pt 160 248)
+	(pt 248 248)
+)
+(connector
+	(text "eq[6]" (rect 189 248 213 265)(font "Intel Clear" ))
+	(pt 160 264)
+	(pt 248 264)
+)
+(connector
+	(text "eq[7]" (rect 211 264 235 281)(font "Intel Clear" ))
+	(pt 160 280)
+	(pt 248 280)
+)
+(connector
+	(text "eq[8]" (rect 214 280 238 297)(font "Intel Clear" ))
+	(pt 160 296)
+	(pt 248 296)
+)
+(connector
+	(text "eq[9]" (rect 218 296 242 313)(font "Intel Clear" ))
+	(pt 160 312)
+	(pt 248 312)
+)
+(connector
+	(text "eq[10]" (rect 215 312 245 329)(font "Intel Clear" ))
+	(pt 160 328)
+	(pt 248 328)
+)
+(connector
+	(text "eq[11]" (rect 201 328 231 345)(font "Intel Clear" ))
+	(pt 160 344)
+	(pt 248 344)
+)
+(connector
+	(text "eq[12]" (rect 195 344 225 361)(font "Intel Clear" ))
+	(pt 160 360)
+	(pt 248 360)
+)
+(connector
+	(text "eq[13]" (rect 210 360 240 377)(font "Intel Clear" ))
+	(pt 160 376)
+	(pt 248 376)
+)
+(connector
+	(text "eq[14]" (rect 183 376 213 393)(font "Intel Clear" ))
+	(pt 160 392)
+	(pt 248 392)
+)
+(connector
+	(text "eq[15]" (rect 183 392 213 409)(font "Intel Clear" ))
+	(pt 160 408)
+	(pt 248 408)
+)
+(connector
+	(text "eq[16]" (rect 208 408 238 425)(font "Intel Clear" ))
+	(pt 160 424)
+	(pt 248 424)
+)
+(connector
+	(text "eq[17]" (rect 192 424 222 441)(font "Intel Clear" ))
+	(pt 160 440)
+	(pt 248 440)
+)
+(connector
+	(text "eq[18]" (rect 190 440 220 457)(font "Intel Clear" ))
+	(pt 160 456)
+	(pt 248 456)
+)
+(connector
+	(text "eq[19]" (rect 196 456 226 473)(font "Intel Clear" ))
+	(pt 160 472)
+	(pt 248 472)
+)
+(connector
+	(text "eq[20]" (rect 211 472 241 489)(font "Intel Clear" ))
+	(pt 160 488)
+	(pt 248 488)
+)
+(connector
+	(text "eq[21]" (rect 178 488 208 505)(font "Intel Clear" ))
+	(pt 160 504)
+	(pt 248 504)
+)
+(connector
+	(text "eq[22]" (rect 214 504 244 521)(font "Intel Clear" ))
+	(pt 160 520)
+	(pt 248 520)
+)
+(connector
+	(text "eq[23]" (rect 185 520 215 537)(font "Intel Clear" ))
+	(pt 160 536)
+	(pt 248 536)
+)
+(connector
+	(text "eq[24]" (rect 205 536 235 553)(font "Intel Clear" ))
+	(pt 160 552)
+	(pt 248 552)
+)
+(connector
+	(text "eq[25]" (rect 213 552 243 569)(font "Intel Clear" ))
+	(pt 160 568)
+	(pt 248 568)
+)
+(connector
+	(text "eq[26]" (rect 212 568 242 585)(font "Intel Clear" ))
+	(pt 160 584)
+	(pt 248 584)
+)
+(connector
+	(text "eq[27]" (rect 177 584 207 601)(font "Intel Clear" ))
+	(pt 160 600)
+	(pt 248 600)
+)
+(connector
+	(text "eq[28]" (rect 203 600 233 617)(font "Intel Clear" ))
+	(pt 160 616)
+	(pt 248 616)
+)
+(connector
+	(text "eq[29]" (rect 219 616 249 633)(font "Intel Clear" ))
+	(pt 160 632)
+	(pt 248 632)
+)
+(connector
+	(text "eq[30]" (rect 199 632 229 649)(font "Intel Clear" ))
+	(pt 160 648)
+	(pt 248 648)
+)
+(connector
+	(text "eq[31]" (rect 193 648 223 665)(font "Intel Clear" ))
+	(pt 160 664)
+	(pt 248 664)
+)
+(connector
+	(pt 248 128)
+	(pt 248 168)
+	(bus)
+)
+(connector
+	(pt 248 168)
+	(pt 248 184)
+	(bus)
+)
+(connector
+	(text "eq[34..0]" (rect 458 112 499 129)(font "Intel Clear" ))
+	(pt 816 128)
+	(pt 248 128)
+	(bus)
+)
+(connector
+	(pt 512 144)
+	(pt 816 144)
+	(bus)
+)
+(connector
+	(text "gnd" (rect 680 697 697 714)(font "Intel Clear" )(vertical))
+	(pt 696 648)
+	(pt 696 720)
 )
 (connector
 	(text "gnd, A_PROG[4..0]" (rect 738 632 826 649)(font "Intel Clear" ))
@@ -1254,12 +1290,9 @@ refer to the applicable agreement for further details.
 	(bus)
 )
 (connector
-	(pt 896 360)
-	(pt 896 608)
-)
-(connector
-	(pt 968 640)
-	(pt 1072 640)
+	(text "A_PROG[4..0]" (rect 537 632 603 649)(font "Intel Clear" ))
+	(pt 480 648)
+	(pt 696 648)
 	(bus)
 )
 (junction (pt 248 168))

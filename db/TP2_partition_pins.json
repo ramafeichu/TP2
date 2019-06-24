@@ -8,6 +8,10 @@
 					"strict" : false
 				},
 				{
+					"name" : "HOLD",
+					"strict" : false
+				},
+				{
 					"name" : "MW",
 					"strict" : false
 				},
@@ -16,19 +20,27 @@
 					"strict" : false
 				},
 				{
-					"name" : "ALU_ROM[3]",
+					"name" : "A_XY[5]",
 					"strict" : false
 				},
 				{
-					"name" : "ALU_ROM[2]",
+					"name" : "A_XY[4]",
 					"strict" : false
 				},
 				{
-					"name" : "ALU_ROM[1]",
+					"name" : "A_XY[3]",
 					"strict" : false
 				},
 				{
-					"name" : "ALU_ROM[0]",
+					"name" : "A_XY[2]",
+					"strict" : false
+				},
+				{
+					"name" : "A_XY[1]",
+					"strict" : false
+				},
+				{
+					"name" : "A_XY[0]",
 					"strict" : false
 				},
 				{
@@ -380,6 +392,146 @@
 					"strict" : false
 				},
 				{
+					"name" : "C_XY[34]",
+					"strict" : false
+				},
+				{
+					"name" : "C_XY[33]",
+					"strict" : false
+				},
+				{
+					"name" : "C_XY[32]",
+					"strict" : false
+				},
+				{
+					"name" : "C_XY[31]",
+					"strict" : false
+				},
+				{
+					"name" : "C_XY[30]",
+					"strict" : false
+				},
+				{
+					"name" : "C_XY[29]",
+					"strict" : false
+				},
+				{
+					"name" : "C_XY[28]",
+					"strict" : false
+				},
+				{
+					"name" : "C_XY[27]",
+					"strict" : false
+				},
+				{
+					"name" : "C_XY[26]",
+					"strict" : false
+				},
+				{
+					"name" : "C_XY[25]",
+					"strict" : false
+				},
+				{
+					"name" : "C_XY[24]",
+					"strict" : false
+				},
+				{
+					"name" : "C_XY[23]",
+					"strict" : false
+				},
+				{
+					"name" : "C_XY[22]",
+					"strict" : false
+				},
+				{
+					"name" : "C_XY[21]",
+					"strict" : false
+				},
+				{
+					"name" : "C_XY[20]",
+					"strict" : false
+				},
+				{
+					"name" : "C_XY[19]",
+					"strict" : false
+				},
+				{
+					"name" : "C_XY[18]",
+					"strict" : false
+				},
+				{
+					"name" : "C_XY[17]",
+					"strict" : false
+				},
+				{
+					"name" : "C_XY[16]",
+					"strict" : false
+				},
+				{
+					"name" : "C_XY[15]",
+					"strict" : false
+				},
+				{
+					"name" : "C_XY[14]",
+					"strict" : false
+				},
+				{
+					"name" : "C_XY[13]",
+					"strict" : false
+				},
+				{
+					"name" : "C_XY[12]",
+					"strict" : false
+				},
+				{
+					"name" : "C_XY[11]",
+					"strict" : false
+				},
+				{
+					"name" : "C_XY[10]",
+					"strict" : false
+				},
+				{
+					"name" : "C_XY[9]",
+					"strict" : false
+				},
+				{
+					"name" : "C_XY[8]",
+					"strict" : false
+				},
+				{
+					"name" : "C_XY[7]",
+					"strict" : false
+				},
+				{
+					"name" : "C_XY[6]",
+					"strict" : false
+				},
+				{
+					"name" : "C_XY[5]",
+					"strict" : false
+				},
+				{
+					"name" : "C_XY[4]",
+					"strict" : false
+				},
+				{
+					"name" : "C_XY[3]",
+					"strict" : false
+				},
+				{
+					"name" : "C_XY[2]",
+					"strict" : false
+				},
+				{
+					"name" : "C_XY[1]",
+					"strict" : false
+				},
+				{
+					"name" : "C_XY[0]",
+					"strict" : false
+				},
+				{
 					"name" : "Dadd[9]",
 					"strict" : false
 				},
@@ -633,6 +785,34 @@
 				},
 				{
 					"name" : "OUT_RAM[0]",
+					"strict" : false
+				},
+				{
+					"name" : "Type_ROM[6]",
+					"strict" : false
+				},
+				{
+					"name" : "Type_ROM[5]",
+					"strict" : false
+				},
+				{
+					"name" : "Type_ROM[4]",
+					"strict" : false
+				},
+				{
+					"name" : "Type_ROM[3]",
+					"strict" : false
+				},
+				{
+					"name" : "Type_ROM[2]",
+					"strict" : false
+				},
+				{
+					"name" : "Type_ROM[1]",
+					"strict" : false
+				},
+				{
+					"name" : "Type_ROM[0]",
 					"strict" : false
 				},
 				{
